@@ -1,0 +1,107 @@
+{
+  "code": "DL-07",
+  "name": "SAGA",
+  "aka": "GAZETTE",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "Nordic",
+    "principle": "History and continuity",
+    "motto": "Every report becomes history.",
+    "laws": [
+      "Narrative hierarchy",
+      "Time is explicit",
+      "Trends over snapshots",
+      "Headlines tell the story",
+      "Archive-friendly formatting"
+    ],
+    "related": [
+      "Chronicle",
+      "Annals",
+      "Tarikh"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "story-first",
+    "density": "operational",
+    "annotation_policy": "guided",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "evidence-only",
+    "reading_time": "minute",
+    "charts_per_page": 2
+  },
+  "voice": {
+    "stance": "The correspondent's voice. SAGA is the newspaper of the programme: the headline tells the story, the lede gives who, what and when, and the piece is written for the archive. A reader a year from now, with no context, should understand what happened in week 31 and why it mattered.",
+    "register": "journalistic",
+    "mood": "active headlines, past tense allowed",
+    "hedging": "only when attributed to a source",
+    "sentence_max_words": 22,
+    "title_max_words": 12,
+    "title_grammar": "Headline: active voice, concrete subject, real verb.",
+    "title_example": "First joint clears customs after a three-week hold",
+    "do": [
+      {
+        "rule": "Name the week in the lede.",
+        "why": "Explicit time is the law of this language, and the archive depends on it."
+      },
+      {
+        "rule": "Let people and crews do things.",
+        "why": "\"The team recovered two days\" is a story. The passive version is a shrug."
+      },
+      {
+        "rule": "Carry the arc: say what changed since the last issue.",
+        "why": "Continuity is the product. A digest with no memory is a list."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No corporate passive.",
+        "why": "\"It was decided that\" hides the decider, and journalism names them."
+      },
+      {
+        "rule": "No vague roundups.",
+        "why": "If an item earned a line, it earned a fact."
+      },
+      {
+        "rule": "No bullet dumps in the lead story.",
+        "why": "The lead is prose. Bullets belong in the back-page briefs."
+      }
+    ],
+    "contrast": {
+      "generic": "This week saw various developments across multiple workstreams with progress being made in several areas.",
+      "voiced": "Week 31: the northern corridor reopened after the bridge repair, releasing 14 trucks held since 18 July."
+    }
+  },
+  "occasions": [
+    "weekly digests",
+    "bulletins",
+    "newsletters",
+    "reading pages"
+  ],
+  "palette": {
+    "background": "#FFFFFF",
+    "ink": "#111111",
+    "body": "#2E2E2E",
+    "hairline": "#111111",
+    "gridline": "#E4E4E4",
+    "primary": "#C0182B",
+    "muted": "#B0B0B0",
+    "positive": "#2E2E2E",
+    "negative": "#C0182B"
+  },
+  "fonts": {
+    "display": {
+      "family": "Georgia,serif",
+      "weight": 700
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

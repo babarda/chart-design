@@ -1,0 +1,163 @@
+{
+  "code": "CH-DST-06",
+  "name": "CUMULATIVE CURVE",
+  "ovp_version": "1.0",
+  "chart_type": "line",
+  "meta": {
+    "intent": [
+      "distribution",
+      "share"
+    ],
+    "form": "cumulative percentage curve over ordered thresholds",
+    "data_required": "share of a population at or below ascending thresholds, ending at 100",
+    "relations": {
+      "family": "DST",
+      "alternatives": [
+        "CH-DST-01 (histogram shows the shape directly, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "the shape of the spread matters",
+          "use": "CH-DST-10"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "service-level questions: what share clears within N days",
+    "threshold commitments: X% within Y"
+  ],
+  "not_when": [
+    "non-cumulative frequencies (histogram when built)",
+    "comparing many populations (small multiples)"
+  ],
+  "data_shape": {
+    "title": "action title stating the service level",
+    "source": "bottom-left always",
+    "unit": "%, on top tick",
+    "x": "ascending thresholds",
+    "series": "one key series, cumulative, ending at 100"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 756,
+      "top": 128,
+      "bottom": 452
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "series_label": {
+      "size": 13,
+      "offset": 10
+    },
+    "stroke": {
+      "key": 2.5,
+      "context": 2
+    },
+    "annotation": {
+      "size": 12,
+      "style": "italic"
+    }
+  },
+  "scale": {
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale; the curve is non-decreasing by construction"
+  },
+  "rules": [
+    "values are cumulative shares; the last value is 100",
+    "cumulative series non-decreasing (validated)",
+    "annotation marks the threshold the title commits to"
+  ],
+  "roles": {
+    "key": [
+      "primary"
+    ],
+    "context": [
+      "benchmark",
+      "muted"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "key_label": [
+      "primary"
+    ],
+    "context_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ],
+    "annotation": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "cumulative curves that end below 100 without saying why",
+    "reading the curve as a trend over time (thresholds are not time)"
+  ],
+  "qa": [
+    "cumulative series non-decreasing",
+    "last value 100 or justified",
+    "annotation at the committed threshold",
+    "source present"
+  ]
+}

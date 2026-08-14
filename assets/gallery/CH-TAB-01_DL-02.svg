@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Two of five systems are handover-ready; System D is critical in test</text>
+<text x="212" y="138" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" letter-spacing="1">INSTALL</text>
+<text x="394" y="138" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" letter-spacing="1">TEST</text>
+<text x="576" y="138" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" letter-spacing="1">PUNCH</text>
+<text x="758" y="138" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" letter-spacing="1">HANDOVER</text>
+<line x1="32" y1="152" x2="928" y2="152" stroke="#E2E8E8" stroke-width="1"/>
+<text x="184" y="174" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" text-anchor="end" dominant-baseline="middle">System A</text>
+<rect x="212" y="170" width="8" height="8" fill="#339966"/>
+<text x="226" y="174" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="394" y="170" width="8" height="8" fill="#339966"/>
+<text x="408" y="174" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="576" y="170" width="8" height="8" fill="#339966"/>
+<text x="590" y="174" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="758" y="170" width="8" height="8" fill="#339966"/>
+<text x="772" y="174" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<line x1="32" y1="196" x2="928" y2="196" stroke="#E2E8E8" stroke-width="1"/>
+<text x="184" y="218" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" text-anchor="end" dominant-baseline="middle">System B</text>
+<rect x="212" y="214" width="8" height="8" fill="#339966"/>
+<text x="226" y="218" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="394" y="214" width="8" height="8" fill="#339966"/>
+<text x="408" y="218" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="576" y="214" width="8" height="8" fill="#339966"/>
+<text x="590" y="218" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="758" y="214" width="8" height="8" fill="#339966"/>
+<text x="772" y="218" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<line x1="32" y1="240" x2="928" y2="240" stroke="#E2E8E8" stroke-width="1"/>
+<text x="184" y="262" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" text-anchor="end" dominant-baseline="middle">System C</text>
+<rect x="212" y="258" width="8" height="8" fill="#339966"/>
+<text x="226" y="262" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="394" y="258" width="8" height="8" fill="#008080"/>
+<text x="408" y="262" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">ON TRACK</text>
+<rect x="576" y="258" width="8" height="8" fill="#E08A00"/>
+<text x="590" y="262" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">WATCH</text>
+<rect x="758" y="258" width="8" height="8" fill="#E2E8E8"/>
+<text x="772" y="262" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">-</text>
+<line x1="32" y1="284" x2="928" y2="284" stroke="#E2E8E8" stroke-width="1"/>
+<text x="184" y="306" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" text-anchor="end" dominant-baseline="middle">System D</text>
+<rect x="212" y="302" width="8" height="8" fill="#339966"/>
+<text x="226" y="306" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="394" y="302" width="8" height="8" fill="#D63A2F"/>
+<text x="408" y="306" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">CRITICAL</text>
+<rect x="576" y="302" width="8" height="8" fill="#E2E8E8"/>
+<text x="590" y="306" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">-</text>
+<rect x="758" y="302" width="8" height="8" fill="#E2E8E8"/>
+<text x="772" y="306" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">-</text>
+<line x1="32" y1="328" x2="928" y2="328" stroke="#E2E8E8" stroke-width="1"/>
+<text x="184" y="350" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" text-anchor="end" dominant-baseline="middle">System E</text>
+<rect x="212" y="346" width="8" height="8" fill="#008080"/>
+<text x="226" y="350" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">ON TRACK</text>
+<rect x="394" y="346" width="8" height="8" fill="#E08A00"/>
+<text x="408" y="350" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">WATCH</text>
+<rect x="576" y="346" width="8" height="8" fill="#E2E8E8"/>
+<text x="590" y="350" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">-</text>
+<rect x="758" y="346" width="8" height="8" fill="#E2E8E8"/>
+<text x="772" y="350" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">-</text>
+<line x1="32" y1="372" x2="928" y2="372" stroke="#E2E8E8" stroke-width="1"/>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

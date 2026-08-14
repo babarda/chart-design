@@ -1,0 +1,142 @@
+{
+  "code": "CH-MAG-07",
+  "name": "RADAR",
+  "ovp_version": "1.0",
+  "chart_type": "radar",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "comparison"
+    ],
+    "form": "3-6 shared-unit axes from a center; one polygon per series",
+    "data_required": "3-6 dimensions ON THE SAME SCALE for at most 2 series",
+    "relations": {
+      "family": "MAG",
+      "alternatives": [
+        "CH-MAG-02 (paired bars read better)",
+        "CH-RNK-01 (single series)"
+      ],
+      "see_instead": [
+        {
+          "when": "axes have different units",
+          "use": "CH-MAG-02"
+        },
+        {
+          "when": "one series only",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "WARN: only when every axis shares one unit and the audience expects a radar",
+    "profile shapes across 3-6 same-unit dimensions, 2 series max"
+  ],
+  "not_when": [
+    "different units per axis (the polygon area means nothing)",
+    "more than 2 series (unreadable overlap)",
+    "any case a paired bar answers (most cases)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "shared by every axis, printed at the top ring",
+    "axes": "3-6 dimension names",
+    "series": "1-2 {name, values}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "cx": 430,
+    "cy": 310,
+    "r_max": 150,
+    "axis_label": {
+      "size": 12
+    },
+    "series_label": {
+      "size": 12
+    },
+    "legend_x": 700,
+    "legend_y": 180
+  },
+  "scale": {
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "every axis one unit, one shared 0-based scale (validated intent)",
+    "polygon area is NOT a measure; the shape is the only message",
+    "2 series maximum, first is the key"
+  ],
+  "roles": {
+    "gridline": [
+      "gridline"
+    ],
+    "axis_label": [
+      "body"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "series_a": [
+      "primary"
+    ],
+    "series_b": [
+      "muted"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "WARN ENTRY: radars are usually the wrong answer; paired bars read faster and more honestly",
+    "mixed units across axes",
+    "3+ series",
+    "reading enclosed area as a score"
+  ],
+  "qa": [
+    "axes share one unit",
+    "<= 2 series",
+    "zero-based rings",
+    "source present"
+  ]
+}

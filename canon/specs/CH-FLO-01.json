@@ -1,0 +1,153 @@
+{
+  "code": "CH-FLO-01",
+  "name": "WATERFALL",
+  "ovp_version": "1.0",
+  "chart_type": "waterfall",
+  "meta": {
+    "intent": [
+      "flow",
+      "bridge",
+      "variance-decomposition"
+    ],
+    "form": "waterfall / bridge",
+    "data_required": "a start total + signed delta steps; end total is computed, never supplied",
+    "relations": {
+      "family": "FLO",
+      "alternatives": [
+        "CH-DEV-01 (diverging bar, when steps are independent)"
+      ],
+      "see_instead": [
+        {
+          "when": "deltas are independent, not sequential",
+          "use": "CH-DEV-01"
+        },
+        {
+          "when": "composition of a static total",
+          "use": "CH-PTW-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "explaining how a total moved from A to B through named drivers",
+    "cost bridges, budget-to-forecast, headcount walks",
+    "3 to 7 delta steps"
+  ],
+  "not_when": [
+    "independent variances with no running total (use CH-DEV-01)",
+    "more than 7 steps (aggregate the tail)",
+    "any cumulative level would go below zero on the canvas"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the end-to-end move with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit": "string, appears once, on the start bar label",
+    "start": "{label, value}",
+    "steps": "array of {label, delta} with sign; rendered in given order",
+    "end_label": "string label for the computed end bar"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 64,
+      "right": 896,
+      "top": 144,
+      "bottom": 432
+    },
+    "bar_width": 56,
+    "value_label": {
+      "size": 13,
+      "offset": 8
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    }
+  },
+  "scale": {
+    "note": "bars scale to the max cumulative level; baseline zero; direct labels, no axis"
+  },
+  "rules": [
+    "the end bar is COMPUTED from start + deltas; supplying it is a validation error",
+    "increases and decreases colored by semantic roles, totals in ink",
+    "delta labels signed (+12 / -6); unit once on the start label",
+    "dashed connectors carry the running level between bars",
+    "step order is the data's order; the renderer never re-sorts a bridge"
+  ],
+  "roles": {
+    "total": [
+      "ink"
+    ],
+    "increase": [
+      "negative"
+    ],
+    "decrease": [
+      "positive"
+    ],
+    "connector": [
+      "hairline"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "baseline": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "supplying the end total as data (it must reconcile by construction)",
+    "unsigned delta labels",
+    "sorting steps by size (a bridge is a narrative, keep the told order)",
+    "floating bars without connectors",
+    "3D depth"
+  ],
+  "qa": [
+    "end bar equals start + sum of deltas",
+    "every delta label carries its sign",
+    "unit exactly once, on the start label",
+    "connectors present between all bars",
+    "title states the end-to-end move with a number",
+    "source line present bottom-left"
+  ]
+}

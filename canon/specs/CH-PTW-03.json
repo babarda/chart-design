@@ -1,0 +1,132 @@
+{
+  "code": "CH-PTW-03",
+  "name": "PIE",
+  "ovp_version": "1.0",
+  "chart_type": "pie",
+  "meta": {
+    "intent": [
+      "part-to-whole",
+      "share"
+    ],
+    "form": "pie, 3 slices maximum",
+    "data_required": "2 or 3 additive slices of one real total",
+    "relations": {
+      "family": "PTW",
+      "alternatives": [
+        "CH-PTW-01 (stacked bar)",
+        "CH-PTW-06 (waffle, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "more than 3 parts",
+          "use": "CH-RNK-01"
+        },
+        {
+          "when": "shares tracked over time",
+          "use": "CH-PTW-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "one dominant share against one or two others, single period",
+    "the audience expects a pie and the data survives one (3 slices max)"
+  ],
+  "not_when": [
+    "more than 3 categories (angles are unreadable; use CH-RNK-01)",
+    "comparing shares across periods (CH-PTW-02)",
+    "values close in size (angle differences under ~15% are invisible)"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the dominant share",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "slices": "array of {label, value > 0}, 3 maximum"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "cx": 420,
+    "cy": 310,
+    "r": 150,
+    "label_offset": 22,
+    "label_size": 13
+  },
+  "scale": {
+    "note": "slices sorted descending, drawn clockwise from 12 o'clock"
+  },
+  "rules": [
+    "3 slices maximum; the validator blocks a fourth",
+    "slices sorted descending, first slice starts at 12 o'clock",
+    "direct outside labels with the percentage; never a legend",
+    "slice separators in the background color (2px)",
+    "the largest slice takes primary; the rest recede"
+  ],
+  "roles": {
+    "slices": [
+      [
+        "primary"
+      ],
+      [
+        "muted"
+      ],
+      [
+        "benchmark",
+        "hairline"
+      ]
+    ],
+    "label": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "more than 3 slices",
+    "3D or exploded slices",
+    "legends",
+    "two pies side by side to show change (use CH-PTW-02)",
+    "donut holes that carry no information (see CH-PTW-04's own warnings)"
+  ],
+  "qa": [
+    "slices <= 3",
+    "labels carry percentages, sum stated or reconciled in the title",
+    "largest slice starts at 12 o'clock",
+    "title states the dominant share with a number",
+    "source line present bottom-left"
+  ]
+}

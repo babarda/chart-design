@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="48" y="112" font-size="34" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="700">Q4 spend overran budget by 21 k$, the widest quarterly gap</text>
+<text x="48" y="146" font-size="15" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400">Every page serves a purpose . TELOS on results decks</text>
+<svg x="48" y="204.03" width="832" height="370.93" viewBox="0 92 960 428">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<rect x="126" y="225.89" width="40" height="206.11" fill="#B5B1AB"/>
+<text x="146" y="219.89" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">220 k$</text>
+<text x="146" y="144" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#B5B1AB" font-weight="600" text-anchor="middle">Budget</text>
+<rect x="170" y="231.51" width="40" height="200.49" fill="#C4001A"/>
+<text x="190" y="225.51" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">214</text>
+<text x="190" y="144" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#C4001A" font-weight="600" text-anchor="middle">Actual</text>
+<text x="168" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="middle">Q1</text>
+<rect x="334" y="207.15" width="40" height="224.85" fill="#B5B1AB"/>
+<text x="354" y="201.15" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">240</text>
+<rect x="378" y="195.91" width="40" height="236.09" fill="#C4001A"/>
+<text x="398" y="189.91" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">252</text>
+<text x="376" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="middle">Q2</text>
+<rect x="542" y="188.41" width="40" height="243.59" fill="#B5B1AB"/>
+<text x="562" y="182.41" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">260</text>
+<rect x="586" y="198.72" width="40" height="233.28" fill="#C4001A"/>
+<text x="606" y="192.72" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">249</text>
+<text x="584" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="middle">Q3</text>
+<rect x="750" y="169.67" width="40" height="262.33" fill="#B5B1AB"/>
+<text x="770" y="163.67" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">280</text>
+<rect x="794" y="150" width="40" height="282" fill="#C4001A"/>
+<text x="814" y="144" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">301</text>
+<text x="792" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="middle">Q4</text>
+<line x1="64" y1="432" x2="896" y2="432" stroke="#D9D6D2" stroke-width="1"/>
+</svg>
+<rect x="912" y="204" width="200" height="92" fill="#FFFFFF" stroke="#D9D6D2" stroke-width="1"/>
+<text x="926" y="228" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="600" letter-spacing="1">Q4 GAP</text>
+<text x="926" y="262" font-size="32" font-family="'Segoe UI',Arial,sans-serif" fill="#C4001A" font-weight="600">+21 k$</text>
+<text x="926" y="282" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#C4001A" font-weight="400">over budget</text>
+<rect x="912" y="316" width="320" height="54" fill="#FFFFFF" stroke="#D9D6D2" stroke-width="1"/>
+<rect x="912" y="316" width="4" height="54" fill="#C4001A"/>
+<text x="928" y="337" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="600">Result against intention,</text>
+<text x="928" y="355" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400">quarter by quarter, no smoothing.</text>
+<text x="48" y="688" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400">Source: sample dataset v1, 2026-07-12  .  Open Visualization Protocol, DL-16 TELOS</text>
+</svg>

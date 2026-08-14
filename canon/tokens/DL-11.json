@@ -1,0 +1,105 @@
+{
+  "code": "DL-11",
+  "name": "SUTRA",
+  "aka": "MEMO",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "India",
+    "principle": "Condensed knowledge",
+    "motto": "Complexity distilled.",
+    "laws": [
+      "Brevity with clarity",
+      "Structured hierarchy",
+      "Recommendation concludes",
+      "Supporting evidence remains concise"
+    ],
+    "related": [
+      "Codex",
+      "Mneme"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "recommendation-first",
+    "density": "executive",
+    "annotation_policy": "minimal",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "recommendation-with-owner",
+    "reading_time": "minute",
+    "charts_per_page": 1
+  },
+  "voice": {
+    "stance": "The aphorist. A sutra is a thought compressed until nothing can be removed. Every SUTRA sentence carries one complete idea and survives being quoted alone. Numbered points, formal address, and the recommendation stated twice: first line and last.",
+    "register": "formal, dense",
+    "mood": "declarative, numbered",
+    "hedging": "one stated risk per position",
+    "sentence_max_words": 20,
+    "title_max_words": 12,
+    "title_grammar": "Subject plus position, with no suspense.",
+    "title_example": "Recommendation to defer the station tie-in to Q2",
+    "do": [
+      {
+        "rule": "One idea per numbered point, each a full sentence.",
+        "why": "Points get quoted back in replies, and fragments quote badly."
+      },
+      {
+        "rule": "State the recommendation first and repeat it last.",
+        "why": "A memo is skimmed at the top and the bottom, so the cargo sits at both doors."
+      },
+      {
+        "rule": "Give cost and risk as a pair of numbers.",
+        "why": "Costs 0.4, avoids 2.1: that is a decision in nine words."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No naked bullets without syntax.",
+        "why": "A bullet that is not a sentence pushes the thinking onto the reader."
+      },
+      {
+        "rule": "No stacked softeners around the position.",
+        "why": "A position paper takes a position, and twelve hedge words is not one."
+      },
+      {
+        "rule": "No enthusiasm and no urgency theatrics.",
+        "why": "In this register, restraint is the credibility."
+      }
+    ],
+    "contrast": {
+      "generic": "We think it might be a good idea to consider potentially postponing the tie-in to a later date.",
+      "voiced": "1. Defer the station tie-in to Q2. The deferral costs 0.4 MUSD; attempting Q1 risks 2.1 MUSD in standby crews."
+    }
+  },
+  "occasions": [
+    "briefing notes",
+    "position papers",
+    "board memos",
+    "formal letters"
+  ],
+  "palette": {
+    "background": "#FFFFFF",
+    "ink": "#1F3864",
+    "body": "#262626",
+    "hairline": "#8EAADB",
+    "gridline": "#C9D6EE",
+    "primary": "#1F3864",
+    "muted": "#A9BBD9",
+    "positive": "#2E6E4E",
+    "negative": "#9E2B25"
+  },
+  "fonts": {
+    "display": {
+      "family": "Cambria,Georgia,serif",
+      "weight": 700
+    },
+    "body": {
+      "family": "Cambria,Georgia,serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

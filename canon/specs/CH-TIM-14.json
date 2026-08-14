@@ -1,0 +1,173 @@
+{
+  "code": "CH-TIM-14",
+  "name": "INDEXED LINE",
+  "ovp_version": "1.0",
+  "chart_type": "indexed_line",
+  "meta": {
+    "intent": [
+      "trend",
+      "comparison",
+      "change-over-time"
+    ],
+    "form": "line, all series rebased to 100",
+    "data_required": "ordered periods + 2-4 series in DIFFERENT units or magnitudes; rebased to first period = 100",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-01 (same-unit series)"
+      ],
+      "see_instead": [
+        {
+          "when": "series share one unit and scale",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "comparing growth across series with different units or magnitudes",
+    "cost escalation, price indices, relative performance since a baseline"
+  ],
+  "not_when": [
+    "absolute levels matter (rebasing hides them; use CH-TIM-01)",
+    "one series only (an index of one is just a line)"
+  ],
+  "data_shape": {
+    "title": "action title stating the relative move",
+    "eyebrow": "caps, DL chrome only",
+    "source": "bottom-left always",
+    "unit": "index points; pass empty unit by convention",
+    "x": "ordered periods",
+    "series": "RAW values; the renderer rebases each to index_base at period 1",
+    "annotation": "optional"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 756,
+      "top": 128,
+      "bottom": 452
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "series_label": {
+      "size": 13,
+      "offset": 10
+    },
+    "stroke": {
+      "key": 2.5,
+      "context": 2
+    },
+    "annotation": {
+      "size": 12,
+      "style": "italic"
+    }
+  },
+  "scale": {
+    "index_base": 100,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "note": "y floor = largest tick multiple <= data min; non-zero baseline is DECLARED: an index measures relative change and 100 is the reference"
+  },
+  "rules": [
+    "renderer rebases raw values: v / first * 100 (rounded to 0.1)",
+    "the 100 line renders in the index_base_line role, stronger than gridlines",
+    "non-zero y floor is legal HERE ONLY; this entry records the justification",
+    "series labeled at line ends"
+  ],
+  "roles": {
+    "key": [
+      "primary"
+    ],
+    "context": [
+      "benchmark",
+      "muted"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "key_label": [
+      "primary"
+    ],
+    "context_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ],
+    "annotation": [
+      "body"
+    ],
+    "index_base_line": [
+      "benchmark",
+      "muted"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "indexing series that share a unit (hides real gaps)",
+    "hiding the base period",
+    "reading index points as percent without saying so (132 = +32%)"
+  ],
+  "qa": [
+    "all series equal 100 at period 1",
+    "100 reference line visible",
+    "title translates the index into percent change",
+    "no legend",
+    "source present"
+  ]
+}

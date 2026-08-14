@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Total flow tripled; the mix barely moved</text>
+<text x="96" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">J</text>
+<text x="156" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">F</text>
+<text x="216" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">M</text>
+<text x="276" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">A</text>
+<text x="336" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">M</text>
+<text x="396" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">J</text>
+<text x="456" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">J</text>
+<text x="516" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">A</text>
+<text x="576" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">S</text>
+<text x="636" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">O</text>
+<text x="696" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">N</text>
+<text x="756" y="470" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">D</text>
+<polygon points="96,294.83 156,294.83 216,294.83 276,294.83 336,297.41 396,294.83 456,297.41 516,297.41 576,300 636,300 696,302.59 756,305.17 756,450 696,442.24 636,434.48 576,424.14 516,411.21 456,400.86 396,387.93 336,375 276,362.07 216,351.72 156,341.38 96,336.21" fill="#008080" fill-opacity="0.85"/>
+<text x="766" y="377.59" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#008080" font-weight="600" dominant-baseline="middle">Road</text>
+<polygon points="96,274.14 156,268.97 216,263.79 276,258.62 336,250.86 396,243.1 456,235.34 516,230.17 576,222.41 636,217.24 696,214.66 756,212.07 756,305.17 696,302.59 636,300 576,300 516,297.41 456,297.41 396,294.83 336,297.41 276,294.83 216,294.83 156,294.83 96,294.83" fill="#B7DCDC" fill-opacity="0.85"/>
+<text x="766" y="258.62" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#B7DCDC" font-weight="600" dominant-baseline="middle">Rail</text>
+<polygon points="96,263.79 156,258.62 216,248.28 276,237.93 336,225 396,212.07 456,199.14 516,188.79 576,175.86 636,165.52 696,157.76 756,150 756,212.07 696,214.66 636,217.24 576,222.41 516,230.17 456,235.34 396,243.1 336,250.86 276,258.62 216,263.79 156,268.97 96,274.14" fill="#AAAAAA" fill-opacity="0.85"/>
+<text x="766" y="181.03" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#AAAAAA" font-weight="600" dominant-baseline="middle">Barge</text>
+<text x="766" y="466" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">total 58 loads</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

@@ -1,0 +1,106 @@
+{
+  "code": "DL-16",
+  "name": "TELOS",
+  "aka": "ANSWER",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "Ancient Greece",
+    "principle": "Purpose and resolution",
+    "motto": "Every page serves a purpose.",
+    "laws": [
+      "Answer first",
+      "Support with evidence",
+      "Remove unnecessary detail",
+      "Emphasize action",
+      "End with clarity"
+    ],
+    "related": [
+      "Resolution",
+      "Sententia"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "recommendation-first",
+    "density": "executive",
+    "annotation_policy": "minimal",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "recommendation-with-owner",
+    "reading_time": "minute",
+    "charts_per_page": 2
+  },
+  "voice": {
+    "stance": "The closer's voice. A TELOS page exists to close a question. The first sentence answers it, the last sentence assigns the action, and everything between defends the answer. Suspense structure is the cardinal sin here: background, then analysis, then conclusion makes the reader earn what they already paid for.",
+    "register": "direct, conclusive",
+    "mood": "answer-first declarative",
+    "hedging": "state conditions, not qualifiers",
+    "sentence_max_words": 18,
+    "title_max_words": 12,
+    "title_grammar": "The answer itself: yes, no, or the number, with its condition.",
+    "title_example": "Yes: the Q4 target holds if trenching restarts by 1 October",
+    "do": [
+      {
+        "rule": "Answer in the first line: yes, no, or the figure.",
+        "why": "Answer first is the founding law of this language."
+      },
+      {
+        "rule": "Give three supports at most.",
+        "why": "A fourth reason signals that the first three were weak."
+      },
+      {
+        "rule": "End with the action and its owner.",
+        "why": "Ending with clarity means the reader knows what happens next and who does it."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No suspense structure.",
+        "why": "Background-first writing is deference, and this page was paid for an answer."
+      },
+      {
+        "rule": "No both-sides padding when the evidence points one way.",
+        "why": "False balance reads as not having done the work."
+      },
+      {
+        "rule": "Turn every qualifier into a condition.",
+        "why": "\"May be achievable\" becomes: holds if trenching restarts by 1 October."
+      }
+    ],
+    "contrast": {
+      "generic": "After careful analysis of multiple factors, we believe the target may potentially be achievable under certain conditions.",
+      "voiced": "The Q4 target holds, on one condition: trenching restarts by 1 October. Slip past that and start-up moves to February."
+    }
+  },
+  "occasions": [
+    "results decks",
+    "due-diligence readouts",
+    "performance reviews"
+  ],
+  "palette": {
+    "background": "#FFFFFF",
+    "ink": "#1A1A1A",
+    "body": "#444444",
+    "hairline": "#D9D6D2",
+    "gridline": "#E8E6E2",
+    "primary": "#C4001A",
+    "muted": "#B5B1AB",
+    "benchmark": "#8C8880",
+    "positive": "#2E6E4E",
+    "negative": "#C4001A"
+  },
+  "fonts": {
+    "display": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 700
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

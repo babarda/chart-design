@@ -1,0 +1,148 @@
+{
+  "code": "CH-MAG-01",
+  "name": "COLUMN",
+  "ovp_version": "1.0",
+  "chart_type": "bar_v",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "comparison"
+    ],
+    "form": "vertical column",
+    "data_required": "one ordered categorical dimension + one non-negative measure",
+    "relations": {
+      "family": "MAG",
+      "alternatives": [
+        "CH-MAG-04 (bullet, planned)",
+        "CH-MAG-02 (paired column, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "the message is rank",
+          "use": "CH-RNK-01"
+        },
+        {
+          "when": "the data is a time series",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "comparing magnitude across categories that carry a natural order (sites, phases, units)",
+    "8 categories or fewer",
+    "short category names"
+  ],
+  "not_when": [
+    "the message is rank (use CH-RNK-01 BAR-H, sorted)",
+    "time series (use CH-TIM-01 LINE; columns over time only for few periods)",
+    "long category names (use CH-RNK-01 BAR-H)",
+    "more than 8 categories"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the finding with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit": "string, appears once, on the first value label",
+    "categories": "array of {label: string, value: number >= 0, highlight?: bool}, at most one highlight, INPUT ORDER PRESERVED"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 64,
+      "right": 896,
+      "top": 144,
+      "bottom": 432
+    },
+    "bar_width": 64,
+    "category_label": {
+      "size": 12,
+      "offset": 20
+    },
+    "value_label": {
+      "size": 13,
+      "offset": 8
+    }
+  },
+  "scale": {
+    "note": "columns scale to the max value; no axis, no ticks, direct labels carry the numbers"
+  },
+  "rules": [
+    "columns start at zero, always",
+    "input order preserved; sorting by value is CH-RNK-01's job",
+    "direct value labels above each column; no value axis, no gridlines",
+    "at most one highlighted column (role primary); all others role muted",
+    "unit appears once, on the first value label only",
+    "columns centered in equal slots; bar_width fixed"
+  ],
+  "roles": {
+    "bar": [
+      "muted"
+    ],
+    "bar_highlight": [
+      "primary"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "baseline": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "sorting by value when order is natural (that chart is CH-RNK-01)",
+    "value axis plus direct labels (pick direct labels)",
+    "rainbow columns",
+    "3D depth or shadows",
+    "truncated baseline",
+    "labels rotated 45 degrees (names too long means wrong chart)"
+  ],
+  "qa": [
+    "baseline at zero",
+    "input order preserved",
+    "exactly one unit mention",
+    "highlight count <= 1",
+    "title states a finding with a number",
+    "source line present bottom-left"
+  ]
+}

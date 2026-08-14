@@ -1,0 +1,120 @@
+{
+  "code": "CH-MAG-08",
+  "name": "PARLIAMENT",
+  "ovp_version": "1.0",
+  "chart_type": "parliament",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "composition"
+    ],
+    "form": "semicircle of seats, one dot per unit, grouped contiguously",
+    "data_required": "2-6 groups whose integer counts sum to a meaningful total of seats or slots",
+    "relations": {
+      "family": "MAG",
+      "alternatives": [
+        "CH-PTW-01 (shares without the seat metaphor)",
+        "CH-PTW-06 (percent of 100)"
+      ],
+      "see_instead": [
+        {
+          "when": "values are not countable seats",
+          "use": "CH-PTW-01"
+        },
+        {
+          "when": "a share of 100",
+          "use": "CH-PTW-06"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "seats, slots, berths: integer allocations where each unit matters",
+    "majority questions: who crosses the middle line"
+  ],
+  "not_when": [
+    "non-integer measures",
+    "totals above ~200 (dots become texture)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "what a seat is",
+    "parties": "[{name, seats}], display order"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "cx": 430,
+    "cy": 400,
+    "r_inner": 90,
+    "r_outer": 210,
+    "seat_r": 7,
+    "legend_x": 700,
+    "legend_y": 200,
+    "legend_label": {
+      "size": 12
+    },
+    "total_size": 28
+  },
+  "rules": [
+    "deterministic layout: rows by capacity, seats filled left to right by angle",
+    "groups contiguous, colored by the monochrome primary ramp",
+    "the total printed in the hemicycle center"
+  ],
+  "roles": {
+    "legend": [
+      "body"
+    ],
+    "total": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "rainbow party palettes",
+    "non-integer seat counts",
+    "using it for shares that are not allocations"
+  ],
+  "qa": [
+    "seats integer and contiguous",
+    "total printed",
+    "<= 6 groups",
+    "source present"
+  ]
+}

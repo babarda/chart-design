@@ -1,0 +1,146 @@
+{
+  "code": "CH-TIM-09",
+  "name": "GANTT",
+  "ovp_version": "1.0",
+  "chart_type": "gantt",
+  "meta": {
+    "intent": [
+      "schedule",
+      "progress"
+    ],
+    "form": "task bars on a period grid with done-overlay, milestones, today line",
+    "data_required": "tasks with start/end in axis units + optional done_to and milestones + a today position",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-15 (moments, not durations)",
+        "CH-TIM-02 (overall progress vs plan)"
+      ],
+      "see_instead": [
+        {
+          "when": "only dated moments matter",
+          "use": "CH-TIM-15"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "schedule communication: 4-10 tasks against a period grid",
+    "showing done vs remaining per task plus the critical milestone"
+  ],
+  "not_when": [
+    "full CPM networks with dependencies (planning software, not a slide)",
+    "more than ~10 rows (summarize to work packages)"
+  ],
+  "data_shape": {
+    "title": "action title naming the driving task or date",
+    "eyebrow": "caps, DL chrome only",
+    "source": "bottom-left always",
+    "axis": "{labels: [period names]}; task units are fractional axis positions",
+    "tasks": "array of {label, start?, end?, done_to?, milestone_at?}",
+    "today": "axis position of the status date"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 896,
+      "top": 152
+    },
+    "row_height": 26,
+    "row_gap": 18,
+    "header_label": {
+      "size": 10,
+      "offset": 12
+    },
+    "category_label": {
+      "size": 12,
+      "offset": 16
+    },
+    "today_label": {
+      "size": 9
+    }
+  },
+  "scale": {
+    "note": "x maps axis units 0..n linearly; period gridlines at every boundary"
+  },
+  "rules": [
+    "bars muted, done-portion overlaid in primary",
+    "milestones are diamonds in ink; the today line is negative, dashed, labeled",
+    "tasks in schedule order, never re-sorted",
+    "10 tasks maximum"
+  ],
+  "roles": {
+    "grid": [
+      "gridline"
+    ],
+    "header": [
+      "body"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "bar": [
+      "muted"
+    ],
+    "done": [
+      "primary"
+    ],
+    "milestone": [
+      "ink"
+    ],
+    "today": [
+      "negative"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "rainbow bars per task",
+    "fake dependency arrows crisscrossing",
+    "percent labels on every bar (the overlay shows it)",
+    "3D bars"
+  ],
+  "qa": [
+    "start < end and done_to within [start, end] on every task",
+    "today line present and labeled",
+    "tasks <= 10",
+    "title names the driver with a date",
+    "source present"
+  ]
+}

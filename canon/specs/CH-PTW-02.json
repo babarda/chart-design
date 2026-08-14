@@ -1,0 +1,158 @@
+{
+  "code": "CH-PTW-02",
+  "name": "STACKED BAR 100%",
+  "ovp_version": "1.0",
+  "chart_type": "bar_v_stacked",
+  "meta": {
+    "intent": [
+      "part-to-whole",
+      "share",
+      "change-over-time"
+    ],
+    "form": "vertical 100% stacked bar",
+    "data_required": "ordered categories + 2 to 4 additive segments; totals normalized away",
+    "relations": {
+      "family": "PTW",
+      "alternatives": [
+        "CH-PTW-01 (absolute stacked)",
+        "CH-PTW-06 (waffle, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "the total itself matters",
+          "use": "CH-PTW-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "how the MIX shifts across periods or categories",
+    "the key segment's share is the message",
+    "2 to 4 additive segments"
+  ],
+  "not_when": [
+    "the total matters (use CH-PTW-01; 100% hides growth and shrinkage)",
+    "more than 4 segments",
+    "single-period share (a sentence or CH-PTW-06 does it better)"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the share shift with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit": "percent, implied; share labels carry the % sign",
+    "x": "array of ordered category labels",
+    "series": "array of {name, values[]}, first series is the KEY segment whose share is labeled"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 64,
+      "right": 780,
+      "top": 144,
+      "bottom": 432
+    },
+    "bar_width": 56,
+    "value_label": {
+      "size": 13,
+      "offset": 8
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "segment_label": {
+      "size": 11,
+      "offset": 16
+    }
+  },
+  "scale": {
+    "normalize": true,
+    "note": "every column normalized to full height; key segment share labeled above"
+  },
+  "rules": [
+    "all columns equal height; the mix is the message",
+    "the key (first) segment's share labeled above each column with the % sign",
+    "segments identified by swatch + name at the last column, never a legend",
+    "4 segments maximum",
+    "the title must state the share shift, not the totals"
+  ],
+  "roles": {
+    "segments": [
+      [
+        "primary"
+      ],
+      [
+        "muted"
+      ],
+      [
+        "benchmark",
+        "hairline"
+      ],
+      [
+        "gridline"
+      ]
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "segment_label": [
+      "body"
+    ],
+    "baseline": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "using 100% stacked when totals shrink (it hides decline)",
+    "legend boxes",
+    "labeling every segment share (label the key segment only)",
+    "more than 4 segments"
+  ],
+  "qa": [
+    "columns equal height",
+    "key segment share labeled with %",
+    "segment names at last column, no legend",
+    "title states the share shift",
+    "source line present bottom-left"
+  ]
+}

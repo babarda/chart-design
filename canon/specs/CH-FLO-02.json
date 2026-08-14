@@ -1,0 +1,126 @@
+{
+  "code": "CH-FLO-02",
+  "name": "SANKEY",
+  "ovp_version": "1.0",
+  "chart_type": "sankey",
+  "meta": {
+    "intent": [
+      "flow",
+      "composition",
+      "variance-decomposition"
+    ],
+    "form": "column-stacked nodes joined by width-true bands",
+    "data_required": "2-3 node columns + links between adjacent columns; conserved totals",
+    "relations": {
+      "family": "FLO",
+      "alternatives": [
+        "CH-FLO-01 (one total changing through steps)",
+        "CH-PTW-01 (composition without flow)"
+      ],
+      "see_instead": [
+        {
+          "when": "one quantity bridges start to end",
+          "use": "CH-FLO-01"
+        },
+        {
+          "when": "no movement between states",
+          "use": "CH-PTW-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "where things came from and where they went, conserved end to end",
+    "sources to routes to destinations in one figure"
+  ],
+  "not_when": [
+    "cyclic flows (sankeys are acyclic by construction)",
+    "more than ~6 nodes per column"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first node label",
+    "columns": "[{name, nodes: [{name, value}]}] 2-3 columns",
+    "links": "[{from, to, value}] adjacent columns only"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 210,
+      "right": 750,
+      "top": 130,
+      "bottom": 470
+    },
+    "node_width": 14,
+    "node_gap": 14,
+    "label": {
+      "size": 12
+    }
+  },
+  "rules": [
+    "band width IS the value, at both ends; totals conserve per node",
+    "nodes stacked deterministically in input order, centered per column",
+    "links drawn in input order: order is part of the spec"
+  ],
+  "roles": {
+    "node": [
+      "ink"
+    ],
+    "link": [
+      "primary"
+    ],
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "links whose widths change between ends",
+    "crossing minimization by randomization",
+    "cycles",
+    "more than 3 columns"
+  ],
+  "qa": [
+    "per-node conservation",
+    "adjacent-column links only",
+    "input order preserved",
+    "source present"
+  ]
+}

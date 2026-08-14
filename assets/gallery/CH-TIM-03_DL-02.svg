@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Monthly output doubled to 412 units in August</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#E2E8E8" stroke-width="1"/>
+<text x="84" y="452" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="387.2" x2="756" y2="387.2" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="387.2" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">100</text>
+<line x1="96" y1="322.4" x2="756" y2="322.4" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="322.4" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">200</text>
+<line x1="96" y1="257.6" x2="756" y2="257.6" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="257.6" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">300</text>
+<line x1="96" y1="192.8" x2="756" y2="192.8" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="192.8" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">400</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">500 units</text>
+<text x="96" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Jan</text>
+<text x="190.29" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Feb</text>
+<text x="284.57" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Mar</text>
+<text x="378.86" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Apr</text>
+<text x="473.14" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">May</text>
+<text x="567.43" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Jun</text>
+<text x="661.71" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Jul</text>
+<text x="756" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Aug</text>
+<polygon points="96,452 96,319.16 190.29,304.26 284.57,289.35 378.86,270.56 473.14,256.95 567.43,232.98 661.71,207.7 756,185.02 756,452" fill="#008080" fill-opacity="0.15"/>
+<polyline points="96,319.16 190.29,304.26 284.57,289.35 378.86,270.56 473.14,256.95 567.43,232.98 661.71,207.7 756,185.02" fill="none" stroke="#008080" stroke-width="2.5"/>
+<text x="766" y="185.02" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#008080" font-weight="600" dominant-baseline="middle">Output</text>
+<line x1="756" y1="185.02" x2="704" y2="155" stroke="#555555" stroke-width="1"/>
+<text x="700" y="160" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" font-style="italic">crosses 400 for the first time</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

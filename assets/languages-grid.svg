@@ -1,0 +1,422 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1288" height="1241" viewBox="0 0 1288 1241">
+<rect width="1288" height="1241" fill="#F7F9F9"/>
+<g transform="translate(20,20)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg0"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg0)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'EB Garamond',Georgia,serif" fill="#1A1A1A" font-weight="600">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#D8D5CE" stroke-width="1"/>
+<text x="84" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#EFEDE8" stroke-width="1"/>
+<text x="84" y="371" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#EFEDE8" stroke-width="1"/>
+<text x="84" y="290" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#EFEDE8" stroke-width="1"/>
+<text x="84" y="209" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#EFEDE8" stroke-width="1"/>
+<text x="84" y="128" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#C9C6BF" stroke-width="2"/>
+<text x="766" y="164.45" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#008080" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#008080" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#3D3D3D" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-01</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">AGRAW</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Lead with wisdom.</text><rect x="20" y="248.25" width="89.9" height="20" rx="10" fill="#E6F2F1"/><text x="65.0" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">board packs</text><rect x="115.94500000000001" y="248.25" width="141.1" height="20" rx="10" fill="#E6F2F1"/><text x="186.5" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">steering committees</text></g>
+<g transform="translate(336,20)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg1"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg1)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#E2E8E8" stroke-width="1"/>
+<text x="84" y="452" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="371" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="290" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="209" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#AAAAAA" stroke-width="2"/>
+<text x="766" y="164.45" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#008080" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#008080" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#555555" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-02</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">KATA</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Perfect through repetition.</text><rect x="20" y="248.25" width="141.1" height="20" rx="10" fill="#E6F2F1"/><text x="90.6" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">weekly status decks</text></g>
+<g transform="translate(652,20)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg2"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg2)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FDF4EA"/>
+<rect x="32" y="28" width="24" height="4" fill="#9E2B25"/>
+<text x="32" y="52" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="600" letter-spacing="2">PROGRESS . H1 2026</text>
+<text x="32" y="88" font-size="24" font-family="'Oswald','Arial Narrow',Arial,sans-serif" fill="#262A33" font-weight="700">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#E8E0D4" stroke-width="1"/>
+<text x="84" y="452" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#E8E0D4" stroke-width="1"/>
+<text x="84" y="371" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#E8E0D4" stroke-width="1"/>
+<text x="84" y="290" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#E8E0D4" stroke-width="1"/>
+<text x="84" y="209" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#E8E0D4" stroke-width="1"/>
+<text x="84" y="128" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#B8B2A7" stroke-width="2"/>
+<text x="766" y="164.45" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#9E2B25" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#9E2B25" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#4A4E57" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A4E57" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-03</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">LOGOS</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Evidence before opinion.</text><rect x="20" y="248.25" width="134.7" height="20" rx="10" fill="#E6F2F1"/><text x="87.4" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">deep-dive analysis</text></g>
+<g transform="translate(968,20)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg3"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg3)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FBFDFF"/>
+<text x="32" y="56" font-size="24" font-family="'Segoe UI',Arial,sans-serif" fill="#143D59" font-weight="600">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#C6D5E0" stroke-width="1"/>
+<text x="84" y="452" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#E7EEF4" stroke-width="1"/>
+<text x="84" y="371" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#E7EEF4" stroke-width="1"/>
+<text x="84" y="290" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#E7EEF4" stroke-width="1"/>
+<text x="84" y="209" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#E7EEF4" stroke-width="1"/>
+<text x="84" y="128" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#C6D5E0" stroke-width="2"/>
+<text x="766" y="164.45" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#1B6E8F" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1B6E8F" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#33424E" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-04</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">SHILPA</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Craft every detail.</text><rect x="20" y="248.25" width="115.5" height="20" rx="10" fill="#E6F2F1"/><text x="77.8" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">technical packs</text><rect x="141.525" y="248.25" width="83.6" height="20" rx="10" fill="#E6F2F1"/><text x="183.3" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">procedures</text></g>
+<g transform="translate(20,324)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg4"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg4)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="700">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#64748B" stroke-width="1"/>
+<text x="84" y="452" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#CBD5E1" stroke-width="1"/>
+<text x="84" y="371" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#CBD5E1" stroke-width="1"/>
+<text x="84" y="290" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#CBD5E1" stroke-width="1"/>
+<text x="84" y="209" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#CBD5E1" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#64748B" stroke-width="2"/>
+<text x="766" y="164.45" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#C2410C" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#C2410C" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#334155" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-05</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">OBEYA</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">See together. Decide together.</text><rect x="20" y="248.25" width="115.5" height="20" rx="10" fill="#E6F2F1"/><text x="77.8" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">stand-up boards</text><rect x="141.525" y="248.25" width="121.9" height="20" rx="10" fill="#E6F2F1"/><text x="202.5" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">site wall prints</text></g>
+<g transform="translate(336,324)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg5"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg5)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="Georgia,serif" fill="#1A1A1A" font-weight="700">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#B9B9B9" stroke-width="1"/>
+<text x="84" y="452" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#CCCCCC" stroke-width="1"/>
+<text x="84" y="371" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#CCCCCC" stroke-width="1"/>
+<text x="84" y="290" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#CCCCCC" stroke-width="1"/>
+<text x="84" y="209" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#CCCCCC" stroke-width="1"/>
+<text x="84" y="128" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#B9B9B9" stroke-width="2"/>
+<text x="766" y="164.45" font-size="12" font-family="Georgia,serif" fill="#333333" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#7A1F1F" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="12" font-family="Georgia,serif" fill="#7A1F1F" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="Georgia,serif" fill="#333333" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-06</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">LEX</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Everything must be traceable.</text><rect x="20" y="248.25" width="58.0" height="20" rx="10" fill="#E6F2F1"/><text x="49.0" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">claims</text><rect x="83.97" y="248.25" width="77.2" height="20" rx="10" fill="#E6F2F1"/><text x="122.5" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">mediation</text></g>
+<g transform="translate(652,324)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg6"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg6)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="Georgia,serif" fill="#111111" font-weight="700">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#111111" stroke-width="1"/>
+<text x="84" y="452" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#E4E4E4" stroke-width="1"/>
+<text x="84" y="371" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#E4E4E4" stroke-width="1"/>
+<text x="84" y="290" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#E4E4E4" stroke-width="1"/>
+<text x="84" y="209" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#E4E4E4" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#B0B0B0" stroke-width="2"/>
+<text x="766" y="164.45" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#C0182B" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#C0182B" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#2E2E2E" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#2E2E2E" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-07</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">SAGA</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Every report becomes history.</text><rect x="20" y="248.25" width="109.1" height="20" rx="10" fill="#E6F2F1"/><text x="74.6" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">weekly digests</text><rect x="135.13" y="248.25" width="77.2" height="20" rx="10" fill="#E6F2F1"/><text x="173.7" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">bulletins</text></g>
+<g transform="translate(968,324)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg7"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg7)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#101418"/>
+<text x="32" y="56" font-size="24" font-family="'Segoe UI',Arial,sans-serif" fill="#E6EDF3" font-weight="600">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#2A323A" stroke-width="1"/>
+<text x="84" y="452" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#2A323A" stroke-width="1"/>
+<text x="84" y="371" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#2A323A" stroke-width="1"/>
+<text x="84" y="290" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#2A323A" stroke-width="1"/>
+<text x="84" y="209" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#2A323A" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#9FB0BE" stroke-width="2"/>
+<text x="766" y="164.45" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#F0B429" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#F0B429" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#9FB0BE" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#9FB0BE" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-08</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">SENTINEL</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Watch without distraction.</text><rect x="20" y="248.25" width="115.5" height="20" rx="10" fill="#E6F2F1"/><text x="77.8" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">live dashboards</text></g>
+<g transform="translate(20,628)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg8"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg8)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#F4EFE6"/>
+<text x="32" y="56" font-size="24" font-family="'Segoe UI',Arial,sans-serif" fill="#2B3A42" font-weight="600">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#CDC3AE" stroke-width="1"/>
+<text x="84" y="452" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#E3DCCB" stroke-width="1"/>
+<text x="84" y="371" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#E3DCCB" stroke-width="1"/>
+<text x="84" y="290" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#E3DCCB" stroke-width="1"/>
+<text x="84" y="209" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#E3DCCB" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#B9AE9C" stroke-width="2"/>
+<text x="766" y="164.45" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#0F766E" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#0F766E" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#4A5860" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4A5860" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-09</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">ATLAS</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Always know where you are.</text><rect x="20" y="248.25" width="109.1" height="20" rx="10" fill="#E6F2F1"/><text x="74.6" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">route progress</text></g>
+<g transform="translate(336,628)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg9"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg9)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#0B0B0B"/>
+<text x="32" y="56" font-size="24" font-family="'Segoe UI',Arial,sans-serif" fill="#FFFFFF" font-weight="300">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#3A3F44" stroke-width="1"/>
+<text x="84" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#3A3F44" stroke-width="1"/>
+<text x="84" y="371" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#3A3F44" stroke-width="1"/>
+<text x="84" y="290" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#3A3F44" stroke-width="1"/>
+<text x="84" y="209" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#3A3F44" stroke-width="1"/>
+<text x="84" y="128" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#8A9096" stroke-width="2"/>
+<text x="766" y="164.45" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#F0B429" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#F0B429" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#D9D9D9" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#D9D9D9" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-10</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">BASIRA</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Look deeper than sight.</text><rect x="20" y="248.25" width="160.3" height="20" rx="10" fill="#E6F2F1"/><text x="100.1" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">photo progress reports</text></g>
+<g transform="translate(652,628)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg10"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg10)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="Cambria,Georgia,serif" fill="#1F3864" font-weight="700">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#8EAADB" stroke-width="1"/>
+<text x="84" y="452" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#C9D6EE" stroke-width="1"/>
+<text x="84" y="371" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#C9D6EE" stroke-width="1"/>
+<text x="84" y="290" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#C9D6EE" stroke-width="1"/>
+<text x="84" y="209" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#C9D6EE" stroke-width="1"/>
+<text x="84" y="128" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#A9BBD9" stroke-width="2"/>
+<text x="766" y="164.45" font-size="14" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#1F3864" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="14" font-family="Cambria,Georgia,serif" fill="#1F3864" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#262626" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-11</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">SUTRA</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Complexity distilled.</text><rect x="20" y="248.25" width="109.1" height="20" rx="10" fill="#E6F2F1"/><text x="74.6" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">briefing notes</text><rect x="135.13" y="248.25" width="115.5" height="20" rx="10" fill="#E6F2F1"/><text x="192.9" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">position papers</text></g>
+<g transform="translate(968,628)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg11"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg11)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="700">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#E2E8F0" stroke-width="1"/>
+<text x="84" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#E2E8F0" stroke-width="1"/>
+<text x="84" y="371" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#E2E8F0" stroke-width="1"/>
+<text x="84" y="290" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#E2E8F0" stroke-width="1"/>
+<text x="84" y="209" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#E2E8F0" stroke-width="1"/>
+<text x="84" y="128" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#94A3B8" stroke-width="2"/>
+<text x="766" y="164.45" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#D63A2F" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#D63A2F" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#475569" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-12</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">NOROSHI</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Signal only what matters.</text><rect x="20" y="248.25" width="89.9" height="20" rx="10" fill="#E6F2F1"/><text x="65.0" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">escalations</text><rect x="115.94500000000001" y="248.25" width="102.7" height="20" rx="10" fill="#E6F2F1"/><text x="167.3" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">flash reports</text></g>
+<g transform="translate(20,933)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg12"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg12)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#F7EFE3"/>
+<text x="32" y="56" font-size="24" font-family="'EB Garamond',Georgia,serif" fill="#31261D" font-weight="600">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#DCCFB6" stroke-width="1"/>
+<text x="84" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#E5D9C2" stroke-width="1"/>
+<text x="84" y="371" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#E5D9C2" stroke-width="1"/>
+<text x="84" y="290" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#E5D9C2" stroke-width="1"/>
+<text x="84" y="209" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#E5D9C2" stroke-width="1"/>
+<text x="84" y="128" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#C9BBA4" stroke-width="2"/>
+<text x="766" y="164.45" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#C4572E" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#C4572E" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#4E4237" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-13</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">MIZAN</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Balance creates clarity.</text><rect x="20" y="248.25" width="128.3" height="20" rx="10" fill="#E6F2F1"/><text x="84.2" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">cultural projects</text></g>
+<g transform="translate(336,933)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg13"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg13)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="52" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="600" letter-spacing="2">PROGRESS . H1 2026</text>
+<text x="32" y="88" font-size="24" font-family="Georgia,serif" fill="#0B1F35" font-weight="700">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#C7D0D9" stroke-width="1"/>
+<text x="84" y="452" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#E3E8ED" stroke-width="1"/>
+<text x="84" y="371" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#E3E8ED" stroke-width="1"/>
+<text x="84" y="290" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#E3E8ED" stroke-width="1"/>
+<text x="84" y="209" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#E3E8ED" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#6E7E8E" stroke-width="2"/>
+<text x="766" y="164.45" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#2251FF" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#2251FF" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#3C4A5A" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-14</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">EVIDENTIA</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Proof over persuasion.</text><rect x="20" y="248.25" width="192.3" height="20" rx="10" fill="#E6F2F1"/><text x="116.1" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">evidence-led strategy decks</text></g>
+<g transform="translate(652,933)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg14"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg14)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Segoe UI',Arial,sans-serif" fill="#0E3A2C" font-weight="700">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#C9D2CC" stroke-width="1"/>
+<text x="84" y="452" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#E5E7E2" stroke-width="1"/>
+<text x="84" y="371" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#E5E7E2" stroke-width="1"/>
+<text x="84" y="290" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#E5E7E2" stroke-width="1"/>
+<text x="84" y="209" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#E5E7E2" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#A7C4B5" stroke-width="2"/>
+<text x="766" y="164.45" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#197A56" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#197A56" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#3E4C46" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-15</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">ABRID</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Everything is connected.</text><rect x="20" y="248.25" width="115.5" height="20" rx="10" fill="#E6F2F1"/><text x="77.8" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">framework decks</text><rect x="141.525" y="248.25" width="128.3" height="20" rx="10" fill="#E6F2F1"/><text x="205.7" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">portfolio reviews</text></g>
+<g transform="translate(968,933)"><rect width="300" height="288.25" rx="10" fill="#FFFFFF" stroke="#E2E8E8"/><g transform="translate(20,20)"><clipPath id="lg15"><rect width="260" height="146.25" rx="8"/></clipPath><g clip-path="url(#lg15)"><g transform="scale(0.2708333333333333)"><rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="700">Actual progress reached 62% in June, 9 points behind plan</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#D9D6D2" stroke-width="1"/>
+<text x="84" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="371" x2="756" y2="371" stroke="#E8E6E2" stroke-width="1"/>
+<text x="84" y="371" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="290" x2="756" y2="290" stroke="#E8E6E2" stroke-width="1"/>
+<text x="84" y="290" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="209" x2="756" y2="209" stroke="#E8E6E2" stroke-width="1"/>
+<text x="84" y="209" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#E8E6E2" stroke-width="1"/>
+<text x="84" y="128" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="end" dominant-baseline="middle">80%</text>
+<text x="96" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="middle">Jan</text>
+<text x="228" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="middle">Feb</text>
+<text x="360" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="middle">Mar</text>
+<text x="492" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="middle">Apr</text>
+<text x="624" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="middle">May</text>
+<text x="756" y="472" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="middle">Jun</text>
+<polyline points="96,411.5 228,350.75 360,290 492,241.4 624,196.85 756,164.45" fill="none" stroke="#8C8880" stroke-width="2"/>
+<text x="766" y="164.45" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" dominant-baseline="middle">Plan</text>
+<polyline points="96,419.6 228,371 360,318.35 492,269.75 624,229.25 756,200.9" fill="none" stroke="#C4001A" stroke-width="2.5"/>
+<text x="766" y="200.9" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#C4001A" font-weight="600" dominant-baseline="middle">Actual</text>
+<line x1="492" y1="269.75" x2="474" y2="335" stroke="#444444" stroke-width="1"/>
+<text x="470" y="340" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400" text-anchor="end" font-style="italic">gap widens from April</text>
+<text x="32" y="516" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#444444" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</g></g><rect width="260" height="146.25" rx="8" fill="none" stroke="#E2E8E8"/></g><text x="20" y="192.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A5757">DL-16</text><text x="20" y="214.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="16" font-weight="600" fill="#0F766E">TELOS</text><text x="20" y="234.25" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="13.5" fill="#4A5757">Every page serves a purpose.</text><rect x="20" y="248.25" width="102.7" height="20" rx="10" fill="#E6F2F1"/><text x="71.4" y="262.25" text-anchor="middle" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="0.4" fill="#0F766E">results decks</text></g>
+</svg>

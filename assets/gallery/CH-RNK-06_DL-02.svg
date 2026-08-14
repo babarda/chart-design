@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Piping holds 84 of 213 open items</text>
+<text x="250" y="136" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" letter-spacing="1">OPEN ITEMS</text>
+<text x="820" y="136" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="end" letter-spacing="1">VS LAST WEEK</text>
+<line x1="32" y1="150" x2="820" y2="150" stroke="#E2E8E8" stroke-width="1"/>
+<text x="234" y="167" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="end" dominant-baseline="middle">Piping</text>
+<rect x="250" y="159" width="390" height="16" fill="#008080"/>
+<text x="650" y="167" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">84 items</text>
+<text x="820" y="167" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#D63A2F" font-weight="600" text-anchor="end" dominant-baseline="middle">-6</text>
+<line x1="32" y1="184" x2="820" y2="184" stroke="#E2E8E8" stroke-width="1"/>
+<text x="234" y="201" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Electrical</text>
+<rect x="250" y="193" width="213.57" height="16" fill="#B7DCDC"/>
+<text x="473.57" y="201" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">46</text>
+<text x="820" y="201" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#339966" font-weight="600" text-anchor="end" dominant-baseline="middle">+4</text>
+<line x1="32" y1="218" x2="820" y2="218" stroke="#E2E8E8" stroke-width="1"/>
+<text x="234" y="235" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Instrumentation</text>
+<rect x="250" y="227" width="153.21" height="16" fill="#B7DCDC"/>
+<text x="413.21" y="235" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">33</text>
+<text x="820" y="235" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#D63A2F" font-weight="600" text-anchor="end" dominant-baseline="middle">-2</text>
+<line x1="32" y1="252" x2="820" y2="252" stroke="#E2E8E8" stroke-width="1"/>
+<text x="234" y="269" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Civil</text>
+<rect x="250" y="261" width="102.14" height="16" fill="#B7DCDC"/>
+<text x="362.14" y="269" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">22</text>
+<text x="820" y="269" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#339966" font-weight="600" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="32" y1="286" x2="820" y2="286" stroke="#E2E8E8" stroke-width="1"/>
+<text x="234" y="303" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Mechanical</text>
+<rect x="250" y="295" width="83.57" height="16" fill="#B7DCDC"/>
+<text x="343.57" y="303" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">18</text>
+<text x="820" y="303" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#339966" font-weight="600" text-anchor="end" dominant-baseline="middle">+3</text>
+<line x1="32" y1="320" x2="820" y2="320" stroke="#E2E8E8" stroke-width="1"/>
+<text x="234" y="337" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">HVAC</text>
+<rect x="250" y="329" width="46.43" height="16" fill="#B7DCDC"/>
+<text x="306.43" y="337" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">10</text>
+<text x="820" y="337" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#D63A2F" font-weight="600" text-anchor="end" dominant-baseline="middle">-1</text>
+<line x1="32" y1="354" x2="820" y2="354" stroke="#E2E8E8" stroke-width="1"/>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: weekly punch list, wk 28</text>
+</svg>

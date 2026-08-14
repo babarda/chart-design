@@ -1,0 +1,158 @@
+{
+  "code": "CH-COR-02",
+  "name": "BUBBLE",
+  "ovp_version": "1.0",
+  "chart_type": "scatter",
+  "meta": {
+    "intent": [
+      "correlation",
+      "magnitude",
+      "outlier-detection"
+    ],
+    "form": "bubble chart: scatter plus an area-coded third measure",
+    "data_required": "entities with two positional measures + one size measure; under ~15 points",
+    "relations": {
+      "family": "COR",
+      "alternatives": [
+        "CH-COR-01 (drop the size measure)"
+      ],
+      "see_instead": [
+        {
+          "when": "the third measure adds nothing to the story",
+          "use": "CH-COR-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "two related measures plus a weight (budget, volume, headcount)",
+    "the big-and-bad quadrant story: position shows risk, size shows stake"
+  ],
+  "not_when": [
+    "the size measure is decorative (use CH-COR-01)",
+    "sizes within +/-20% of each other (area differences invisible)",
+    "more than ~15 bubbles (labels and circles collide)"
+  ],
+  "data_shape": {
+    "title": "string, action title naming the point where size and position compound",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit_x": "string appended to the max x tick",
+    "unit_y": "string appended to the max y tick",
+    "points": "array of {label, x >= 0, y >= 0, size > 0, highlight?}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 856,
+      "top": 128,
+      "bottom": 440
+    },
+    "dot_r": 6,
+    "bubble_max_r": 28,
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "point_label": {
+      "size": 11,
+      "offset": 8
+    }
+  },
+  "scale": {
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "axes as CH-COR-01; radius = sqrt(size/max_size) * bubble_max_r, min 4 (AREA proportional, never radius)"
+  },
+  "rules": [
+    "bubble AREA is proportional to the size measure (radius by square root), never radius-proportional",
+    "what size encodes is stated in the title or eyebrow, never in a legend",
+    "every bubble labeled; one highlight maximum",
+    "all CH-COR-01 axis rules apply"
+  ],
+  "roles": {
+    "point": [
+      "muted"
+    ],
+    "point_highlight": [
+      "primary"
+    ],
+    "label": [
+      "body"
+    ],
+    "label_highlight": [
+      "ink"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "radius-proportional sizing (quadruples the visual weight)",
+    "size legends with sample circles",
+    "overlapping unlabeled bubble clouds",
+    "animating bubbles over time in a static deliverable"
+  ],
+  "qa": [
+    "area-proportional sizing verified",
+    "size meaning stated in text",
+    "every bubble labeled",
+    "highlight count <= 1",
+    "title compounds position and size with numbers",
+    "source line present bottom-left"
+  ]
+}

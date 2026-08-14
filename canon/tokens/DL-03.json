@@ -1,0 +1,105 @@
+{
+  "code": "DL-03",
+  "name": "LOGOS",
+  "aka": "CHARTBOOK",
+  "ovp_version": "1.1",
+  "status": "adopted",
+  "philosophy": {
+    "civilization": "Ancient Greece",
+    "principle": "Logic and evidence",
+    "motto": "Evidence before opinion.",
+    "laws": [
+      "Every chart proves one claim",
+      "Annotation over legends",
+      "Sources always visible",
+      "Titles make arguments",
+      "Decoration never competes with evidence"
+    ],
+    "related": [
+      "Nyaya",
+      "Burhan"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "evidence-first",
+    "density": "scientific",
+    "annotation_policy": "guided",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "evidence-only",
+    "reading_time": "session",
+    "charts_per_page": 3
+  },
+  "voice": {
+    "stance": "The essayist analyst. LOGOS is the one language that writes in dense prose: full sentences that argue, in the tradition of the printed chartbook. The title states a claim, the paragraph proves it, the source sits beside it. Causal connectives are the product here, because the reader came for the because.",
+    "register": "analytic prose",
+    "mood": "argumentative declarative",
+    "hedging": "allowed when it states the confidence",
+    "sentence_max_words": 25,
+    "title_max_words": 14,
+    "title_grammar": "The claim as an assertion, with the cause in a subordinate clause.",
+    "title_example": "Freight cost peaked in March because the joints shipped by air",
+    "do": [
+      {
+        "rule": "Use causal connectives: because, despite, which explains.",
+        "why": "Analysis without causality is a table read out loud."
+      },
+      {
+        "rule": "Cite the source next to the claim, never in an appendix.",
+        "why": "The language's law is that sources stay visible; the prose obeys the same law."
+      },
+      {
+        "rule": "Keep exact figures where they carry the argument.",
+        "why": "In a deep dive, 18.3% and about 18% are different claims."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "Never flag your own findings as worth attention.",
+        "why": "\"Interestingly\" and \"notably\" ask the reader to be impressed. Show the anomaly instead."
+      },
+      {
+        "rule": "No assertion without its evidence in the same breath.",
+        "why": "An unanchored claim breaks the core contract of this language."
+      },
+      {
+        "rule": "No bullet fragments in body text.",
+        "why": "LOGOS argues in sentences. Fragments belong to KATA and NOROSHI."
+      }
+    ],
+    "contrast": {
+      "generic": "The data shows an interesting trend in freight volumes that is worth examining in more detail.",
+      "voiced": "Freight volume fell 18% after April, when cable moved from air to sea (packing lists, weeks 14 to 22)."
+    }
+  },
+  "occasions": [
+    "deep-dive analysis",
+    "monthly chartbooks",
+    "advisory notes"
+  ],
+  "palette": {
+    "background": "#FDF4EA",
+    "ink": "#262A33",
+    "body": "#4A4E57",
+    "hairline": "#E8E0D4",
+    "gridline": "#E8E0D4",
+    "primary": "#9E2B25",
+    "muted": "#B8B2A7",
+    "positive": "#2E6E4E",
+    "negative": "#9E2B25"
+  },
+  "fonts": {
+    "display": {
+      "family": "'Oswald','Arial Narrow',Arial,sans-serif",
+      "weight": 700
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": true,
+    "eyebrow": true
+  }
+}

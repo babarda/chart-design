@@ -1,0 +1,138 @@
+{
+  "code": "CH-COR-07",
+  "name": "SCATTERPLOT MATRIX",
+  "ovp_version": "1.0",
+  "chart_type": "splom",
+  "meta": {
+    "intent": [
+      "correlation",
+      "pattern"
+    ],
+    "form": "3x3 grid of mini scatters, every variable against every other",
+    "data_required": "exactly 3 measures over up to 30 items; overview before analysis",
+    "relations": {
+      "family": "COR",
+      "alternatives": [
+        "CH-COR-01 (the one pair that matters)",
+        "CH-COR-05 (many points, one pair)"
+      ],
+      "see_instead": [
+        {
+          "when": "one pair is already known to matter",
+          "use": "CH-COR-01"
+        },
+        {
+          "when": "hundreds of points",
+          "use": "CH-COR-05"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "WARN: analyst overview to pick which pairwise plot deserves a real chart",
+    "screening 3 measures for relationships in one glance"
+  ],
+  "not_when": [
+    "presenting to any non-analyst (36 tiny axes explain nothing)",
+    "more than 3 variables in this spec (use small multiples of CH-COR-01)"
+  ],
+  "data_shape": {
+    "title": "action title naming the strongest pair",
+    "source": "bottom-left always",
+    "axes": "[{name, unit}] exactly 3",
+    "points": "[{values: [3], highlight?}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 140,
+      "right": 820,
+      "top": 140,
+      "bottom": 480
+    },
+    "cell_gap": 14,
+    "axis_label": {
+      "size": 12
+    }
+  },
+  "scale": {
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "diagonal cells name the variable and its 0-to-top range",
+    "no ticks in cells: this is a screening view, not a reading view",
+    "the highlight item is visible in every panel"
+  ],
+  "roles": {
+    "frame": [
+      "hairline"
+    ],
+    "dot": [
+      "muted"
+    ],
+    "dot_highlight": [
+      "primary"
+    ],
+    "axis_label": [
+      "body"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "WARN ENTRY: a SPLOM is a workbench, not a deliverable; ship CH-COR-01 of the pair that matters",
+    "gridlines and ticks in mini cells",
+    "4+ variables"
+  ],
+  "qa": [
+    "exactly 3 variables",
+    "<= 30 points",
+    "diagonal states ranges",
+    "source present"
+  ]
+}

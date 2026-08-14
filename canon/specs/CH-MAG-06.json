@@ -1,0 +1,133 @@
+{
+  "code": "CH-MAG-06",
+  "name": "PICTOGRAM",
+  "ovp_version": "1.0",
+  "chart_type": "pictogram",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "comparison"
+    ],
+    "form": "rows of unit squares, each square a declared count",
+    "data_required": "2-6 categories with counts; a declared unit value per square",
+    "relations": {
+      "family": "MAG",
+      "alternatives": [
+        "CH-RNK-01 (no unit metaphor needed)",
+        "CH-PTW-06 (share of 100)"
+      ],
+      "see_instead": [
+        {
+          "when": "the share of a whole is the message",
+          "use": "CH-PTW-06"
+        },
+        {
+          "when": "no countable-units story",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "countable things told in countable marks (people, lots, trucks)",
+    "audiences who respond to unit metaphors"
+  ],
+  "not_when": [
+    "non-count measures (rates, currency)",
+    "values needing precision"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "thing counted",
+    "unit_value": "count per square, declared",
+    "categories": "[{label, value}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 820,
+      "top": 160
+    },
+    "row_height": 30,
+    "row_gap": 20,
+    "cell": 18,
+    "cell_gap": 4,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "rules": [
+    "a square is an abstract unit, never a distorted icon",
+    "partial units drawn as partial squares",
+    "the unit key (one square = N) printed under the chart"
+  ],
+  "roles": {
+    "unit": [
+      "primary"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "key": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "icons whose area distorts the count",
+    "undeclared unit value",
+    "different unit values per row"
+  ],
+  "qa": [
+    "unit key printed",
+    "partial squares exact",
+    "values printed",
+    "source present"
+  ]
+}

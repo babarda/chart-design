@@ -1,0 +1,110 @@
+{
+  "code": "DL-02",
+  "name": "KATA",
+  "aka": "OPS ROOM",
+  "ovp_version": "1.1",
+  "status": "adopted",
+  "philosophy": {
+    "civilization": "Japan",
+    "principle": "Discipline and continuous practice",
+    "motto": "Perfect through repetition.",
+    "laws": [
+      "Standardized layouts",
+      "Repeatable structures",
+      "Consistency over novelty",
+      "Process is visible",
+      "Continuous improvement"
+    ],
+    "related": [
+      "Kaizen",
+      "Praxis",
+      "Li"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "recommendation-first",
+    "density": "operational",
+    "annotation_policy": "minimal",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "recommendation-with-owner",
+    "reading_time": "minute",
+    "charts_per_page": 2
+  },
+  "voice": {
+    "stance": "The drumbeat voice. KATA's reader compares this week against last week. New phrasing breaks the comparison: when the same event is cleared one week, processed the next, and finalized the week after, the reader re-parses instead of scanning. Varied wording is a defect here. Same words, same order, every period; only the numbers move.",
+    "register": "clipped, telegraphic",
+    "mood": "declarative, formulaic",
+    "hedging": "banned",
+    "sentence_max_words": 12,
+    "title_max_words": 12,
+    "title_grammar": "Fixed formula: metric, state, delta against the last period.",
+    "title_example": "Clearance: 82% complete, up 5 points on last week.",
+    "do": [
+      {
+        "rule": "Lock one term per concept and repeat it forever.",
+        "why": "Synonym rotation is where padding enters a recurring deck."
+      },
+      {
+        "rule": "Pair every number with its period delta.",
+        "why": "A weekly page without the delta makes the reader remember last week."
+      },
+      {
+        "rule": "Match the words in the prose to the status words on the chips.",
+        "why": "The language already prints the word on the chip; the text may not contradict it."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No elegant variation and no fresh metaphors.",
+        "why": "Novelty costs scanning speed and adds nothing week over week."
+      },
+      {
+        "rule": "Never claim progress with an adjective.",
+        "why": "The delta is shorter than the adjective and it survives being quoted."
+      },
+      {
+        "rule": "No pleasantries.",
+        "why": "Nobody is pleased. It is Tuesday and this is the weekly page."
+      }
+    ],
+    "contrast": {
+      "generic": "We are pleased to report significant progress in clearance activities this week across the portfolio.",
+      "voiced": "Clearance: 41 of 50 files complete, +5 on last week. Nine held at the port. Owner: logistics."
+    }
+  },
+  "occasions": [
+    "weekly status decks",
+    "progress dashboards",
+    "PMO reporting"
+  ],
+  "palette": {
+    "background": "#FFFFFF",
+    "panel": "#F7FAFA",
+    "ink": "#222222",
+    "body": "#555555",
+    "hairline": "#E2E8E8",
+    "gridline": "#EAEAEA",
+    "primary": "#008080",
+    "primaryDark": "#005F5F",
+    "muted": "#B7DCDC",
+    "benchmark": "#AAAAAA",
+    "positive": "#339966",
+    "negative": "#D63A2F",
+    "warning": "#E08A00"
+  },
+  "fonts": {
+    "display": {
+      "family": "'Rethink Sans','Segoe UI',sans-serif",
+      "weight": 600
+    },
+    "body": {
+      "family": "'Poppins','Segoe UI',sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

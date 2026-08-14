@@ -1,0 +1,149 @@
+{
+  "code": "CH-COR-04",
+  "name": "COLUMN + LINE",
+  "ovp_version": "1.0",
+  "chart_type": "column_line",
+  "meta": {
+    "intent": [
+      "correlation",
+      "change-over-time"
+    ],
+    "form": "columns on a left scale, one line on a labeled right scale",
+    "data_required": "ordered periods + one volume measure + one rate measure",
+    "relations": {
+      "family": "COR",
+      "alternatives": [
+        "CH-TIM-01 (same units: two lines)",
+        "CH-COR-01 (relationship itself)"
+      ],
+      "see_instead": [
+        {
+          "when": "both measures share a unit",
+          "use": "CH-TIM-01"
+        },
+        {
+          "when": "the relationship, not time, is the question",
+          "use": "CH-COR-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "a volume and a rate that move together over time",
+    "capacity vs utilization, output vs quality"
+  ],
+  "not_when": [
+    "two arbitrary series dual-axed to force a story",
+    "scales chosen to make the lines cross dramatically"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "x": "ordered period labels",
+    "bars": "{name, unit, values} on the left scale",
+    "line": "{name, unit, values} on the right scale"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 110,
+      "right": 810,
+      "top": 150,
+      "bottom": 440
+    },
+    "bar_width": 44,
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 22
+    }
+  },
+  "scale": {
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "both scales start at zero, both are labeled with unit AND series name",
+    "bars muted, line primary: the rate is usually the story",
+    "never more than one line: a third scale is a lie"
+  ],
+  "roles": {
+    "bar": [
+      "muted"
+    ],
+    "line": [
+      "primary"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "unlabeled dual axes",
+    "non-zero baselines on either scale",
+    "three or more scales",
+    "two lines on one right axis"
+  ],
+  "qa": [
+    "both scales zero-based and labeled",
+    "series named at the scales",
+    "one line maximum",
+    "source present"
+  ]
+}

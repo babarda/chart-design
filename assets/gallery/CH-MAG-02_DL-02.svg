@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Q4 spend overran budget by 21 k$, the widest quarterly gap</text>
+<rect x="126" y="225.89" width="40" height="206.11" fill="#B7DCDC"/>
+<text x="146" y="219.89" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="middle">220 k$</text>
+<text x="146" y="144" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#B7DCDC" font-weight="600" text-anchor="middle">Budget</text>
+<rect x="170" y="231.51" width="40" height="200.49" fill="#008080"/>
+<text x="190" y="225.51" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="middle">214</text>
+<text x="190" y="144" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#008080" font-weight="600" text-anchor="middle">Actual</text>
+<text x="168" y="452" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Q1</text>
+<rect x="334" y="207.15" width="40" height="224.85" fill="#B7DCDC"/>
+<text x="354" y="201.15" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="middle">240</text>
+<rect x="378" y="195.91" width="40" height="236.09" fill="#008080"/>
+<text x="398" y="189.91" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="middle">252</text>
+<text x="376" y="452" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Q2</text>
+<rect x="542" y="188.41" width="40" height="243.59" fill="#B7DCDC"/>
+<text x="562" y="182.41" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="middle">260</text>
+<rect x="586" y="198.72" width="40" height="233.28" fill="#008080"/>
+<text x="606" y="192.72" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="middle">249</text>
+<text x="584" y="452" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Q3</text>
+<rect x="750" y="169.67" width="40" height="262.33" fill="#B7DCDC"/>
+<text x="770" y="163.67" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="middle">280</text>
+<rect x="794" y="150" width="40" height="282" fill="#008080"/>
+<text x="814" y="144" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="middle">301</text>
+<text x="792" y="452" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Q4</text>
+<line x1="64" y1="432" x2="896" y2="432" stroke="#E2E8E8" stroke-width="1"/>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

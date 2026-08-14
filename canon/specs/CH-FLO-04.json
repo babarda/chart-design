@@ -1,0 +1,116 @@
+{
+  "code": "CH-FLO-04",
+  "name": "CHORD",
+  "ovp_version": "1.0",
+  "chart_type": "chord",
+  "meta": {
+    "intent": [
+      "flow",
+      "pattern"
+    ],
+    "form": "nodes on a circle, curved ribbons weighted by flow",
+    "data_required": "2-6 nodes with a square flow matrix; totals matter more than pairs",
+    "relations": {
+      "family": "FLO",
+      "alternatives": [
+        "CH-FLO-02 (readable flows, planned/built as sankey)",
+        "CH-TAB-02 (exact matrix values)"
+      ],
+      "see_instead": [
+        {
+          "when": "flows must be read",
+          "use": "CH-FLO-02"
+        },
+        {
+          "when": "exact values per pair",
+          "use": "CH-TAB-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "WARN: editorial overviews of dense mutual exchange between few nodes",
+    "showing that everything trades with everything, not how much"
+  ],
+  "not_when": [
+    "reading any specific flow (ribbon widths at a glance mislead)",
+    "sparse matrices (a sankey tells it straight)"
+  ],
+  "data_shape": {
+    "title": "action title naming the dominant exchange",
+    "source": "bottom-left always",
+    "unit": "flow unit",
+    "nodes": "2-6 names",
+    "flows": "square matrix, diagonal zero"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "cx": 430,
+    "cy": 320,
+    "r": 190,
+    "ribbon_max": 16,
+    "label": {
+      "size": 12,
+      "offset": 14
+    }
+  },
+  "rules": [
+    "node arcs sized by total in+out; labels carry the totals",
+    "ribbons colored by source, monochrome ramp",
+    "diagonal must be zero: self-flows are not flows"
+  ],
+  "roles": {
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "WARN ENTRY: chord diagrams decorate; CH-TAB-02 or a sankey informs",
+    "self-loops",
+    "more than 6 nodes",
+    "rainbow ribbons"
+  ],
+  "qa": [
+    "square matrix, zero diagonal",
+    "<= 6 nodes",
+    "totals printed",
+    "source present"
+  ]
+}

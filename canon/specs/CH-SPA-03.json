@@ -1,0 +1,134 @@
+{
+  "code": "CH-SPA-03",
+  "name": "ROUTE PROGRESS",
+  "ovp_version": "1.0",
+  "chart_type": "route_progress",
+  "meta": {
+    "intent": [
+      "progress",
+      "schedule"
+    ],
+    "form": "a corridor polyline split done/pending, stations as milestones",
+    "data_required": "corridor points + done fraction + stations at fractions along it",
+    "relations": {
+      "family": "SPA",
+      "alternatives": [
+        "CH-TIM-02 (progress without geography)",
+        "CH-TIM-09 (task schedule)"
+      ],
+      "see_instead": [
+        {
+          "when": "no corridor exists",
+          "use": "CH-TIM-02"
+        },
+        {
+          "when": "many parallel tasks",
+          "use": "CH-TIM-09"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "linear infrastructure: pipelines, roads, transmission lines",
+    "one glance answers how far along the line are we"
+  ],
+  "not_when": [
+    "non-linear scopes",
+    "progress that does not map to distance"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "% (of corridor length)",
+    "note": "coordinates are author-supplied unit-square (0-100) geometry; the renderer scales, the author owns projection and aspect",
+    "corridor": "[[x,y]..] the line",
+    "done_to": "fraction 0-1",
+    "stations": "[{name, at: fraction, kind: done|current|pending}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 100,
+      "right": 860,
+      "top": 130,
+      "bottom": 470
+    },
+    "label": {
+      "size": 12
+    }
+  },
+  "rules": [
+    "done length drawn in the done role over the full pending line",
+    "the current station is the one diamond",
+    "the completion percentage is printed at the frontier"
+  ],
+  "roles": {
+    "done": [
+      "primary"
+    ],
+    "pending": [
+      "hairline"
+    ],
+    "station_done": [
+      "primary"
+    ],
+    "station_current": [
+      "negative",
+      "primary"
+    ],
+    "station_pending": [
+      "muted"
+    ],
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "progress percentages that are not length-true",
+    "decorating with terrain",
+    "more than ~8 stations"
+  ],
+  "qa": [
+    "done fraction length-true",
+    "one current station",
+    "stations ordered",
+    "source present"
+  ]
+}

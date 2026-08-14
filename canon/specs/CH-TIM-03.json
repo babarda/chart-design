@@ -1,0 +1,181 @@
+{
+  "code": "CH-TIM-03",
+  "name": "AREA",
+  "ovp_version": "1.0",
+  "chart_type": "area",
+  "meta": {
+    "intent": [
+      "trend",
+      "volume",
+      "change-over-time"
+    ],
+    "form": "filled area (single series)",
+    "data_required": "ordered periods + one non-negative quantity series (optional context line)",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-01 (line)",
+        "CH-TIM-04 (stacked area, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "2+ series compared",
+          "use": "CH-TIM-01"
+        },
+        {
+          "when": "cumulative progress vs plan",
+          "use": "CH-TIM-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "one quantity over time where the VOLUME matters (output, throughput, stock)",
+    "emphasizing magnitude of change, not just direction",
+    "at most one context reference line alongside"
+  ],
+  "not_when": [
+    "comparing several series (use CH-TIM-01; overlapping areas lie)",
+    "rates or ratios (area implies quantity; use CH-TIM-01)",
+    "composition over time (CH-TIM-04 stacked area when built)"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the finding with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit": "string, appears once, on the top y tick label",
+    "x": "array of ordered period labels",
+    "series": "exactly one role 'key' (the filled area) + optional 'context' reference lines",
+    "annotation": "{text, series, index, tx, ty, anchor}, optional"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 756,
+      "top": 128,
+      "bottom": 452
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "series_label": {
+      "size": 13,
+      "offset": 10
+    },
+    "stroke": {
+      "key": 2.5,
+      "context": 2
+    },
+    "fill_opacity": 0.15,
+    "annotation": {
+      "size": 12,
+      "style": "italic"
+    }
+  },
+  "scale": {
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "raw = max/target_ticks; mag = 10^floor(log10(raw)); step = first nice_steps*mag >= raw; top = ceil(max/step)*step"
+  },
+  "rules": [
+    "y starts at zero, no exceptions (a cut baseline lies twice as hard with fill)",
+    "one filled series only; fill is primary at the fixed opacity, stroke is primary",
+    "context lines allowed, never filled",
+    "series labeled at line ends, never a legend",
+    "horizontal gridlines only"
+  ],
+  "roles": {
+    "key": [
+      "primary"
+    ],
+    "context": [
+      "benchmark",
+      "muted"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "key_label": [
+      "primary"
+    ],
+    "context_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ],
+    "annotation": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "multiple overlapping filled areas",
+    "area for rates or percentages",
+    "truncated baseline",
+    "gradient fills",
+    "legend boxes"
+  ],
+  "qa": [
+    "y axis starts at zero",
+    "exactly one filled series",
+    "fill opacity equals the spec value",
+    "series labels at line ends, no legend",
+    "title states a finding with a number",
+    "source line present bottom-left"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "code": "CH-RNK-06",
+  "name": "TABLE WITH BARS",
+  "ovp_version": "1.0",
+  "chart_type": "table_bars",
+  "meta": {
+    "intent": [
+      "ranking",
+      "lookup"
+    ],
+    "form": "table rows with an inline magnitude bar and a signed delta column",
+    "data_required": "categories with one exact value each, plus a change vs a prior period",
+    "relations": {
+      "family": "RNK",
+      "alternatives": [
+        "CH-RNK-01 (bar alone when exact lookup is secondary)",
+        "CH-TAB-03 (KPI table, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "no delta column is needed",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "readers need exact values AND instant rank perception",
+    "weekly lists where the change column carries the action"
+  ],
+  "not_when": [
+    "more than 10 rows (paginate or aggregate)",
+    "no exact-value need (CH-RNK-01)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first value label",
+    "value_header": "CAPS column header over the bars",
+    "delta_header": "CAPS column header over the delta column",
+    "categories": "array of {label, value, delta, highlight?}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 250,
+      "right": 640,
+      "top": 150
+    },
+    "row_height": 34,
+    "label_gutter": 218,
+    "delta_x": 820,
+    "header_label": {
+      "size": 11,
+      "offset": 14
+    },
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 10
+    }
+  },
+  "rules": [
+    "rows sorted descending by value",
+    "deltas signed and colored by sign, zero stays neutral ink",
+    "hairline rules between rows, no zebra fills",
+    "one highlight maximum"
+  ],
+  "roles": {
+    "header": [
+      "body"
+    ],
+    "rule": [
+      "hairline"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "bar": [
+      "muted"
+    ],
+    "bar_highlight": [
+      "primary"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "delta_pos": [
+      "positive"
+    ],
+    "delta_neg": [
+      "negative"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "zebra striping",
+    "unsorted rows",
+    "sparklines squeezed into cells",
+    "coloring the whole row by status"
+  ],
+  "qa": [
+    "rows sorted descending",
+    "deltas signed",
+    "unit once",
+    "highlight <= 1",
+    "source present"
+  ]
+}

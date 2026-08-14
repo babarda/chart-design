@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Staffing thins sharply above 50</text>
+<text x="440" y="158" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#B7DCDC" font-weight="600" text-anchor="end">Women</text>
+<text x="520" y="158" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#008080" font-weight="600">Men</text>
+<rect x="413.46" y="170" width="26.54" height="22" fill="#B7DCDC"/>
+<rect x="520" y="170" width="40.59" height="22" fill="#008080"/>
+<text x="480" y="181" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle" dominant-baseline="middle">60+</text>
+<text x="407.46" y="181" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="end" dominant-baseline="middle">34 staff</text>
+<text x="566.59" y="181" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">52</text>
+<rect x="372.88" y="200" width="67.12" height="22" fill="#B7DCDC"/>
+<rect x="520" y="200" width="109.27" height="22" fill="#008080"/>
+<text x="480" y="211" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle" dominant-baseline="middle">50-59</text>
+<text x="366.88" y="211" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="end" dominant-baseline="middle">86</text>
+<text x="635.27" y="211" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">140</text>
+<rect x="291.71" y="230" width="148.29" height="22" fill="#B7DCDC"/>
+<rect x="520" y="230" width="234.15" height="22" fill="#008080"/>
+<text x="480" y="241" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle" dominant-baseline="middle">40-49</text>
+<text x="285.71" y="241" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="end" dominant-baseline="middle">190</text>
+<text x="760.15" y="241" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">300</text>
+<rect x="229.27" y="260" width="210.73" height="22" fill="#B7DCDC"/>
+<rect x="520" y="260" width="320" height="22" fill="#008080"/>
+<text x="480" y="271" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle" dominant-baseline="middle">30-39</text>
+<text x="223.27" y="271" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="end" dominant-baseline="middle">270</text>
+<text x="846" y="271" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">410</text>
+<rect x="315.12" y="290" width="124.88" height="22" fill="#B7DCDC"/>
+<rect x="520" y="290" width="171.71" height="22" fill="#008080"/>
+<text x="480" y="301" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle" dominant-baseline="middle">20-29</text>
+<text x="309.12" y="301" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" text-anchor="end" dominant-baseline="middle">160</text>
+<text x="697.71" y="301" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">220</text>
+<line x1="440" y1="162" x2="440" y2="320" stroke="#222222" stroke-width="1"/>
+<line x1="520" y1="162" x2="520" y2="320" stroke="#222222" stroke-width="1"/>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: HR register, June</text>
+</svg>

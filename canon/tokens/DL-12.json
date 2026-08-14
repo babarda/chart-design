@@ -1,0 +1,107 @@
+{
+  "code": "DL-12",
+  "name": "NOROSHI",
+  "aka": "SIGNAL",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "Japan",
+    "principle": "Alert and escalation",
+    "motto": "Signal only what matters.",
+    "laws": [
+      "Immediate verdict",
+      "Exception-focused",
+      "Maximum clarity",
+      "Minimal content",
+      "Ownership always assigned"
+    ],
+    "related": [
+      "Beacon",
+      "Sentinel"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "recommendation-first",
+    "density": "executive",
+    "annotation_policy": "minimal",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "recommendation-with-owner",
+    "reading_time": "glance",
+    "charts_per_page": 1
+  },
+  "voice": {
+    "stance": "The beacon voice. A signal fire burns once and means one thing. The first line is the alarm, and every word after it either shortens the response time or is smoke. One exception per page, one owner, one deadline. Background reading belongs to another language.",
+    "register": "urgent-terse",
+    "mood": "verdict then imperative",
+    "hedging": "banned; softening is sabotage here",
+    "sentence_max_words": 12,
+    "title_max_words": 10,
+    "title_grammar": "Verdict plus deadline.",
+    "title_example": "Diesel stock: 6 days left. Decision needed Thursday.",
+    "do": [
+      {
+        "rule": "Put the alarm in the first ten words.",
+        "why": "The immediate verdict is the first law of this language; the subject line is the page."
+      },
+      {
+        "rule": "Count down in days remaining, not in dates alone.",
+        "why": "Six days left lands harder than a date. Give both."
+      },
+      {
+        "rule": "Put an owner and a deadline on the action.",
+        "why": "An escalation with no owner escalates nothing."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No background section.",
+        "why": "Whoever needs the history was not the right recipient."
+      },
+      {
+        "rule": "Never soften the finding.",
+        "why": "\"Slight concern\" and \"potential issue\" describe something that did not need a flash report."
+      },
+      {
+        "rule": "One signal per page, never two.",
+        "why": "Two alarms split the response and the second one dies."
+      }
+    ],
+    "contrast": {
+      "generic": "We would like to flag a potential concern regarding diesel availability that may need attention soon.",
+      "voiced": "Diesel: 6 days of stock. The port has held the tanker since Friday. Approve the road transfer today. Owner: logistics. Deadline: Thursday 12:00."
+    }
+  },
+  "occasions": [
+    "escalations",
+    "flash reports",
+    "exception one-pagers",
+    "morning briefs"
+  ],
+  "palette": {
+    "background": "#FFFFFF",
+    "ink": "#0F172A",
+    "body": "#475569",
+    "hairline": "#E2E8F0",
+    "gridline": "#E2E8F0",
+    "primary": "#D63A2F",
+    "muted": "#94A3B8",
+    "positive": "#1F7A4D",
+    "negative": "#D63A2F",
+    "warning": "#B45309"
+  },
+  "fonts": {
+    "display": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 700
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

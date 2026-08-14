@@ -1,0 +1,138 @@
+{
+  "code": "CH-DST-10",
+  "name": "ERROR BARS",
+  "ovp_version": "1.0",
+  "chart_type": "interval",
+  "meta": {
+    "intent": [
+      "uncertainty",
+      "comparison",
+      "variance"
+    ],
+    "form": "dot with low-high interval per category",
+    "data_required": "categories with a central value and a low-high range (spread, CI, min-max)",
+    "relations": {
+      "family": "DST",
+      "alternatives": [
+        "CH-DST-04 (full distribution shape, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "only the central value matters",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "estimates that carry a range: durations, forecasts, measurement spread",
+    "comparing both level AND uncertainty across categories"
+  ],
+  "not_when": [
+    "ranges are negligible (use CH-RNK-01)",
+    "full distribution shape matters (boxplot when built)"
+  ],
+  "data_shape": {
+    "title": "action title stating value and spread",
+    "eyebrow": "caps, DL chrome only",
+    "source": "bottom-left always; states what the range represents",
+    "unit": "on the first label",
+    "categories": "array of {label, value, low, high, highlight?}, low <= value <= high"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 800,
+      "top": 140
+    },
+    "row_height": 32,
+    "row_gap": 20,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "scale": {
+    "note": "x scales to max high; direct labels 'value [low-high]', no axis"
+  },
+  "rules": [
+    "the interval is a capped line; the dot is the estimate",
+    "labels state value AND range",
+    "one highlight maximum",
+    "what the range means (CI, min-max, spread) is stated in title or source"
+  ],
+  "roles": {
+    "interval": [
+      "ink"
+    ],
+    "dot": [
+      "muted"
+    ],
+    "dot_highlight": [
+      "primary"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "baseline": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "error bars without saying what they represent",
+    "bars with whiskers (length + interval double-encodes)",
+    "hiding uncertainty to look confident"
+  ],
+  "qa": [
+    "low <= value <= high on every row",
+    "range semantics stated",
+    "highlight <= 1",
+    "unit once",
+    "source present"
+  ]
+}

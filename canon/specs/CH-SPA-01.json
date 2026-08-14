@@ -1,0 +1,122 @@
+{
+  "code": "CH-SPA-01",
+  "name": "CHOROPLETH",
+  "ovp_version": "1.0",
+  "chart_type": "choropleth",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "pattern"
+    ],
+    "form": "supplied region polygons filled by a deterministic value ramp",
+    "data_required": "region polygons (author-supplied geometry) + one value per region",
+    "relations": {
+      "family": "SPA",
+      "alternatives": [
+        "CH-RNK-01 (values without geography)",
+        "CH-SPA-02 (absolute counts)"
+      ],
+      "see_instead": [
+        {
+          "when": "geography adds nothing to the message",
+          "use": "CH-RNK-01"
+        },
+        {
+          "when": "absolute counts, not rates",
+          "use": "CH-SPA-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "rates and intensities across known territories",
+    "where-is-it-worst questions for map-literate audiences"
+  ],
+  "not_when": [
+    "absolute counts (big areas lie; CH-SPA-02)",
+    "territories the audience cannot recognize"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first region value",
+    "note": "coordinates are author-supplied unit-square (0-100) geometry; the renderer scales, the author owns projection and aspect",
+    "regions": "[{name, polygon: [[x,y]..], label_at: [x,y], value}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 120,
+      "right": 700,
+      "top": 120,
+      "bottom": 480
+    },
+    "label": {
+      "size": 12
+    },
+    "key_x": 730,
+    "key_y": 150
+  },
+  "rules": [
+    "fill is the deterministic background-to-high ramp; the value key is printed",
+    "every region labeled with name and value on the map",
+    "geometry is data: the same polygons re-render identically forever"
+  ],
+  "roles": {
+    "fill_high": [
+      "primary"
+    ],
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "rainbow choropleths",
+    "absolute counts on area fills",
+    "unlabeled regions",
+    "3D extrusion"
+  ],
+  "qa": [
+    "ramp key printed",
+    "values on the map",
+    "polygons closed",
+    "source present"
+  ]
+}

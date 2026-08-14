@@ -1,0 +1,107 @@
+{
+  "code": "DL-05",
+  "name": "OBEYA",
+  "aka": "FIELD",
+  "ovp_version": "1.1",
+  "status": "adopted",
+  "philosophy": {
+    "civilization": "Japan",
+    "principle": "Collaboration and shared visibility",
+    "motto": "See together. Decide together.",
+    "laws": [
+      "Information remains visible",
+      "Ownership is explicit",
+      "Progress is collaborative",
+      "Large readable typography",
+      "Decisions happen around the information"
+    ],
+    "related": [
+      "Twiza",
+      "Ubuntu",
+      "Harambee"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "question-first",
+    "density": "operational",
+    "annotation_policy": "minimal",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "dual",
+    "decision_style": "options",
+    "reading_time": "glance",
+    "charts_per_page": 4
+  },
+  "voice": {
+    "stance": "The spoken voice. OBEYA text is read at three meters, in a morning stand-up, by people wearing gloves. Write the way a good site lead talks: names, numbers, today. A line that cannot be said out loud to the person it concerns does not go on the wall.",
+    "register": "spoken, direct",
+    "mood": "question titles, imperative actions",
+    "hedging": "banned",
+    "sentence_max_words": 8,
+    "title_max_words": 8,
+    "title_grammar": "A real question the meeting has to answer, or a call to act.",
+    "title_example": "Who unblocks the north loops this week?",
+    "do": [
+      {
+        "rule": "Use names, not roles.",
+        "why": "Ownership is the law of this language, and a name on a wall gets acted on."
+      },
+      {
+        "rule": "Keep the time words at today and this week.",
+        "why": "The board resets daily. Anything older belongs in SAGA."
+      },
+      {
+        "rule": "Write bullets, never paragraphs.",
+        "why": "Nobody reads a paragraph standing up."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No past-tense storytelling.",
+        "why": "The stand-up is about the next 24 hours."
+      },
+      {
+        "rule": "No abbreviations that need decoding at distance.",
+        "why": "At three meters an abbreviation is wallpaper."
+      },
+      {
+        "rule": "Never write a count you have not counted.",
+        "why": "\"Several items\" and \"various stakeholders\" name nothing and get assigned to nobody."
+      }
+    ],
+    "contrast": {
+      "generic": "There are several outstanding items requiring attention from various stakeholders across the project.",
+      "voiced": "Three blockers today. Crane permit: Nadia. Cable drums: contractor. Scaffold: Sam, Thursday."
+    }
+  },
+  "occasions": [
+    "stand-up boards",
+    "site wall prints",
+    "war rooms",
+    "A3 posters"
+  ],
+  "palette": {
+    "background": "#FFFFFF",
+    "ink": "#0F172A",
+    "body": "#334155",
+    "hairline": "#64748B",
+    "gridline": "#CBD5E1",
+    "primary": "#C2410C",
+    "muted": "#64748B",
+    "positive": "#1F7A4D",
+    "negative": "#B91C1C"
+  },
+  "fonts": {
+    "display": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 700
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 600
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

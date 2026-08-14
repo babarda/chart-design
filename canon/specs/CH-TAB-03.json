@@ -1,0 +1,153 @@
+{
+  "code": "CH-TAB-03",
+  "name": "KPI TABLE",
+  "ovp_version": "1.0",
+  "chart_type": "kpi_table",
+  "meta": {
+    "intent": [
+      "lookup",
+      "status",
+      "trend"
+    ],
+    "form": "table rows: exact value, signed change, micro-trend",
+    "data_required": "3-8 metrics with a current value, a delta, a 4+ point history, and a declared good direction",
+    "relations": {
+      "family": "TAB",
+      "alternatives": [
+        "CH-TIM-06 (shape only, no exact lookup)",
+        "CH-RNK-06 (one comparable measure with bars)"
+      ],
+      "see_instead": [
+        {
+          "when": "rows share one unit and rank matters",
+          "use": "CH-RNK-06"
+        },
+        {
+          "when": "only direction matters",
+          "use": "CH-TIM-06"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "executive KPI panels: exact number, change, and shape in one row",
+    "metrics with different units that must live on one page"
+  ],
+  "not_when": [
+    "rows sharing one unit where bars would rank them (CH-RNK-06)",
+    "long histories (the trend cell is a shape, not a chart)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "value_header": "CAPS",
+    "delta_header": "CAPS",
+    "trend_header": "CAPS",
+    "rows": "[{label, value: formatted string, delta, good: up|down, trend}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 856,
+      "top": 150
+    },
+    "row_height": 44,
+    "label_x": 48,
+    "value_x": 460,
+    "delta_x": 580,
+    "spark_left": 640,
+    "spark_right": 820,
+    "header_label": {
+      "size": 11,
+      "offset": 14
+    },
+    "category_label": {
+      "size": 13
+    },
+    "value_label": {
+      "size": 16
+    }
+  },
+  "rules": [
+    "values arrive formatted with their own units: this is a lookup table",
+    "delta colored by the row's DECLARED good direction, not by sign",
+    "trend cells scale per row: shape only",
+    "hairline rules, no zebra fills"
+  ],
+  "roles": {
+    "header": [
+      "body"
+    ],
+    "rule": [
+      "hairline"
+    ],
+    "category_label": [
+      "ink"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "delta_pos": [
+      "positive"
+    ],
+    "delta_neg": [
+      "negative"
+    ],
+    "trend": [
+      "muted"
+    ],
+    "dot": [
+      "primary"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "zebra striping",
+    "coloring deltas by sign when down is good",
+    "reading trend cells against each other",
+    "traffic-light cell fills"
+  ],
+  "qa": [
+    "good direction declared per row",
+    "values carry their units",
+    ">= 4 trend points per row",
+    "source present"
+  ]
+}

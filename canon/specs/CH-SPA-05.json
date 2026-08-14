@@ -1,0 +1,124 @@
+{
+  "code": "CH-SPA-05",
+  "name": "FLOW MAP",
+  "ovp_version": "1.0",
+  "chart_type": "flow_map",
+  "meta": {
+    "intent": [
+      "flow",
+      "magnitude"
+    ],
+    "form": "curved width-scaled arrows between supplied places",
+    "data_required": "base polygons + places + flows [{from, to, value}], <= 8 flows",
+    "relations": {
+      "family": "SPA",
+      "alternatives": [
+        "CH-FLO-02 (flows without geography)",
+        "CH-FLO-04 (dense mutual exchange)"
+      ],
+      "see_instead": [
+        {
+          "when": "geography adds nothing",
+          "use": "CH-FLO-02"
+        },
+        {
+          "when": "everything flows to everything",
+          "use": "CH-FLO-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "origin-destination stories over real geography",
+    "corridor volumes: what moves where, how much"
+  ],
+  "not_when": [
+    "more than ~8 flows (spaghetti)",
+    "flows both directions between the same pair (split or net them first)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "flow unit",
+    "note": "coordinates are author-supplied unit-square (0-100) geometry; the renderer scales, the author owns projection and aspect",
+    "regions": "base polygons",
+    "places": "[{name, at}]",
+    "flows": "[{from: [x,y], to: [x,y], value}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 120,
+      "right": 840,
+      "top": 110,
+      "bottom": 470
+    },
+    "flow_max": 10,
+    "label": {
+      "size": 11
+    }
+  },
+  "rules": [
+    "arrow width proportional to value; the largest flow is labeled",
+    "arrowheads mark direction; curves bend one deterministic way"
+  ],
+  "roles": {
+    "flow": [
+      "primary"
+    ],
+    "place": [
+      "ink"
+    ],
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "two-way arrows on one curve",
+    "more than 8 flows",
+    "width not proportional to value"
+  ],
+  "qa": [
+    "width-true arrows",
+    "largest flow labeled",
+    "<= 8 flows",
+    "source present"
+  ]
+}

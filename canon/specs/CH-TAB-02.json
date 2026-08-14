@@ -1,0 +1,147 @@
+{
+  "code": "CH-TAB-02",
+  "name": "HEATMAP TABLE",
+  "ovp_version": "1.0",
+  "chart_type": "heatmap",
+  "meta": {
+    "intent": [
+      "status",
+      "lookup",
+      "comparison"
+    ],
+    "form": "entities x metrics table, cells shaded per column and numbered",
+    "data_required": "entity rows x numeric metric columns with different scales",
+    "relations": {
+      "family": "TAB",
+      "alternatives": [
+        "CH-TAB-01 (status enums instead of numbers)",
+        "CH-COR-03 (two ordered dimensions)"
+      ],
+      "see_instead": [
+        {
+          "when": "cells are statuses, not numbers",
+          "use": "CH-TAB-01"
+        },
+        {
+          "when": "both dimensions are ordered",
+          "use": "CH-COR-03"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "entities compared across metrics with different scales (progress %, punch count, tests left)",
+    "the reader looks up their row but the pattern should jump out"
+  ],
+  "not_when": [
+    "one shared scale across all columns (use CH-COR-03's global mode)",
+    "status enums (CH-TAB-01)",
+    "more than 8 rows or 6 metric columns"
+  ],
+  "data_shape": {
+    "title": "string, action title naming the row that stands out",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "columns": "metric names, caps",
+    "rows": "array of {label, values[] same length as columns}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 200,
+      "right": 928,
+      "top": 168
+    },
+    "row_height": 48,
+    "header_label": {
+      "size": 10,
+      "offset": 14
+    },
+    "row_label": {
+      "size": 12,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 11
+    }
+  },
+  "scale": {
+    "normalize": "column",
+    "note": "each column normalized to its own max: intensity means 'high for this metric', not absolute size"
+  },
+  "rules": [
+    "per-column normalization; the spec's one job is making mixed scales comparable",
+    "intensity encodes magnitude, not judgment: the title says whether high is good or bad",
+    "values printed in every cell",
+    "rows in the reader's natural order, never sorted by health",
+    "single-hue ramp"
+  ],
+  "roles": {
+    "cell_low": [
+      "panel",
+      "background"
+    ],
+    "cell_high": [
+      "primary"
+    ],
+    "header": [
+      "body"
+    ],
+    "row_label": [
+      "ink"
+    ],
+    "value": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "red-green judgment coloring on magnitude data",
+    "global normalization across mixed units",
+    "cells without printed values",
+    "sorting rows by intensity"
+  ],
+  "qa": [
+    "per-column normalization verified",
+    "every cell prints its value",
+    "rows in natural order",
+    "title names the standout row with a number",
+    "source line present bottom-left"
+  ]
+}

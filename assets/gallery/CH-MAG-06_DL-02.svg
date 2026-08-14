@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Deliveries doubled in a year: 240 loads against 120</text>
+<rect x="208" y="166" width="18" height="18" fill="#008080"/>
+<rect x="230" y="166" width="18" height="18" fill="#008080"/>
+<rect x="252" y="166" width="18" height="18" fill="#008080"/>
+<rect x="274" y="166" width="18" height="18" fill="#008080"/>
+<rect x="296" y="166" width="18" height="18" fill="#008080"/>
+<rect x="318" y="166" width="18" height="18" fill="#008080"/>
+<text x="352" y="175" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">120 loads</text>
+<text x="192" y="175" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">2024</text>
+<rect x="208" y="216" width="18" height="18" fill="#008080"/>
+<rect x="230" y="216" width="18" height="18" fill="#008080"/>
+<rect x="252" y="216" width="18" height="18" fill="#008080"/>
+<rect x="274" y="216" width="18" height="18" fill="#008080"/>
+<rect x="296" y="216" width="18" height="18" fill="#008080"/>
+<rect x="318" y="216" width="18" height="18" fill="#008080"/>
+<rect x="340" y="216" width="18" height="18" fill="#008080"/>
+<rect x="362" y="216" width="18" height="18" fill="#008080"/>
+<rect x="384" y="216" width="18" height="18" fill="#008080"/>
+<rect x="406" y="216" width="18" height="18" fill="#008080"/>
+<rect x="428" y="216" width="18" height="18" fill="#008080"/>
+<rect x="450" y="216" width="18" height="18" fill="#008080"/>
+<text x="484" y="225" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">240</text>
+<text x="192" y="225" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">2025</text>
+<rect x="208" y="266" width="18" height="18" fill="#008080"/>
+<rect x="230" y="266" width="18" height="18" fill="#008080"/>
+<rect x="252" y="266" width="18" height="18" fill="#008080"/>
+<rect x="274" y="266" width="18" height="18" fill="#008080"/>
+<rect x="296" y="266" width="18" height="18" fill="#008080"/>
+<rect x="318" y="266" width="18" height="18" fill="#008080"/>
+<rect x="340" y="266" width="18" height="18" fill="#008080"/>
+<rect x="362" y="266" width="18" height="18" fill="#008080"/>
+<rect x="384" y="266" width="18" height="18" fill="#008080"/>
+<rect x="406" y="266" width="18" height="18" fill="#008080"/>
+<rect x="428" y="266" width="18" height="18" fill="#008080"/>
+<rect x="450" y="266" width="18" height="18" fill="#008080"/>
+<rect x="472" y="266" width="18" height="18" fill="#008080"/>
+<rect x="494" y="266" width="18" height="18" fill="#008080"/>
+<rect x="516" y="266" width="18" height="18" fill="#008080"/>
+<text x="550" y="275" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">300</text>
+<text x="192" y="275" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">2026 plan</text>
+<text x="208" y="314" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">one square = 20 loads</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

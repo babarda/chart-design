@@ -1,0 +1,127 @@
+{
+  "code": "CH-PTW-08",
+  "name": "FUNNEL",
+  "ovp_version": "1.0",
+  "chart_type": "funnel",
+  "meta": {
+    "intent": [
+      "flow",
+      "share"
+    ],
+    "form": "centered decreasing bars with conversion rates",
+    "data_required": "ordered stages where each is a subset of the previous; attrition is the message",
+    "relations": {
+      "family": "PTW",
+      "alternatives": [
+        "CH-FLO-01 (gains and losses, not pure attrition)"
+      ],
+      "see_instead": [
+        {
+          "when": "steps can gain as well as lose",
+          "use": "CH-FLO-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "pipeline attrition: ordered > shipped > cleared > delivered",
+    "conversion reporting with the rate at each step"
+  ],
+  "not_when": [
+    "non-subset stages (waterfall)",
+    "more than 6 stages (aggregate)"
+  ],
+  "data_shape": {
+    "title": "action title naming the widest drop",
+    "source": "bottom-left always",
+    "unit": "on first stage label",
+    "stages": "array of {label, value}, non-increasing"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 240,
+      "right": 720,
+      "top": 140
+    },
+    "row_height": 44,
+    "row_gap": 24,
+    "value_label": {
+      "size": 12
+    }
+  },
+  "scale": {
+    "note": "widths scale to the first stage; conversion % printed between stages"
+  },
+  "rules": [
+    "stages must be non-increasing (validated)",
+    "conversion percentage printed between every pair of stages",
+    "first stage takes primary; the rest recede to muted"
+  ],
+  "roles": {
+    "stage": [
+      "muted"
+    ],
+    "stage_first": [
+      "primary"
+    ],
+    "stage_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "conversion": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "funnel shapes with slanted sides (fake geometry)",
+    "increasing stages",
+    "more than 6 stages"
+  ],
+  "qa": [
+    "stages non-increasing",
+    "conversion rates printed",
+    "stages <= 6",
+    "unit once",
+    "source present"
+  ]
+}

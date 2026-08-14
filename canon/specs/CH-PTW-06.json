@@ -1,0 +1,122 @@
+{
+  "code": "CH-PTW-06",
+  "name": "WAFFLE",
+  "ovp_version": "1.0",
+  "chart_type": "waffle",
+  "meta": {
+    "intent": [
+      "share",
+      "part-to-whole"
+    ],
+    "form": "10x10 unit grid, one share",
+    "data_required": "one percentage of one whole; the most honest single-share visual",
+    "relations": {
+      "family": "PTW",
+      "alternatives": [
+        "CH-PTW-03 (two or three shares)"
+      ],
+      "see_instead": [
+        {
+          "when": "more than one share",
+          "use": "CH-PTW-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "one share communicated with countable units: 62 of every 100",
+    "audiences who distrust abstract charts (units are literal)"
+  ],
+  "not_when": [
+    "multiple shares (stacked bar or pie)",
+    "shares under 3% (invisible cells)"
+  ],
+  "data_shape": {
+    "title": "action title restating the share in units",
+    "source": "bottom-left always",
+    "percent": "0-100",
+    "label": "what the share is of"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "grid": {
+      "x": 96,
+      "y": 140,
+      "cell": 26,
+      "gap": 6
+    },
+    "big": {
+      "offset": 48,
+      "dy": 40,
+      "size": 56
+    }
+  },
+  "scale": {
+    "note": "cells fill bottom-up, left-right; filled = round(percent)"
+  },
+  "rules": [
+    "exactly 100 cells; filled count = rounded percent",
+    "fill bottom-up so the grid reads like a container",
+    "the big number restates the percent beside the grid"
+  ],
+  "roles": {
+    "filled": [
+      "primary"
+    ],
+    "empty": [
+      "panel",
+      "gridline"
+    ],
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "icon waffles (pictogram people)",
+    "multi-color waffles",
+    "partial cells"
+  ],
+  "qa": [
+    "cell count = 100",
+    "filled = round(percent)",
+    "big number matches",
+    "source present"
+  ]
+}

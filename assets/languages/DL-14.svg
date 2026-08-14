@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="48" y="72" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="600" letter-spacing="2">OPEN ITEMS . WEEK 28</text>
+<text x="48" y="112" font-size="34" font-family="Georgia,serif" fill="#0B1F35" font-weight="700">Electrical holds 34 of 109 open items,</text>
+<text x="48" y="152" font-size="34" font-family="Georgia,serif" fill="#0B1F35" font-weight="700">the largest single backlog</text>
+<text x="48" y="182" font-size="15" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400">Proof over persuasion . EVIDENTIA on evidence-led strategy decks</text>
+<svg x="48" y="272.5" width="832" height="234" viewBox="0 100 960 270">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<rect x="208" y="128" width="648" height="32" fill="#2251FF"/>
+<text x="192" y="144" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="600" text-anchor="end" dominant-baseline="middle">Electrical</text>
+<text x="864" y="144" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#0B1F35" font-weight="600" dominant-baseline="middle">34 items</text>
+<rect x="208" y="176" width="533.65" height="32" fill="#A9B4C0"/>
+<text x="192" y="192" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="end" dominant-baseline="middle">Mechanical</text>
+<text x="749.65" y="192" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#0B1F35" font-weight="400" dominant-baseline="middle">28</text>
+<rect x="208" y="224" width="400.24" height="32" fill="#A9B4C0"/>
+<text x="192" y="240" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="end" dominant-baseline="middle">Piping</text>
+<text x="616.24" y="240" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#0B1F35" font-weight="400" dominant-baseline="middle">21</text>
+<rect x="208" y="272" width="324" height="32" fill="#A9B4C0"/>
+<text x="192" y="288" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="end" dominant-baseline="middle">Instrumentation</text>
+<text x="540" y="288" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#0B1F35" font-weight="400" dominant-baseline="middle">17</text>
+<rect x="208" y="320" width="171.53" height="32" fill="#A9B4C0"/>
+<text x="192" y="336" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400" text-anchor="end" dominant-baseline="middle">Civil</text>
+<text x="387.53" y="336" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#0B1F35" font-weight="400" dominant-baseline="middle">9</text>
+<line x1="208" y1="120" x2="208" y2="360" stroke="#C7D0D9" stroke-width="1"/>
+</svg>
+<rect x="912" y="210" width="320" height="72" fill="#FFFFFF" stroke="#C7D0D9" stroke-width="1"/>
+<rect x="912" y="210" width="4" height="72" fill="#2251FF"/>
+<text x="928" y="231" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0B1F35" font-weight="600">So what: one section, one crew.</text>
+<text x="928" y="249" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400">34 items is the lever;</text>
+<text x="928" y="267" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400">everything else is noise.</text>
+<text x="48" y="688" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3C4A5A" font-weight="400">Source: sample dataset v1, 2026-07-12  .  Open Visualization Protocol, DL-14 EVIDENTIA</text>
+</svg>

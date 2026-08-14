@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Piping dwarfs every other backlog</text>
+<circle cx="424.4" cy="297.44" r="86.33" fill="#008080" stroke="#FFFFFF" stroke-width="2"/>
+<text x="424.4" y="293.44" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="600" text-anchor="middle">Piping</text>
+<text x="424.4" y="311.44" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="400" text-anchor="middle">84 items</text>
+<circle cx="570.55" cy="257.84" r="63.88" fill="#B7DCDC" stroke="#FFFFFF" stroke-width="2"/>
+<text x="570.55" y="253.84" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="600" text-anchor="middle">Electrical</text>
+<text x="570.55" y="271.84" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="400" text-anchor="middle">46</text>
+<circle cx="543.31" cy="375.11" r="54.11" fill="#B7DCDC" stroke="#FFFFFF" stroke-width="2"/>
+<text x="543.31" y="371.11" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="600" text-anchor="middle">Instr.</text>
+<text x="543.31" y="389.11" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="400" text-anchor="middle">33</text>
+<circle cx="457.05" cy="425.82" r="44.18" fill="#B7DCDC" stroke="#FFFFFF" stroke-width="2"/>
+<text x="457.05" y="421.82" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="600" text-anchor="middle">Civil</text>
+<text x="457.05" y="439.82" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="400" text-anchor="middle">22</text>
+<circle cx="426" cy="169.96" r="39.96" fill="#B7DCDC" stroke="#FFFFFF" stroke-width="2"/>
+<text x="426" y="165.96" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="600" text-anchor="middle">Mech.</text>
+<text x="426" y="183.96" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="400" text-anchor="middle">18</text>
+<circle cx="490.42" cy="200.06" r="29.79" fill="#B7DCDC" stroke="#FFFFFF" stroke-width="2"/>
+<text x="490.42" y="164.28" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">HVAC 10</text>
+<circle cx="350.49" cy="382.17" r="24.92" fill="#B7DCDC" stroke="#FFFFFF" stroke-width="2"/>
+<text x="350.49" y="351.25" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Paint 7</text>
+<circle cx="393.82" cy="404.85" r="21.06" fill="#B7DCDC" stroke="#FFFFFF" stroke-width="2"/>
+<text x="393.82" y="377.79" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Scaffold 5</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

@@ -1,0 +1,129 @@
+{
+  "code": "CH-FLO-03",
+  "name": "NETWORK",
+  "ovp_version": "1.0",
+  "chart_type": "network",
+  "meta": {
+    "intent": [
+      "flow",
+      "pattern",
+      "correlation"
+    ],
+    "form": "nodes at supplied positions, edges weighted by strength",
+    "data_required": "nodes [{id, at, value}] + edges [{a, b, weight}]; positions are data",
+    "relations": {
+      "family": "FLO",
+      "alternatives": [
+        "CH-FLO-02 (directional volumes)",
+        "CH-TAB-02 (exact adjacency)"
+      ],
+      "see_instead": [
+        {
+          "when": "flows have direction and volume",
+          "use": "CH-FLO-02"
+        },
+        {
+          "when": "exact pairwise values",
+          "use": "CH-TAB-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "dependency and connection structures: who touches whom",
+    "hub-and-spoke risk: the node everything routes through"
+  ],
+  "not_when": [
+    "force-directed layouts (renderer randomness breaks determinism)",
+    "more than ~15 nodes (structure drowns)"
+  ],
+  "data_shape": {
+    "title": "action title naming the hub",
+    "source": "bottom-left always",
+    "unit": "node size unit",
+    "note": "coordinates are author-supplied unit-square (0-100) geometry; the renderer scales, the author owns projection and aspect",
+    "nodes": "[{id, at: [x,y], value, highlight?}]",
+    "edges": "[{a, b, weight}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 140,
+      "right": 820,
+      "top": 120,
+      "bottom": 470
+    },
+    "r_max": 30,
+    "edge_max": 4,
+    "label": {
+      "size": 11
+    }
+  },
+  "rules": [
+    "positions are SUPPLIED: layout is authored once, rendered forever",
+    "node AREA encodes value; edge width encodes weight",
+    "every node labeled with id and value"
+  ],
+  "roles": {
+    "node": [
+      "muted"
+    ],
+    "node_highlight": [
+      "primary"
+    ],
+    "edge": [
+      "hairline"
+    ],
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "force-directed or random layouts",
+    "unlabeled nodes",
+    "edge crossings read as meaning"
+  ],
+  "qa": [
+    "supplied positions only",
+    "area-true nodes",
+    "highlight <= 1",
+    "source present"
+  ]
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Two of six weekly metrics point the wrong way</text>
+<polyline points="240,191 293.33,186.11 346.67,188.56 400,181.22 453.33,176.33 506.67,173.89 560,169" fill="none" stroke="#222222" stroke-width="1.5"/>
+<circle cx="560" cy="169" r="4" fill="#008080"/>
+<text x="572" y="180" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">87%</text>
+<text x="800" y="180" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#339966" font-weight="600" text-anchor="end" dominant-baseline="middle">+9</text>
+<text x="192" y="180" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Delivery OTD</text>
+<polyline points="240,249 293.33,238 346.67,243.5 400,232.5 453.33,232.5 506.67,227 560,227" fill="none" stroke="#222222" stroke-width="1.5"/>
+<circle cx="560" cy="227" r="4" fill="#008080"/>
+<text x="572" y="238" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">92</text>
+<text x="800" y="238" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#339966" font-weight="600" text-anchor="end" dominant-baseline="middle">+4</text>
+<text x="192" y="238" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Test pass rate</text>
+<polyline points="240,285 293.33,287.44 346.67,292.33 400,294.78 453.33,299.67 506.67,304.56 560,307" fill="none" stroke="#222222" stroke-width="1.5"/>
+<circle cx="560" cy="307" r="4" fill="#008080"/>
+<text x="572" y="296" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">71</text>
+<text x="800" y="296" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#D63A2F" font-weight="600" text-anchor="end" dominant-baseline="middle">-9</text>
+<text x="192" y="296" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Docs on time</text>
+<polyline points="240,365 293.33,361.53 346.67,356.89 400,358.05 453.33,352.26 506.67,347.63 560,343" fill="none" stroke="#222222" stroke-width="1.5"/>
+<circle cx="560" cy="343" r="4" fill="#008080"/>
+<text x="572" y="354" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">74</text>
+<text x="800" y="354" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#339966" font-weight="600" text-anchor="end" dominant-baseline="middle">+19</text>
+<text x="192" y="354" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Punch closure</text>
+<polyline points="240,401 293.33,401 346.67,408.33 400,408.33 453.33,415.67 506.67,415.67 560,423" fill="none" stroke="#222222" stroke-width="1.5"/>
+<circle cx="560" cy="423" r="4" fill="#008080"/>
+<text x="572" y="412" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">6</text>
+<text x="800" y="412" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#339966" font-weight="600" text-anchor="end" dominant-baseline="middle">-3</text>
+<text x="192" y="412" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Rework share</text>
+<polyline points="240,481 293.33,477.33 346.67,477.33 400,473.67 453.33,470 506.67,462.67 560,459" fill="none" stroke="#222222" stroke-width="1.5"/>
+<circle cx="560" cy="459" r="4" fill="#008080"/>
+<text x="572" y="470" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">12</text>
+<text x="800" y="470" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#D63A2F" font-weight="600" text-anchor="end" dominant-baseline="middle">+6</text>
+<text x="192" y="470" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Overtime share</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

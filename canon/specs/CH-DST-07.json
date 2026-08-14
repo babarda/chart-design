@@ -1,0 +1,147 @@
+{
+  "code": "CH-DST-07",
+  "name": "BEESWARM",
+  "ovp_version": "1.0",
+  "chart_type": "beeswarm",
+  "meta": {
+    "intent": [
+      "distribution",
+      "outlier-detection"
+    ],
+    "form": "one dot per item packed without overlap along a value axis",
+    "data_required": "one pooled group of up to ~60 items, each individually meaningful",
+    "relations": {
+      "family": "DST",
+      "alternatives": [
+        "CH-DST-03 (values split by category)",
+        "CH-DST-01 (larger samples)"
+      ],
+      "see_instead": [
+        {
+          "when": "values split across categories",
+          "use": "CH-DST-03"
+        },
+        {
+          "when": "too many items to name",
+          "use": "CH-DST-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "every item matters and outliers deserve a name",
+    "one pooled distribution where density and gaps are the story"
+  ],
+  "not_when": [
+    "more than ~60 items (CH-DST-01)",
+    "several categories compared (CH-DST-03)"
+  ],
+  "data_shape": {
+    "title": "action title naming the outlier",
+    "source": "bottom-left always",
+    "unit": "on the top axis tick and the highlight label",
+    "points": "array of {label, value, highlight?}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 120,
+      "right": 820
+    },
+    "center_y": 300,
+    "axis_y": 430,
+    "dot_r": 6,
+    "point_label": {
+      "size": 12,
+      "offset": 8
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 18
+    }
+  },
+  "scale": {
+    "x_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "deterministic packing: values sorted, first free lane out from the",
+    "center; no random jitter, ever",
+    "the highlight dot is labeled with name and value; nothing else is",
+    "zero-based value axis below the swarm"
+  ],
+  "roles": {
+    "dot": [
+      "muted"
+    ],
+    "dot_highlight": [
+      "primary"
+    ],
+    "label": [
+      "ink"
+    ],
+    "baseline": [
+      "ink"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "random jitter",
+    "labeling every dot",
+    "sized dots (use CH-COR-02)",
+    "more than ~60 points"
+  ],
+  "qa": [
+    "packing deterministic",
+    "highlight <= 1 and labeled",
+    "zero-based axis",
+    "unit once",
+    "source present"
+  ]
+}

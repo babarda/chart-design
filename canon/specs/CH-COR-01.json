@@ -1,0 +1,164 @@
+{
+  "code": "CH-COR-01",
+  "name": "SCATTER",
+  "ovp_version": "1.0",
+  "chart_type": "scatter",
+  "meta": {
+    "intent": [
+      "correlation",
+      "outlier-detection"
+    ],
+    "form": "scatter plot, labeled points",
+    "data_required": "entities with two numeric measures; under ~20 points if labeled",
+    "relations": {
+      "family": "COR",
+      "alternatives": [
+        "CH-COR-02 (bubble, adds a size measure)",
+        "CH-COR-03 (XY heatmap for dense grids)"
+      ],
+      "see_instead": [
+        {
+          "when": "a third measure matters",
+          "use": "CH-COR-02"
+        },
+        {
+          "when": "hundreds of points",
+          "use": "CH-COR-03"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "how two measures relate across entities",
+    "finding the outlier (the point the title talks about)",
+    "up to ~20 labeled points"
+  ],
+  "not_when": [
+    "time is one of the axes (use CH-TIM-01)",
+    "hundreds of points (labels collapse; use CH-COR-03)",
+    "one measure only (use CH-RNK-01)"
+  ],
+  "data_shape": {
+    "title": "string, action title naming the outlier or the relationship with numbers",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit_x": "string appended to the max x tick",
+    "unit_y": "string appended to the max y tick",
+    "points": "array of {label, x >= 0, y >= 0, highlight?}, one highlight max"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 856,
+      "top": 128,
+      "bottom": 440
+    },
+    "dot_r": 6,
+    "bubble_max_r": 28,
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "point_label": {
+      "size": 11,
+      "offset": 8
+    }
+  },
+  "scale": {
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "both axes: FN-05 nice-scale from each axis max"
+  },
+  "rules": [
+    "both axes start at zero; both use the FN-05 tick algorithm",
+    "every point labeled directly (this entry caps at ~20 points, so labels fit)",
+    "one highlight maximum: role primary with ink label; the rest muted",
+    "gridlines both directions, hairline zero lines",
+    "units once per axis, on the max tick"
+  ],
+  "roles": {
+    "point": [
+      "muted"
+    ],
+    "point_highlight": [
+      "primary"
+    ],
+    "label": [
+      "body"
+    ],
+    "label_highlight": [
+      "ink"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "trend lines without stating the fit (no silent regressions)",
+    "color-coded groups without direct labels",
+    "log scales without declaring them",
+    "point clouds too dense to label (wrong entry)"
+  ],
+  "qa": [
+    "both axes at zero with algorithmic ticks",
+    "every point labeled",
+    "highlight count <= 1",
+    "units once per axis",
+    "title names the outlier or relationship with numbers",
+    "source line present bottom-left"
+  ]
+}

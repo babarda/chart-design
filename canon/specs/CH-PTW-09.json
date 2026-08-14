@@ -1,0 +1,117 @@
+{
+  "code": "CH-PTW-09",
+  "name": "SUNBURST",
+  "ovp_version": "1.0",
+  "chart_type": "sunburst",
+  "meta": {
+    "intent": [
+      "part-to-whole",
+      "composition"
+    ],
+    "form": "two concentric rings: groups inside, children outside",
+    "data_required": "a strict 2-level hierarchy: 2-4 groups, 2-4 children each",
+    "relations": {
+      "family": "PTW",
+      "alternatives": [
+        "CH-PTW-05 (one level, honest areas)",
+        "CH-PTW-01 (few parts, exact)"
+      ],
+      "see_instead": [
+        {
+          "when": "one level of hierarchy",
+          "use": "CH-PTW-05"
+        },
+        {
+          "when": "shares must be compared precisely",
+          "use": "CH-PTW-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "WARN: only when a 2-level whole must be shown in one figure",
+    "hierarchical composition where both levels matter at once"
+  ],
+  "not_when": [
+    "angle comparison across rings (humans cannot)",
+    "more than 2 levels (unreadable)",
+    "small shares (labels vanish)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "share unit",
+    "groups": "[{name, children: [{name, value}]}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "cx": 430,
+    "cy": 320,
+    "r_hole": 55,
+    "r_inner": 110,
+    "r_outer": 175,
+    "label": {
+      "size": 11,
+      "offset": 10
+    }
+  },
+  "rules": [
+    "exactly two rings; children sum to their group",
+    "shares printed on outer labels; tiny slices stay silent",
+    "groups colored by the monochrome ramp, children by a lighter mix"
+  ],
+  "roles": {
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "WARN ENTRY: a treemap (CH-PTW-05) answers the same question with readable areas",
+    "3+ rings",
+    "rainbow slices",
+    "donut-hole KPIs stuffed in the middle"
+  ],
+  "qa": [
+    "two rings exactly",
+    "children sum to groups",
+    "shares printed where they fit",
+    "source present"
+  ]
+}

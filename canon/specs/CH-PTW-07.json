@@ -1,0 +1,149 @@
+{
+  "code": "CH-PTW-07",
+  "name": "MARIMEKKO",
+  "ovp_version": "1.0",
+  "chart_type": "marimekko",
+  "meta": {
+    "intent": [
+      "part-to-whole",
+      "composition",
+      "magnitude"
+    ],
+    "form": "100% stacked columns whose widths carry a second total",
+    "data_required": "2-6 categories with a total each, split into 2-4 shared segments",
+    "relations": {
+      "family": "PTW",
+      "alternatives": [
+        "CH-PTW-02 (equal widths)",
+        "CH-PTW-05 (one level, area only)"
+      ],
+      "see_instead": [
+        {
+          "when": "column totals are close to equal",
+          "use": "CH-PTW-02"
+        },
+        {
+          "when": "only one dimension splits",
+          "use": "CH-PTW-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "two composition questions at once: how big is each category, and how does each split",
+    "market or spend maps where width = size and height = share"
+  ],
+  "not_when": [
+    "audiences reading it for the first time without a walkthrough",
+    "more than 6 columns or 4 segments (it becomes a mosaic of noise)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first column total",
+    "segment_names": "2-4 names, shared by every column",
+    "columns": "[{label, segments: [values]}], width = column total"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 856,
+      "top": 150,
+      "bottom": 430
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "value_label": {
+      "size": 11
+    },
+    "segment_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "rules": [
+    "column width proportional to its total; heights are per-column shares",
+    "segment names labeled on the first column, never a legend",
+    "share printed in cells that fit; small cells stay silent",
+    "column totals printed under the labels"
+  ],
+  "roles": {
+    "segments": [
+      [
+        "primary"
+      ],
+      [
+        "muted"
+      ],
+      [
+        "benchmark",
+        "hairline"
+      ],
+      [
+        "gridline"
+      ]
+    ],
+    "x_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "baseline": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "more than 6x4 cells",
+    "legends",
+    "3D mosaic effects",
+    "widths not proportional to totals"
+  ],
+  "qa": [
+    "width = total, height = share",
+    "segments named once",
+    "totals printed",
+    "unit once",
+    "source present"
+  ]
+}

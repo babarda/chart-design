@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Gate B hides two clusters behind one median</text>
+<polygon points="208,203 279.5,199 351,189 422.5,177 494,187 565.5,197 637,201 708.5,203 780,205 780,205 708.5,207 637,209 565.5,213 494,223 422.5,233 351,221 279.5,211 208,207" fill="#B7DCDC"/>
+<line x1="422.5" y1="177" x2="422.5" y2="233" stroke="#008080" stroke-width="2.5"/>
+<text x="192" y="205" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Gate A</text>
+<text x="792" y="205" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">median 15 days</text>
+<polygon points="208,279 279.5,271 351,283 422.5,287 494,285 565.5,281 637,273 708.5,279 780,289 780,293 708.5,303 637,309 565.5,301 494,297 422.5,295 351,299 279.5,311 208,303" fill="#B7DCDC"/>
+<line x1="422.5" y1="287" x2="422.5" y2="295" stroke="#008080" stroke-width="2.5"/>
+<text x="192" y="291" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Gate B</text>
+<text x="792" y="291" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">15</text>
+<polygon points="208,373 279.5,369 351,365 422.5,361 494,361 565.5,361 637,365 708.5,369 780,373 780,381 708.5,385 637,389 565.5,393 494,393 422.5,393 351,389 279.5,385 208,381" fill="#B7DCDC"/>
+<line x1="494" y1="361" x2="494" y2="393" stroke="#008080" stroke-width="2.5"/>
+<text x="192" y="377" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Gate C</text>
+<text x="792" y="377" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">20</text>
+<line x1="208" y1="424" x2="780" y2="424" stroke="#222222" stroke-width="1"/>
+<line x1="208" y1="424" x2="208" y2="428" stroke="#222222" stroke-width="1"/>
+<text x="208" y="442" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0</text>
+<line x1="351" y1="424" x2="351" y2="428" stroke="#222222" stroke-width="1"/>
+<text x="351" y="442" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">10</text>
+<line x1="494" y1="424" x2="494" y2="428" stroke="#222222" stroke-width="1"/>
+<text x="494" y="442" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">20</text>
+<line x1="637" y1="424" x2="637" y2="428" stroke="#222222" stroke-width="1"/>
+<text x="637" y="442" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">30</text>
+<line x1="780" y1="424" x2="780" y2="428" stroke="#222222" stroke-width="1"/>
+<text x="780" y="442" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">40days</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: document register, H1; KDE bandwidth 2.5 days</text>
+</svg>

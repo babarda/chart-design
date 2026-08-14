@@ -1,0 +1,142 @@
+{
+  "code": "CH-DST-03",
+  "name": "DOT STRIP",
+  "ovp_version": "1.0",
+  "chart_type": "strip",
+  "meta": {
+    "intent": [
+      "distribution",
+      "comparison"
+    ],
+    "form": "every raw value as a dot on one shared scale, one strip per category",
+    "data_required": "3+ raw values per category, few enough to plot individually (<= ~30 per row)",
+    "relations": {
+      "family": "DST",
+      "alternatives": [
+        "CH-DST-07 (one pooled swarm)",
+        "CH-DST-04 (5-number summary)"
+      ],
+      "see_instead": [
+        {
+          "when": "one pooled group, outliers by name",
+          "use": "CH-DST-07"
+        },
+        {
+          "when": "too many points to draw raw",
+          "use": "CH-DST-04"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "small samples where every raw value can be shown honestly",
+    "comparing spread and overlap across a few categories"
+  ],
+  "not_when": [
+    "hundreds of points per row (CH-DST-04 summarizes)",
+    "two paired measures per category (CH-DST-02)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on the top axis tick",
+    "categories": "array of {label, values: [raw values], highlight?}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 800,
+      "top": 160
+    },
+    "row_height": 36,
+    "row_gap": 22,
+    "dot_r": 5,
+    "tick_label": {
+      "size": 11,
+      "offset": 18
+    },
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    }
+  },
+  "scale": {
+    "x_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "raw values only: no jitter, overlaps are information",
+    "shared zero-based scale across all strips",
+    "highlight bolds the category label, dots stay one role"
+  ],
+  "roles": {
+    "dot": [
+      "primary"
+    ],
+    "baseline": [
+      "ink"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "random jitter (breaks determinism and honesty)",
+    "per-row scales",
+    "summarizing away the raw values"
+  ],
+  "qa": [
+    ">= 3 values per row",
+    "shared scale",
+    "unit once",
+    "source present"
+  ]
+}

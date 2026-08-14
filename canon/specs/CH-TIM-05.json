@@ -1,0 +1,140 @@
+{
+  "code": "CH-TIM-05",
+  "name": "SLOPE",
+  "ovp_version": "1.0",
+  "chart_type": "slope",
+  "meta": {
+    "intent": [
+      "change-over-time",
+      "comparison"
+    ],
+    "form": "two-point lines between two periods",
+    "data_required": "categories with a value at exactly two periods; direction and crossing are the message",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-DEV-02 (horizontal reading)"
+      ],
+      "see_instead": [
+        {
+          "when": "more than two periods",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "year-over-year or before/after across categories",
+    "showing who improved, who declined, who crossed whom"
+  ],
+  "not_when": [
+    "more than two periods (CH-TIM-01)",
+    "many categories (lines tangle; cap at 7)"
+  ],
+  "data_shape": {
+    "title": "action title naming the fastest mover",
+    "source": "bottom-left always",
+    "periods": "[left_label, right_label]",
+    "categories": "array of {label, a, b, highlight?}, 7 max"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 300,
+      "right": 660,
+      "top": 140,
+      "bottom": 460
+    },
+    "period_label": {
+      "size": 10,
+      "offset": 16
+    },
+    "line_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "scale": {
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "note": "y scales 0 to nice max; both axes drawn as hairlines"
+  },
+  "rules": [
+    "labels carry name + value on the left, value on the right; never a legend",
+    "one highlight maximum",
+    "7 lines maximum"
+  ],
+  "roles": {
+    "axis": [
+      "hairline"
+    ],
+    "period_label": [
+      "body"
+    ],
+    "slope": [
+      "muted"
+    ],
+    "slope_highlight": [
+      "primary"
+    ],
+    "label": [
+      "body"
+    ],
+    "label_highlight": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "more than 7 lines",
+    "legends",
+    "curved connectors"
+  ],
+  "qa": [
+    "categories <= 7",
+    "both ends labeled",
+    "highlight <= 1",
+    "source present"
+  ]
+}

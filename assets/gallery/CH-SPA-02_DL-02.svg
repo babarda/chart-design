@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">The port yard holds half of all stored items</text>
+<polygon points="192,129 516,117.6 552,205 372,231.6 177.6,216.4" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="2"/>
+<polygon points="177.6,216.4 372,231.6 336,338 156,330.4" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="2"/>
+<polygon points="372,231.6 552,205 609.6,300 336,338" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="2"/>
+<polygon points="552,205 782.4,186 804,319 609.6,300" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="2"/>
+<polygon points="336,338 609.6,300 804,319 768,452 300,444.4" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="696" cy="224" r="42" fill="#008080" fill-opacity="0.8" stroke="#008080" stroke-width="1.5"/>
+<text x="696" y="176" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">Port yard  6400 items</text>
+<circle cx="444" cy="262" r="20.33" fill="#B7DCDC" fill-opacity="0.8" stroke="#B7DCDC" stroke-width="1.5"/>
+<text x="444" y="235.67" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Yard B  1500</text>
+<circle cx="300" cy="281" r="15.75" fill="#B7DCDC" fill-opacity="0.8" stroke="#B7DCDC" stroke-width="1.5"/>
+<text x="300" y="259.25" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Yard C  900</text>
+<circle cx="516" cy="395" r="22.27" fill="#B7DCDC" fill-opacity="0.8" stroke="#B7DCDC" stroke-width="1.5"/>
+<text x="516" y="366.73" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">South store  1800</text>
+<circle cx="336" cy="167" r="12.86" fill="#B7DCDC" fill-opacity="0.8" stroke="#B7DCDC" stroke-width="1.5"/>
+<text x="336" y="148.14" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">North bins  600</text>
+<circle cx="206.4" cy="300" r="9.09" fill="#B7DCDC" fill-opacity="0.8" stroke="#B7DCDC" stroke-width="1.5"/>
+<text x="206.4" y="284.91" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">West dump  300</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

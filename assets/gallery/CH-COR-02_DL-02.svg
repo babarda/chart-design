@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">System D compounds the deepest backlog with the largest budget</text>
+<line x1="96" y1="440" x2="856" y2="440" stroke="#E2E8E8" stroke-width="1"/>
+<text x="84" y="440" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="362" x2="856" y2="362" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="362" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="284" x2="856" y2="284" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="284" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="206" x2="856" y2="206" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="206" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">60</text>
+<line x1="96" y1="128" x2="856" y2="128" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">80</text>
+<line x1="96" y1="128" x2="96" y2="440" stroke="#E2E8E8" stroke-width="1"/>
+<text x="96" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0</text>
+<line x1="248" y1="128" x2="248" y2="440" stroke="#EAEAEA" stroke-width="1"/>
+<text x="248" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">20</text>
+<line x1="400" y1="128" x2="400" y2="440" stroke="#EAEAEA" stroke-width="1"/>
+<text x="400" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">40</text>
+<line x1="552" y1="128" x2="552" y2="440" stroke="#EAEAEA" stroke-width="1"/>
+<text x="552" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">60</text>
+<line x1="704" y1="128" x2="704" y2="440" stroke="#EAEAEA" stroke-width="1"/>
+<text x="704" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">80</text>
+<line x1="856" y1="128" x2="856" y2="440" stroke="#EAEAEA" stroke-width="1"/>
+<text x="856" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">100%</text>
+<circle cx="795.2" cy="393.2" r="20.68" fill="#B7DCDC"/>
+<text x="823.88" y="393.2" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">A</text>
+<circle cx="764.8" cy="369.8" r="17.71" fill="#B7DCDC"/>
+<text x="790.51" y="369.8" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">B</text>
+<circle cx="658.4" cy="342.5" r="16.02" fill="#B7DCDC"/>
+<text x="682.42" y="342.5" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">C</text>
+<circle cx="407.6" cy="194.3" r="28" fill="#008080"/>
+<text x="443.6" y="194.3" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">D</text>
+<circle cx="597.6" cy="319.1" r="19.25" fill="#B7DCDC"/>
+<text x="624.85" y="319.1" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">E</text>
+<circle cx="704" cy="354.2" r="16.88" fill="#B7DCDC"/>
+<text x="728.88" y="354.2" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">F</text>
+<circle cx="536.8" cy="291.8" r="22.01" fill="#B7DCDC"/>
+<text x="566.81" y="291.8" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">G</text>
+<circle cx="628" cy="338.6" r="18.5" fill="#B7DCDC"/>
+<text x="654.5" y="338.6" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">H</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

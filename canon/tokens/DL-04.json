@@ -1,0 +1,112 @@
+{
+  "code": "DL-04",
+  "name": "SHILPA",
+  "aka": "BLUEPRINT",
+  "ovp_version": "1.1",
+  "status": "adopted",
+  "philosophy": {
+    "civilization": "India",
+    "principle": "Craftsmanship and structure",
+    "motto": "Craft every detail.",
+    "laws": [
+      "Precision before aesthetics",
+      "Standards are sacred",
+      "Components align",
+      "Geometry is functional",
+      "IDs remain machine-readable"
+    ],
+    "related": [
+      "Techne",
+      "Canon"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "evidence-first",
+    "density": "scientific",
+    "annotation_policy": "full",
+    "legend_policy": "level-key-allowed",
+    "highlight_policy": "single",
+    "decision_style": "options",
+    "reading_time": "session",
+    "charts_per_page": 4
+  },
+  "voice": {
+    "stance": "The procedure writer. SHILPA treats words as components: standardized, interchangeable, machine-readable. Every noun is the defined term, every instruction is one sentence, every value carries its unit. Ambiguity in a procedure is not a style problem, it is a safety problem.",
+    "register": "technical, impersonal",
+    "mood": "imperative in steps",
+    "hedging": "banned; state the tolerance instead",
+    "sentence_max_words": 16,
+    "title_max_words": 12,
+    "title_grammar": "Noun phrase, identifier first, revision visible.",
+    "title_example": "JB-4102 termination sequence, revision C",
+    "do": [
+      {
+        "rule": "Put the identifier and the unit on every value.",
+        "why": "45 Nm at JB-4102 survives being photocopied out of context."
+      },
+      {
+        "rule": "Use the imperative for steps: verify, torque, record.",
+        "why": "The reader executes, so the verb is the instruction."
+      },
+      {
+        "rule": "Define a term once, then reuse it word for word.",
+        "why": "Two names for one part read as two parts."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "Never use a pronoun where an identifier fits.",
+        "why": "\"It\" is the most dangerous word in a procedure."
+      },
+      {
+        "rule": "No approximation words.",
+        "why": "\"Tighten properly\" cannot be inspected. A tolerance can."
+      },
+      {
+        "rule": "No stylistic variation between sections.",
+        "why": "Identical structure lets a technician find step 7 without reading steps 1 to 6."
+      }
+    ],
+    "contrast": {
+      "generic": "Make sure the cables are properly connected and everything is in order before proceeding with testing.",
+      "voiced": "Verify gland torque at JB-4102 terminals 1 to 12 (45 Nm) before the insulation test. Record the result in form CT-07."
+    }
+  },
+  "occasions": [
+    "technical packs",
+    "procedures",
+    "job cards",
+    "commissioning annexes"
+  ],
+  "palette": {
+    "background": "#FBFDFF",
+    "panel": "#EDF3F7",
+    "ink": "#143D59",
+    "body": "#33424E",
+    "hairline": "#C6D5E0",
+    "gridline": "#E7EEF4",
+    "primary": "#1B6E8F",
+    "muted": "#C6D5E0",
+    "positive": "#2E6E4E",
+    "negative": "#9E2B25",
+    "warning": "#B54708"
+  },
+  "fonts": {
+    "display": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 600
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    },
+    "mono": {
+      "family": "Consolas,monospace",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

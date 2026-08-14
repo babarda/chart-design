@@ -1,0 +1,164 @@
+{
+  "code": "CH-PTW-01",
+  "name": "STACKED BAR",
+  "ovp_version": "1.0",
+  "chart_type": "bar_v_stacked",
+  "meta": {
+    "intent": [
+      "part-to-whole",
+      "composition",
+      "change-over-time"
+    ],
+    "form": "vertical stacked bar",
+    "data_required": "ordered categories + 2 to 4 additive segments per category",
+    "relations": {
+      "family": "PTW",
+      "alternatives": [
+        "CH-PTW-02 (100% stacked)",
+        "CH-PTW-05 (treemap, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "shares matter more than totals",
+          "use": "CH-PTW-02"
+        },
+        {
+          "when": "only one measure per category",
+          "use": "CH-MAG-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "how a total splits, tracked across periods or categories",
+    "2 to 4 additive segments",
+    "the total AND the mix both matter"
+  ],
+  "not_when": [
+    "shares only (use CH-PTW-02, 100% stacked)",
+    "more than 4 segments (aggregate or use small multiples)",
+    "segments that are not additive parts of a real total"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the finding with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit": "string, appears once, on the first total label",
+    "x": "array of ordered category labels",
+    "series": "array of {name, values[] same length as x}, stacked bottom-up in given order, 4 max"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 64,
+      "right": 780,
+      "top": 144,
+      "bottom": 432
+    },
+    "bar_width": 56,
+    "value_label": {
+      "size": 13,
+      "offset": 8
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "segment_label": {
+      "size": 11,
+      "offset": 16
+    }
+  },
+  "scale": {
+    "normalize": false,
+    "note": "columns scale to the max total; direct total labels, no axis"
+  },
+  "rules": [
+    "segments stack bottom-up in the given order, first segment is the story's key part",
+    "total labeled above each column; unit once on the first total",
+    "segments identified by swatch + name at the last column, never a legend",
+    "4 segments maximum",
+    "bars start at zero, always"
+  ],
+  "roles": {
+    "segments": [
+      [
+        "primary"
+      ],
+      [
+        "muted"
+      ],
+      [
+        "benchmark",
+        "hairline"
+      ],
+      [
+        "gridline"
+      ]
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "segment_label": [
+      "body"
+    ],
+    "baseline": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "legend boxes",
+    "more than 4 segments",
+    "stacking non-additive measures",
+    "3D depth",
+    "rainbow segment colors"
+  ],
+  "qa": [
+    "segments <= 4",
+    "totals labeled, unit once",
+    "segment names at last column, no legend",
+    "baseline at zero",
+    "title states a finding with a number",
+    "source line present bottom-left"
+  ]
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="48" y="112" font-size="34" font-family="'EB Garamond',Georgia,serif" fill="#1A1A1A" font-weight="600">Forecast lands 18 points over budget;</text>
+<text x="48" y="152" font-size="34" font-family="'EB Garamond',Georgia,serif" fill="#1A1A1A" font-weight="600">logistics drives two thirds of the overrun</text>
+<text x="48" y="182" font-size="15" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400">Lead with wisdom . AGRAW on board packs</text>
+<svg x="48" y="204.03" width="832" height="370.93" viewBox="0 92 960 428">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<rect x="105.33" y="199.74" width="56" height="232.26" fill="#1A1A1A"/>
+<text x="133.33" y="191.74" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">100 pts</text>
+<rect x="244" y="171.87" width="56" height="27.87" fill="#8B1E1E"/>
+<text x="272" y="163.87" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">+12</text>
+<rect x="382.67" y="153.29" width="56" height="18.58" fill="#8B1E1E"/>
+<text x="410.67" y="145.29" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">+8</text>
+<rect x="521.33" y="144" width="56" height="9.29" fill="#8B1E1E"/>
+<text x="549.33" y="136" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">+4</text>
+<rect x="660" y="144" width="56" height="13.94" fill="#2E6E4E"/>
+<text x="688" y="136" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="400" text-anchor="middle">-6</text>
+<rect x="798.67" y="157.94" width="56" height="274.06" fill="#1A1A1A"/>
+<text x="826.67" y="149.94" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="600" text-anchor="middle">118</text>
+<line x1="161.33" y1="199.74" x2="244" y2="199.74" stroke="#D8D5CE" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="300" y1="171.87" x2="382.67" y2="171.87" stroke="#D8D5CE" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="438.67" y1="153.29" x2="521.33" y2="153.29" stroke="#D8D5CE" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="577.33" y1="144" x2="660" y2="144" stroke="#D8D5CE" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="716" y1="157.94" x2="798.67" y2="157.94" stroke="#D8D5CE" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="133.33" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">Budget</text>
+<text x="272" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">Logistics</text>
+<text x="410.67" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">Rework</text>
+<text x="549.33" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">FX</text>
+<text x="688" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">Scope savings</text>
+<text x="826.67" y="452" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400" text-anchor="middle">Forecast</text>
+<line x1="64" y1="432" x2="896" y2="432" stroke="#D8D5CE" stroke-width="1"/>
+</svg>
+<rect x="912" y="204" width="200" height="92" fill="#FAFAF7" stroke="#D8D5CE" stroke-width="1"/>
+<text x="926" y="228" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="600" letter-spacing="1">FORECAST</text>
+<text x="926" y="262" font-size="32" font-family="'Segoe UI',Arial,sans-serif" fill="#008080" font-weight="600">118 pts</text>
+<text x="926" y="282" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#8B1E1E" font-weight="400">+18 vs budget</text>
+<rect x="912" y="316" width="320" height="72" fill="#FAFAF7" stroke="#D8D5CE" stroke-width="1"/>
+<rect x="912" y="316" width="4" height="72" fill="#008080"/>
+<text x="928" y="337" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#1A1A1A" font-weight="600">Decision asked of the board:</text>
+<text x="928" y="355" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400">resequence to recover 8 points;</text>
+<text x="928" y="373" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400">logistics carries two thirds.</text>
+<text x="48" y="688" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3D3D3D" font-weight="400">Source: sample dataset v1, 2026-07-12  .  Open Visualization Protocol, DL-01 AGRAW</text>
+</svg>

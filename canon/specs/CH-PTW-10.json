@@ -1,0 +1,122 @@
+{
+  "code": "CH-PTW-10",
+  "name": "CIRCLE PACK",
+  "ovp_version": "1.0",
+  "chart_type": "circle_pack",
+  "meta": {
+    "intent": [
+      "part-to-whole",
+      "magnitude"
+    ],
+    "form": "nested-look circle cluster, AREA proportional to value",
+    "data_required": "3-12 positive values where an organic cluster beats a grid",
+    "relations": {
+      "family": "PTW",
+      "alternatives": [
+        "CH-PTW-05 (same data, readable rectangles)",
+        "CH-RNK-01 (exact ranking)"
+      ],
+      "see_instead": [
+        {
+          "when": "areas must be compared",
+          "use": "CH-PTW-05"
+        },
+        {
+          "when": "rank matters",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "WARN: editorial openers where an organic cluster invites exploration",
+    "one-off overviews where precision is explicitly not the point"
+  ],
+  "not_when": [
+    "comparing circle areas (worse than rectangles, much worse than bars)",
+    "any recurring report (the pack layout shifts as values change)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on the largest circle",
+    "categories": "[{label, value, highlight?}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 240,
+      "right": 720,
+      "top": 130,
+      "bottom": 470
+    },
+    "r_max": 110,
+    "name_label": {
+      "size": 12
+    }
+  },
+  "rules": [
+    "deterministic spiral packing, published algorithm; no random layouts",
+    "labels inside circles that fit, above the rim otherwise",
+    "one highlight maximum"
+  ],
+  "roles": {
+    "cell": [
+      "muted"
+    ],
+    "cell_highlight": [
+      "primary"
+    ],
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "WARN ENTRY: circle areas are the least readable encoding that still counts as a chart; CH-PTW-05 whenever anyone must compare",
+    "random or physics layouts",
+    "nesting deeper than one level"
+  ],
+  "qa": [
+    "deterministic layout",
+    "values printed where circles fit",
+    "highlight <= 1",
+    "source present"
+  ]
+}

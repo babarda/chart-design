@@ -1,0 +1,152 @@
+{
+  "code": "CH-TIM-10",
+  "name": "CONNECTED SCATTER",
+  "ovp_version": "1.0",
+  "chart_type": "scatter",
+  "meta": {
+    "intent": [
+      "change-over-time",
+      "correlation"
+    ],
+    "form": "scatter with points connected in time order",
+    "data_required": "one entity, two measures, several periods; the trajectory is the message",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-01 (one measure over time)"
+      ],
+      "see_instead": [
+        {
+          "when": "many entities at one moment",
+          "use": "CH-COR-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "trajectories: cost vs output, price vs volume, risk vs progress over years",
+    "showing that the RELATIONSHIP moved, not just each measure"
+  ],
+  "not_when": [
+    "many entities (CH-COR-01)",
+    "audiences unfamiliar with the form (it needs a walkthrough)"
+  ],
+  "data_shape": {
+    "title": "action title stating the trajectory with numbers",
+    "source": "bottom-left always",
+    "unit_x": "on max x tick",
+    "unit_y": "on max y tick",
+    "points": "array of {label (period), x, y, highlight?} in TIME ORDER"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 856,
+      "top": 128,
+      "bottom": 440
+    },
+    "dot_r": 6,
+    "bubble_max_r": 28,
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "point_label": {
+      "size": 11,
+      "offset": 8
+    }
+  },
+  "scale": {
+    "connect": true,
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "axes as CH-COR-01; a muted trail connects points in data order"
+  },
+  "rules": [
+    "points connect in data (time) order; the trail is muted, points labeled by period",
+    "highlight the latest point",
+    "both axes zero-based with algorithmic ticks"
+  ],
+  "roles": {
+    "point": [
+      "muted"
+    ],
+    "point_highlight": [
+      "primary"
+    ],
+    "label": [
+      "body"
+    ],
+    "label_highlight": [
+      "ink"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "arrows on every segment",
+    "smoothing the trail",
+    "unlabeled periods"
+  ],
+  "qa": [
+    "points in time order",
+    "every point labeled with its period",
+    "latest point highlighted",
+    "source present"
+  ]
+}

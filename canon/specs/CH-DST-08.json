@@ -1,0 +1,158 @@
+{
+  "code": "CH-DST-08",
+  "name": "VIOLIN",
+  "ovp_version": "1.0",
+  "chart_type": "violin",
+  "meta": {
+    "intent": [
+      "distribution"
+    ],
+    "form": "mirrored density silhouette per category with a median tick",
+    "data_required": "categories with a DECLARED density curve (grid + densities) and median",
+    "relations": {
+      "family": "DST",
+      "alternatives": [
+        "CH-DST-04 (quartile summary)",
+        "CH-DST-03 (raw values)",
+        "CH-DST-09 (one unmirrored curve)"
+      ],
+      "see_instead": [
+        {
+          "when": "the audience is not statistical",
+          "use": "CH-DST-04"
+        },
+        {
+          "when": "few enough values to show raw",
+          "use": "CH-DST-03"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "statistical audiences comparing multimodal shapes that a box hides",
+    "the density curve is already computed and declared, with its bandwidth"
+  ],
+  "not_when": [
+    "general audiences (violins are widely misread: prefer CH-DST-04 or",
+    "CH-DST-03)",
+    "small samples (a violin smooths noise into false shape)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always, must state the density bandwidth",
+    "unit": "on first median label",
+    "categories": "array of {label, grid: ascending values, density, median}",
+    "note": "densities are DECLARED inputs; OVP never runs a silent KDE"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 780,
+      "top": 170
+    },
+    "row_height": 70,
+    "row_gap": 16,
+    "half_height": 28,
+    "tick_label": {
+      "size": 11,
+      "offset": 18
+    },
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 11,
+      "offset": 12
+    }
+  },
+  "scale": {
+    "x_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "densities are supplied, never computed silently; the source line",
+    "states the bandwidth",
+    "global normalization: silhouette heights comparable across rows",
+    "median tick spans the silhouette at its position",
+    "shared zero-based value scale"
+  ],
+  "roles": {
+    "violin": [
+      "muted"
+    ],
+    "median": [
+      "primary"
+    ],
+    "baseline": [
+      "ink"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "violins for general audiences",
+    "silent KDE with hidden bandwidth",
+    "per-row normalization sold as comparable",
+    "fewer than ~30 underlying values"
+  ],
+  "qa": [
+    "densities declared with bandwidth in the source",
+    "medians in range",
+    "global normalization",
+    "unit once",
+    "source present"
+  ]
+}

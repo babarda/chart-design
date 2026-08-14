@@ -1,0 +1,154 @@
+{
+  "code": "CH-DEV-04",
+  "name": "SURPLUS/DEFICIT AREA",
+  "ovp_version": "1.0",
+  "chart_type": "surplus_deficit",
+  "meta": {
+    "intent": [
+      "deviation",
+      "change-over-time"
+    ],
+    "form": "one line over time with the area to zero filled by sign",
+    "data_required": "ordered periods + one signed series (balance, variance vs plan)",
+    "relations": {
+      "family": "DEV",
+      "alternatives": [
+        "CH-TIM-01 (no sign story)",
+        "CH-FLO-01 (period deltas as a bridge)"
+      ],
+      "see_instead": [
+        {
+          "when": "the series never crosses zero",
+          "use": "CH-TIM-03"
+        },
+        {
+          "when": "explaining one period's change by driver",
+          "use": "CH-FLO-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "balances that swing between surplus and deficit",
+    "variance vs plan over time where the sign is the story"
+  ],
+  "not_when": [
+    "all-positive series (CH-TIM-03)",
+    "two series compared (CH-TIM-01)"
+  ],
+  "data_shape": {
+    "title": "action title naming the swing",
+    "source": "bottom-left always",
+    "unit": "on the top tick",
+    "x": "array of ordered period labels",
+    "values": "one signed series, same length as x"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 110,
+      "right": 820,
+      "top": 150,
+      "bottom": 440
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 22
+    },
+    "fill_opacity": 0.75,
+    "stroke": 2
+  },
+  "scale": {
+    "symmetric_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "y axis symmetric around zero; zero line drawn strong",
+    "surplus filled positive role, deficit filled negative role",
+    "fill splits exactly at the zero crossings",
+    "positive ticks carry a + sign"
+  ],
+  "roles": {
+    "positive": [
+      "positive"
+    ],
+    "negative": [
+      "negative"
+    ],
+    "line": [
+      "ink"
+    ],
+    "zero_line": [
+      "ink"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "asymmetric y ranges that shrink one sign",
+    "using it when the series never changes sign",
+    "gradient fills"
+  ],
+  "qa": [
+    "zero line present and strong",
+    "both signs occur",
+    "symmetric scale",
+    "unit once",
+    "source present"
+  ]
+}

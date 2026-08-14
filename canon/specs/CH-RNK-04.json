@@ -1,0 +1,138 @@
+{
+  "code": "CH-RNK-04",
+  "name": "BUMP",
+  "ovp_version": "1.0",
+  "chart_type": "bump",
+  "meta": {
+    "intent": [
+      "ranking",
+      "change-over-time"
+    ],
+    "form": "rank positions connected across ordered periods",
+    "data_required": "3-8 competitors with a full rank (1..n) per period",
+    "relations": {
+      "family": "RNK",
+      "alternatives": [
+        "CH-TIM-01 (values matter more than positions)"
+      ],
+      "see_instead": [
+        {
+          "when": "the metric value itself is the story",
+          "use": "CH-TIM-01"
+        },
+        {
+          "when": "only two periods",
+          "use": "CH-TIM-05"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "rank order changes over time: who overtook whom",
+    "league-table stories where position, not value, is the message"
+  ],
+  "not_when": [
+    "values matter more than positions (CH-TIM-01)",
+    "more than 8 competitors (lines tangle)",
+    "two periods only (CH-TIM-05 slope)"
+  ],
+  "data_shape": {
+    "title": "action title naming the mover",
+    "source": "bottom-left always",
+    "x": "array of ordered period labels",
+    "series": "array of {name, ranks: [1..n per period], highlight?}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 210,
+      "right": 750,
+      "top": 150,
+      "bottom": 440
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 26
+    },
+    "line_label": {
+      "size": 13,
+      "offset": 14
+    },
+    "stroke": {
+      "line": 2,
+      "highlight": 3
+    },
+    "dot_r": 5
+  },
+  "rules": [
+    "rank 1 at the top; the y axis is position, never value",
+    "every series labeled at both ends with rank and name, never a legend",
+    "one highlight maximum, drawn last"
+  ],
+  "roles": {
+    "line": [
+      "muted"
+    ],
+    "line_highlight": [
+      "primary"
+    ],
+    "label": [
+      "body"
+    ],
+    "label_highlight": [
+      "primary"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "plotting values on the bump y axis",
+    "more than 8 series",
+    "legends",
+    "smoothed curves between periods"
+  ],
+  "qa": [
+    "ranks are full permutations per period",
+    "labels at both ends",
+    "highlight <= 1",
+    "source present"
+  ]
+}

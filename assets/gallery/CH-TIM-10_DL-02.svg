@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Unit cost fell 34% while output doubled since 2020</text>
+<line x1="96" y1="440" x2="856" y2="440" stroke="#E2E8E8" stroke-width="1"/>
+<text x="84" y="440" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="336" x2="856" y2="336" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="336" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">50</text>
+<line x1="96" y1="232" x2="856" y2="232" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="232" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">100</text>
+<line x1="96" y1="128" x2="856" y2="128" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">150 $</text>
+<line x1="96" y1="128" x2="96" y2="440" stroke="#E2E8E8" stroke-width="1"/>
+<text x="96" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0</text>
+<line x1="248" y1="128" x2="248" y2="440" stroke="#EAEAEA" stroke-width="1"/>
+<text x="248" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">100</text>
+<line x1="400" y1="128" x2="400" y2="440" stroke="#EAEAEA" stroke-width="1"/>
+<text x="400" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">200</text>
+<line x1="552" y1="128" x2="552" y2="440" stroke="#EAEAEA" stroke-width="1"/>
+<text x="552" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">300</text>
+<line x1="704" y1="128" x2="704" y2="440" stroke="#EAEAEA" stroke-width="1"/>
+<text x="704" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">400</text>
+<line x1="856" y1="128" x2="856" y2="440" stroke="#EAEAEA" stroke-width="1"/>
+<text x="856" y="460" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">500 units</text>
+<polyline points="415.2,132.16 460.8,146.72 503.36,163.36 559.6,182.08 624.96,198.72 688.8,223.68 740.48,236.16" fill="none" stroke="#B7DCDC" stroke-width="1.5"/>
+<circle cx="415.2" cy="132.16" r="6" fill="#B7DCDC"/>
+<text x="429.2" y="132.16" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">2020</text>
+<circle cx="460.8" cy="146.72" r="6" fill="#B7DCDC"/>
+<text x="474.8" y="146.72" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">2021</text>
+<circle cx="503.36" cy="163.36" r="6" fill="#B7DCDC"/>
+<text x="517.36" y="163.36" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">2022</text>
+<circle cx="559.6" cy="182.08" r="6" fill="#B7DCDC"/>
+<text x="573.6" y="182.08" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">2023</text>
+<circle cx="624.96" cy="198.72" r="6" fill="#B7DCDC"/>
+<text x="638.96" y="198.72" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">2024</text>
+<circle cx="688.8" cy="223.68" r="6" fill="#B7DCDC"/>
+<text x="702.8" y="223.68" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">2025</text>
+<circle cx="740.48" cy="236.16" r="6" fill="#008080"/>
+<text x="754.48" y="236.16" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">2026</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

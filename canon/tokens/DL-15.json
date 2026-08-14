@@ -1,0 +1,106 @@
+{
+  "code": "DL-15",
+  "name": "ABRID",
+  "aka": "MATRIX",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "Amazigh",
+    "principle": "Connection and pathways",
+    "motto": "Everything is connected.",
+    "laws": [
+      "Relationships first",
+      "Structure reveals insight",
+      "Connections are explicit",
+      "Frameworks simplify complexity",
+      "Navigation through ideas"
+    ],
+    "related": [
+      "Mandala",
+      "Bagua",
+      "Network"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "question-first",
+    "density": "operational",
+    "annotation_policy": "guided",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "options",
+    "reading_time": "session",
+    "charts_per_page": 2
+  },
+  "voice": {
+    "stance": "The cartographer of ideas. ABRID sentences are edges between nodes: X gates Y, A trades off against B. Parallel structure is the grammar. When three branches of a framework are written in three different syntaxes, the framework is decoration. Every element named in the diagram is named identically in the prose.",
+    "register": "structural, relational",
+    "mood": "question titles allowed",
+    "hedging": "banned in a relation; a link exists or it does not",
+    "sentence_max_words": 20,
+    "title_max_words": 12,
+    "title_grammar": "A relationship statement, or the question the framework answers.",
+    "title_example": "Three levers, one constraint: clearance capacity gates them all",
+    "do": [
+      {
+        "rule": "Name the type of connection: drives, blocks, feeds, trades against.",
+        "why": "Explicit connections are the law of this language, and \"relates to\" is not a relation."
+      },
+      {
+        "rule": "Keep parallel syntax across the branches.",
+        "why": "The same grammatical shape signals the same logical level."
+      },
+      {
+        "rule": "Keep framework labels at three words and reuse them word for word.",
+        "why": "When the box says one thing and the sentence says another, the reader does the mapping."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No orphan box.",
+        "why": "An element with no stated relation is clutter wearing a border."
+      },
+      {
+        "rule": "No mixed forms inside one list.",
+        "why": "A noun, then a verb phrase, then a sentence makes the reader sort what the author skipped."
+      },
+      {
+        "rule": "Never write that factors are connected without naming the connections.",
+        "why": "\"Interconnected factors\" is the exact tell this language exists to kill."
+      }
+    ],
+    "contrast": {
+      "generic": "There are several interconnected factors affecting the schedule that need to be considered holistically.",
+      "voiced": "Clearance capacity gates three levers: it delays release, release delays kitting, kitting delays loop closure. Fix the gate, not the branches."
+    }
+  },
+  "occasions": [
+    "framework decks",
+    "portfolio reviews",
+    "strategy workshops"
+  ],
+  "palette": {
+    "background": "#FFFFFF",
+    "ink": "#0E3A2C",
+    "body": "#3E4C46",
+    "hairline": "#C9D2CC",
+    "gridline": "#E5E7E2",
+    "primary": "#197A56",
+    "muted": "#A7C4B5",
+    "positive": "#197A56",
+    "negative": "#9E2B25"
+  },
+  "fonts": {
+    "display": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 700
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

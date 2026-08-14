@@ -1,0 +1,139 @@
+{
+  "code": "CH-DST-05",
+  "name": "POPULATION PYRAMID",
+  "ovp_version": "1.0",
+  "chart_type": "pyramid",
+  "meta": {
+    "intent": [
+      "distribution",
+      "comparison"
+    ],
+    "form": "two mirrored bar stacks around a labeled center gutter, one row per band",
+    "data_required": "ordered bands (age, tenure, size class) with counts for two groups",
+    "relations": {
+      "family": "DST",
+      "alternatives": [
+        "CH-MAG-03 (unordered categories)",
+        "CH-DEV-03 (two-part shares)"
+      ],
+      "see_instead": [
+        {
+          "when": "categories have no natural band order",
+          "use": "CH-MAG-03"
+        },
+        {
+          "when": "the two parts share one whole",
+          "use": "CH-DEV-03"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "two groups across ordered bands: age structures, tenure mixes",
+    "asymmetry between the two sides is the message"
+  ],
+  "not_when": [
+    "more than two groups (small multiples)",
+    "bands without a natural order (CH-MAG-03)"
+  ],
+  "data_shape": {
+    "title": "action title naming the asymmetry",
+    "source": "bottom-left always",
+    "unit": "on first left value",
+    "series_labels": "[left_name, right_name], printed above the first row",
+    "bands": "array of {label, a, b}, ordered top band first"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 120,
+      "right": 840,
+      "top": 170
+    },
+    "row_height": 22,
+    "row_gap": 8,
+    "gutter": 80,
+    "series_label": {
+      "size": 11,
+      "gap": 12
+    },
+    "band_label": {
+      "size": 11
+    },
+    "value_label": {
+      "size": 10,
+      "offset": 6
+    }
+  },
+  "rules": [
+    "both sides share one zero-based scale, mirrored",
+    "band labels live in the center gutter",
+    "sides named above the first row, never a legend"
+  ],
+  "roles": {
+    "side_a": [
+      "muted"
+    ],
+    "side_b": [
+      "primary"
+    ],
+    "band_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "baseline": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "different scales per side (the classic pyramid lie)",
+    "unordered bands",
+    "more than two sides"
+  ],
+  "qa": [
+    "one shared mirrored scale",
+    "bands in order",
+    "sides named once",
+    "unit once",
+    "source present"
+  ]
+}

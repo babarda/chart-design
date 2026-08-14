@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="48" y="112" font-size="34" font-family="'Segoe UI',Arial,sans-serif" fill="#0E3A2C" font-weight="700">Electrical jumped 23 points year on</text>
+<text x="48" y="152" font-size="34" font-family="'Segoe UI',Arial,sans-serif" fill="#0E3A2C" font-weight="700">year, the fastest improver</text>
+<text x="48" y="182" font-size="15" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400">Everything is connected . ABRID on framework decks</text>
+<svg x="48" y="226.57" width="832" height="325.87" viewBox="0 100 960 376">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<line x1="300" y1="132" x2="300" y2="468" stroke="#C9D2CC" stroke-width="1"/>
+<text x="300" y="124" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="600" text-anchor="middle" letter-spacing="1">2025</text>
+<line x1="660" y1="132" x2="660" y2="468" stroke="#C9D2CC" stroke-width="1"/>
+<text x="660" y="124" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="600" text-anchor="middle" letter-spacing="1">2026</text>
+<line x1="300" y1="264.8" x2="660" y2="191.2" stroke="#197A56" stroke-width="2.5"/>
+<text x="288" y="264.8" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0E3A2C" font-weight="600" text-anchor="end" dominant-baseline="middle">Electrical  61</text>
+<text x="672" y="191.2" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0E3A2C" font-weight="600" dominant-baseline="middle">84</text>
+<line x1="300" y1="229.6" x2="660" y2="207.2" stroke="#A7C4B5" stroke-width="2"/>
+<text x="288" y="229.6" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="end" dominant-baseline="middle">Piping  72</text>
+<text x="672" y="207.2" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" dominant-baseline="middle">79</text>
+<line x1="300" y1="178.4" x2="660" y2="168.8" stroke="#A7C4B5" stroke-width="2"/>
+<text x="288" y="178.4" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="end" dominant-baseline="middle">Civil  88</text>
+<text x="672" y="168.8" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" dominant-baseline="middle">91</text>
+<line x1="300" y1="236" x2="660" y2="242.4" stroke="#A7C4B5" stroke-width="2"/>
+<text x="288" y="236" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" text-anchor="end" dominant-baseline="middle">Mechanical  70</text>
+<text x="672" y="242.4" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400" dominant-baseline="middle">68</text>
+</svg>
+<rect x="912" y="210" width="320" height="72" fill="#FFFFFF" stroke="#C9D2CC" stroke-width="1"/>
+<rect x="912" y="210" width="4" height="72" fill="#197A56"/>
+<text x="928" y="231" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0E3A2C" font-weight="600">Three disciplines improved,</text>
+<text x="928" y="249" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400">mechanical slipped: the paths</text>
+<text x="928" y="267" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400">matter more than the points.</text>
+<text x="48" y="688" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#3E4C46" font-weight="400">Source: sample dataset v1, 2026-07-12  .  Open Visualization Protocol, DL-15 ABRID</text>
+</svg>

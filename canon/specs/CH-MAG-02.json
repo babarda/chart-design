@@ -1,0 +1,134 @@
+{
+  "code": "CH-MAG-02",
+  "name": "PAIRED COLUMN",
+  "ovp_version": "1.0",
+  "chart_type": "bar_paired",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "comparison"
+    ],
+    "form": "two columns per category, side by side",
+    "data_required": "ordered categories + exactly two comparable series (budget vs actual)",
+    "relations": {
+      "family": "MAG",
+      "alternatives": [
+        "CH-DST-02 (dots when columns crowd)"
+      ],
+      "see_instead": [
+        {
+          "when": "more than two series",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "two measures per category: budget vs actual, plan vs forecast",
+    "6 categories or fewer"
+  ],
+  "not_when": [
+    "more than two series (unreadable; use lines or small multiples)",
+    "long category names (use CH-DST-02)"
+  ],
+  "data_shape": {
+    "title": "action title naming the widest gap",
+    "source": "bottom-left always",
+    "unit": "on first value label",
+    "x": "ordered category labels",
+    "series": "exactly two: [{name, values}, {name, values}]; second is the key"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 64,
+      "right": 896,
+      "top": 150,
+      "bottom": 432
+    },
+    "bar_width": 40,
+    "value_label": {
+      "size": 11,
+      "offset": 6
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    }
+  },
+  "scale": {
+    "note": "both series share one zero-based scale"
+  },
+  "rules": [
+    "series named by direct labels above the first pair, never a legend",
+    "series_a muted (reference), series_b primary (actual/key)",
+    "bars start at zero",
+    "unit once"
+  ],
+  "roles": {
+    "series_a": [
+      "muted"
+    ],
+    "series_b": [
+      "primary"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "baseline": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "three or more series per group",
+    "legends",
+    "truncated baseline"
+  ],
+  "qa": [
+    "exactly two series",
+    "labels above first pair",
+    "baseline at zero",
+    "unit once",
+    "source present"
+  ]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Site work now drives a third of monthly output</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#E2E8E8" stroke-width="1"/>
+<text x="84" y="452" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="344" x2="756" y2="344" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="344" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="236" x2="756" y2="236" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="236" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">40</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">60 units</text>
+<text x="96" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Jan</text>
+<text x="190.29" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Feb</text>
+<text x="284.57" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Mar</text>
+<text x="378.86" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Apr</text>
+<text x="473.14" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">May</text>
+<text x="567.43" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Jun</text>
+<text x="661.71" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Jul</text>
+<text x="756" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">Aug</text>
+<polygon points="96,387.2 190.29,376.4 284.57,365.6 378.86,354.8 473.14,344 567.43,333.2 661.71,322.4 756,311.6 756,452 661.71,452 567.43,452 473.14,452 378.86,452 284.57,452 190.29,452 96,452" fill="#008080" fill-opacity="0.85"/>
+<polyline points="96,387.2 190.29,376.4 284.57,365.6 378.86,354.8 473.14,344 567.43,333.2 661.71,322.4 756,311.6" fill="none" stroke="#008080" stroke-width="1.5"/>
+<text x="766" y="381.8" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#008080" font-weight="600" dominant-baseline="middle">Fabrication</text>
+<polygon points="96,365.6 190.29,344 284.57,322.4 378.86,306.2 473.14,284.6 567.43,268.4 661.71,246.8 756,230.6 756,311.6 661.71,322.4 567.43,333.2 473.14,344 378.86,354.8 284.57,365.6 190.29,376.4 96,387.2" fill="#B7DCDC" fill-opacity="0.85"/>
+<polyline points="96,365.6 190.29,344 284.57,322.4 378.86,306.2 473.14,284.6 567.43,268.4 661.71,246.8 756,230.6" fill="none" stroke="#B7DCDC" stroke-width="1.5"/>
+<text x="766" y="271.1" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#B7DCDC" font-weight="600" dominant-baseline="middle">Transport</text>
+<polygon points="96,354.8 190.29,327.8 284.57,295.4 378.86,268.4 473.14,236 567.43,203.6 661.71,165.8 756,133.4 756,230.6 661.71,246.8 567.43,268.4 473.14,284.6 378.86,306.2 284.57,322.4 190.29,344 96,365.6" fill="#AAAAAA" fill-opacity="0.85"/>
+<polyline points="96,354.8 190.29,327.8 284.57,295.4 378.86,268.4 473.14,236 567.43,203.6 661.71,165.8 756,133.4" fill="none" stroke="#AAAAAA" stroke-width="1.5"/>
+<text x="766" y="182" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#AAAAAA" font-weight="600" dominant-baseline="middle">Site</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

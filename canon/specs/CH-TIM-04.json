@@ -1,0 +1,172 @@
+{
+  "code": "CH-TIM-04",
+  "name": "STACKED AREA",
+  "ovp_version": "1.0",
+  "chart_type": "area_stacked",
+  "meta": {
+    "intent": [
+      "trend",
+      "composition",
+      "change-over-time"
+    ],
+    "form": "stacked filled bands over time, bottom-up",
+    "data_required": "ordered periods + 2-4 non-negative component series summing to a meaningful total",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-03 (one series)",
+        "CH-PTW-01 (few periods)"
+      ],
+      "see_instead": [
+        {
+          "when": "single quantity",
+          "use": "CH-TIM-03"
+        },
+        {
+          "when": "shares matter more than levels",
+          "use": "CH-PTW-02"
+        },
+        {
+          "when": "series cross and levels must be read exactly",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "how a growing total splits into components over time",
+    "the total AND its composition are both the story"
+  ],
+  "not_when": [
+    "reading exact middle-band values (baselines wander; CH-TIM-01)",
+    "more than 4 components",
+    "any negative values"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on the top tick",
+    "x": "ordered period labels",
+    "series": "bottom-up components [{name, values}], largest first"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 756,
+      "top": 128,
+      "bottom": 452
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "segment_label": {
+      "size": 12,
+      "offset": 10
+    },
+    "fill_opacity": 0.85
+  },
+  "scale": {
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "bands ordered largest at the bottom; only the bottom band has a straight baseline",
+    "segments named at their right ends, never a legend",
+    "y starts at zero"
+  ],
+  "roles": {
+    "segments": [
+      [
+        "primary"
+      ],
+      [
+        "muted"
+      ],
+      [
+        "benchmark",
+        "hairline"
+      ],
+      [
+        "gridline"
+      ]
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "baseline": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "more than 4 bands",
+    "legends",
+    "reading middle bands as levels",
+    "negative components"
+  ],
+  "qa": [
+    "<= 4 components, all >= 0",
+    "largest band at bottom",
+    "names at band ends",
+    "unit once",
+    "source present"
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "code": "CH-TIM-07",
+  "name": "CALENDAR HEATMAP",
+  "ovp_version": "1.0",
+  "chart_type": "heatmap",
+  "meta": {
+    "intent": [
+      "pattern",
+      "change-over-time",
+      "density"
+    ],
+    "form": "weekday x week grid, shaded and numbered",
+    "data_required": "a count or measure per weekday per week; the weekly rhythm is the message",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-COR-03 (generic two-dimension grids)"
+      ],
+      "see_instead": [
+        {
+          "when": "dimensions are not calendar units",
+          "use": "CH-COR-03"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "workload rhythm: deliveries, tickets, tests per weekday across weeks",
+    "capacity planning around recurring peaks"
+  ],
+  "not_when": [
+    "non-calendar dimensions (CH-COR-03)",
+    "single week (a column chart does it)"
+  ],
+  "data_shape": {
+    "title": "action title naming the rhythm",
+    "source": "bottom-left always",
+    "columns": "week labels",
+    "rows": "weekday rows {label, values[]}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 140,
+      "right": 896,
+      "top": 168
+    },
+    "row_height": 56,
+    "header_label": {
+      "size": 10,
+      "offset": 14
+    },
+    "row_label": {
+      "size": 12,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 11
+    }
+  },
+  "scale": {
+    "normalize": "global",
+    "note": "one scale across the whole calendar; weekday order fixed Mon-first"
+  },
+  "rules": [
+    "weekday rows in calendar order, always",
+    "values printed in every cell",
+    "single-hue ramp; global normalization"
+  ],
+  "roles": {
+    "cell_low": [
+      "panel",
+      "background"
+    ],
+    "cell_high": [
+      "primary"
+    ],
+    "header": [
+      "body"
+    ],
+    "row_label": [
+      "ink"
+    ],
+    "value": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "sorting weekdays by value",
+    "rainbow ramps",
+    "cells without values"
+  ],
+  "qa": [
+    "weekday order fixed",
+    "every cell numbered",
+    "title names the rhythm",
+    "source present"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "code": "CH-TIM-06",
+  "name": "SPARKLINE STRIP",
+  "ovp_version": "1.0",
+  "chart_type": "sparkline_strip",
+  "meta": {
+    "intent": [
+      "trend",
+      "status"
+    ],
+    "form": "one micro-trend per row: shape, last value, signed change",
+    "data_required": "3-8 metrics, each with 5+ ordered values and a declared good direction",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TAB-03 (exact values + deltas)",
+        "CH-TIM-01 (one metric, full size)"
+      ],
+      "see_instead": [
+        {
+          "when": "exact values must be read",
+          "use": "CH-TAB-03"
+        },
+        {
+          "when": "one metric deserves a full chart",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "scanning many metrics for direction at a glance",
+    "weekly one-pagers where shape matters, not exact history"
+  ],
+  "not_when": [
+    "comparing magnitudes across rows (each row has its own scale)",
+    "fewer than 5 points per row"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first row's last value",
+    "rows": "[{label, values, good: up|down}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 800,
+      "top": 160
+    },
+    "row_height": 40,
+    "row_gap": 18,
+    "spark_left": 240,
+    "spark_right": 560,
+    "spark_half": 11,
+    "delta_x": 800,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "rules": [
+    "each row scales to its own min-max: sparklines show shape, never comparable magnitude",
+    "delta colored by the row's DECLARED good direction, not by sign",
+    "end dot marks the latest value"
+  ],
+  "roles": {
+    "line": [
+      "ink"
+    ],
+    "dot": [
+      "primary"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "delta_pos": [
+      "positive"
+    ],
+    "delta_neg": [
+      "negative"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "shared scale implied across rows",
+    "axes or gridlines on sparklines",
+    "coloring deltas by sign when down is good"
+  ],
+  "qa": [
+    "good direction declared per row",
+    ">= 5 points per row",
+    "unit once",
+    "source present"
+  ]
+}

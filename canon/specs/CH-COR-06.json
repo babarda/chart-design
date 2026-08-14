@@ -1,0 +1,142 @@
+{
+  "code": "CH-COR-06",
+  "name": "PARALLEL COORDINATES",
+  "ovp_version": "1.0",
+  "chart_type": "parallel",
+  "meta": {
+    "intent": [
+      "correlation",
+      "pattern"
+    ],
+    "form": "one polyline per item across 3-5 vertical zero-based axes",
+    "data_required": "6-12 items measured on 3-5 dimensions; one item highlighted",
+    "relations": {
+      "family": "COR",
+      "alternatives": [
+        "CH-COR-01 (two dimensions)",
+        "CH-TAB-02 (exact values per cell)"
+      ],
+      "see_instead": [
+        {
+          "when": "two dimensions suffice",
+          "use": "CH-COR-01"
+        },
+        {
+          "when": "exact per-cell reading",
+          "use": "CH-TAB-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "WARN: analyst-only views for spotting multi-dimensional profiles",
+    "finding which items move together across 3-5 measures"
+  ],
+  "not_when": [
+    "general audiences (line crossings read as meaning; they are layout)",
+    "more than ~12 items (spaghetti)"
+  ],
+  "data_shape": {
+    "title": "action title naming the profile",
+    "source": "bottom-left always",
+    "axes": "[{name, unit}] 3-5, each zero-based",
+    "items": "[{label, values, highlight?}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 150,
+      "right": 780,
+      "top": 170,
+      "bottom": 450
+    },
+    "axis_label": {
+      "size": 12,
+      "offset": 28
+    },
+    "line_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "scale": {
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "every axis zero-based with its own top, both printed at the axis head",
+    "context lines muted and translucent; the one highlight carries the story",
+    "axis order is part of the spec: reordering changes the picture"
+  ],
+  "roles": {
+    "axis": [
+      "hairline"
+    ],
+    "axis_label": [
+      "body"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "line": [
+      "muted"
+    ],
+    "line_highlight": [
+      "primary"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "WARN ENTRY: crossings between axes are artifacts of axis order, not relationships; analysts only",
+    "min-max normalization hiding the zero",
+    "more than 12 lines"
+  ],
+  "qa": [
+    "axes zero-based and labeled",
+    "highlight <= 1",
+    "<= 12 items",
+    "source present"
+  ]
+}

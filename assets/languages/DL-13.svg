@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#F7EFE3"/>
+<text x="48" y="112" font-size="34" font-family="'EB Garamond',Georgia,serif" fill="#31261D" font-weight="600">Electrical runs 14 days behind plan, the</text>
+<text x="48" y="152" font-size="34" font-family="'EB Garamond',Georgia,serif" fill="#31261D" font-weight="600">deepest slip of five disciplines</text>
+<text x="48" y="182" font-size="15" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400">Balance creates clarity . MIZAN on cultural projects</text>
+<svg x="48" y="272.5" width="832" height="234" viewBox="0 100 960 270">
+<rect width="960" height="540" fill="#F7EFE3"/>
+<rect x="532" y="128" width="162" height="32" fill="#3D5A46"/>
+<text x="702" y="144" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#31261D" font-weight="400" dominant-baseline="middle">+7 days</text>
+<text x="192" y="144" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" dominant-baseline="middle">Mechanical</text>
+<rect x="532" y="176" width="92.57" height="32" fill="#3D5A46"/>
+<text x="632.57" y="192" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#31261D" font-weight="400" dominant-baseline="middle">+4</text>
+<text x="192" y="192" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" dominant-baseline="middle">Instrumentation</text>
+<rect x="462.57" y="224" width="69.43" height="32" fill="#7A3B1E"/>
+<text x="454.57" y="240" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#31261D" font-weight="400" text-anchor="end" dominant-baseline="middle">-3</text>
+<text x="192" y="240" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" dominant-baseline="middle">Civil</text>
+<rect x="323.71" y="272" width="208.29" height="32" fill="#7A3B1E"/>
+<text x="315.71" y="288" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#31261D" font-weight="400" text-anchor="end" dominant-baseline="middle">-9</text>
+<text x="192" y="288" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" dominant-baseline="middle">Piping</text>
+<rect x="208" y="320" width="324" height="32" fill="#7A3B1E"/>
+<text x="200" y="336" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#31261D" font-weight="400" text-anchor="end" dominant-baseline="middle">-14</text>
+<text x="192" y="336" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400" text-anchor="end" dominant-baseline="middle">Electrical</text>
+<line x1="532" y1="120" x2="532" y2="360" stroke="#DCCFB6" stroke-width="1"/>
+</svg>
+<rect x="912" y="210" width="320" height="72" fill="#F1E5D3" stroke="#DCCFB6" stroke-width="1"/>
+<rect x="912" y="210" width="4" height="72" fill="#C4572E"/>
+<text x="928" y="231" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#31261D" font-weight="600">Both sides of the story, one scale.</text>
+<text x="928" y="249" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400">Electrical carries the deepest slip;</text>
+<text x="928" y="267" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400">mechanical funds the recovery.</text>
+<text x="48" y="688" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#4E4237" font-weight="400">Source: sample dataset v1, 2026-07-12  .  Open Visualization Protocol, DL-13 MIZAN</text>
+</svg>

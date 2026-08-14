@@ -1,0 +1,142 @@
+{
+  "code": "CH-TIM-15",
+  "name": "EVENT TIMELINE",
+  "ovp_version": "1.0",
+  "chart_type": "timeline",
+  "meta": {
+    "intent": [
+      "schedule",
+      "status"
+    ],
+    "form": "horizontal axis with dated milestone markers",
+    "data_required": "3-8 dated events positioned 0-100 along an axis with start/end labels",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-09 (durations, not moments)"
+      ],
+      "see_instead": [
+        {
+          "when": "events have durations",
+          "use": "CH-TIM-09"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "milestone communication: what happens when, on one line",
+    "kickoffs, gates, energization dates, handovers"
+  ],
+  "not_when": [
+    "tasks with durations and dependencies (CH-TIM-09 GANTT)",
+    "more than 8 events (split by phase)"
+  ],
+  "data_shape": {
+    "title": "action title naming the critical date",
+    "eyebrow": "caps, DL chrome only",
+    "source": "bottom-left always",
+    "axis": "{start_label, end_label}",
+    "events": "array of {label, sub (date), pos 0-100, kind: event|milestone|critical}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 864
+    },
+    "axis_y": 312,
+    "axis_label": {
+      "size": 10,
+      "offset": 24
+    },
+    "leader": 40,
+    "event_label": {
+      "size": 12,
+      "sub_size": 10
+    }
+  },
+  "scale": {
+    "note": "pos is 0-100 along the axis; labels alternate above/below by index; anchors clamp at the edges (pos<=10 start, >=90 end)"
+  },
+  "rules": [
+    "labels alternate above and below the axis, deterministically by index",
+    "milestones are diamonds, events are dots, critical items take the negative role",
+    "every event carries its date",
+    "8 events maximum"
+  ],
+  "roles": {
+    "axis": [
+      "hairline"
+    ],
+    "axis_label": [
+      "body"
+    ],
+    "leader": [
+      "hairline"
+    ],
+    "kind_event": [
+      "muted"
+    ],
+    "kind_milestone": [
+      "primary"
+    ],
+    "kind_critical": [
+      "negative"
+    ],
+    "label": [
+      "ink"
+    ],
+    "sub": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "curved journey arrows",
+    "icons instead of markers",
+    "more than 8 events on one axis",
+    "undated events"
+  ],
+  "qa": [
+    "every event dated",
+    "events <= 8",
+    "critical items named in the title",
+    "source present"
+  ]
+}

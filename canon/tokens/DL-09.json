@@ -1,0 +1,108 @@
+{
+  "code": "DL-09",
+  "name": "ATLAS",
+  "aka": "ATLAS",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "Greek mythology and cartography",
+    "principle": "Orientation",
+    "motto": "Always know where you are.",
+    "laws": [
+      "Geography drives layout",
+      "Exceptions dominate attention",
+      "Routes tell progress",
+      "Labels remain readable",
+      "Maps are the visualization"
+    ],
+    "related": [
+      "Meridian",
+      "Qibla"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "question-first",
+    "density": "operational",
+    "annotation_policy": "guided",
+    "legend_policy": "level-key-allowed",
+    "highlight_policy": "single",
+    "decision_style": "evidence-only",
+    "reading_time": "minute",
+    "charts_per_page": 2
+  },
+  "voice": {
+    "stance": "The navigator's voice. Every ATLAS sentence orients: place, direction, distance, exception. The reader is somewhere on the line and wants to know what lies ahead. A sentence with no location is cargo with no waybill, and it does not belong on the page.",
+    "register": "positional, kinetic",
+    "mood": "declarative, movement verbs",
+    "hedging": "banned; give a range instead",
+    "sentence_max_words": 18,
+    "title_max_words": 12,
+    "title_grammar": "Place first, then status, then the exception.",
+    "title_example": "KP 812 to 840: three crossings pending, corridor clear",
+    "do": [
+      {
+        "rule": "Lead with the place: chainage, section, or site.",
+        "why": "Geography drives the layout in this language, so it drives the syntax too."
+      },
+      {
+        "rule": "Use movement verbs: advances, reaches, holds at.",
+        "why": "A route report is about motion, and static verbs hide the trend."
+      },
+      {
+        "rule": "Locate every exception.",
+        "why": "Two delayed crossings mean nothing until the reader knows where they are."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No placeless progress.",
+        "why": "If it has no coordinates it is not route news."
+      },
+      {
+        "rule": "No comparison without a direction.",
+        "why": "Ahead and behind mean nothing on a line until you say which way."
+      },
+      {
+        "rule": "No place named in the text that the map does not show.",
+        "why": "Text and map anchor each other one to one."
+      }
+    ],
+    "contrast": {
+      "generic": "Good progress is being made along the route with teams working hard to maintain momentum.",
+      "voiced": "Lowering-in reached KP 796, 18 km short of the coastal tie-in. Two wet crossings at KP 802 hold the front."
+    }
+  },
+  "occasions": [
+    "route progress",
+    "section and site status maps",
+    "logistics corridors",
+    "geo overviews"
+  ],
+  "palette": {
+    "background": "#F4EFE6",
+    "panel": "#EAE3D5",
+    "ink": "#2B3A42",
+    "body": "#4A5860",
+    "hairline": "#CDC3AE",
+    "gridline": "#E3DCCB",
+    "primary": "#0F766E",
+    "muted": "#B9AE9C",
+    "positive": "#2E6E4E",
+    "negative": "#C2410C",
+    "water": "#D7E4E8"
+  },
+  "fonts": {
+    "display": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 600
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

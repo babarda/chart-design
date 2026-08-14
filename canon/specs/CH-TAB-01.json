@@ -1,0 +1,168 @@
+{
+  "code": "CH-TAB-01",
+  "name": "STATUS MATRIX",
+  "ovp_version": "1.0",
+  "chart_type": "matrix",
+  "meta": {
+    "intent": [
+      "status",
+      "lookup",
+      "readiness"
+    ],
+    "form": "entities x stages grid with status word + color",
+    "data_required": "rows of entities, columns of ordered stages, one status enum per cell",
+    "relations": {
+      "family": "TAB",
+      "alternatives": [
+        "CH-TAB-02 (heatmap table, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "cells are numbers, not statuses",
+          "use": "CH-TAB-02"
+        },
+        {
+          "when": "progress over time per entity",
+          "use": "CH-TIM-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "readiness tracking: systems x stages, packages x gates, sites x milestones",
+    "the reader looks up THEIR row",
+    "8 rows and 6 stage columns or fewer"
+  ],
+  "not_when": [
+    "numeric cells (heatmap table when built)",
+    "more than 8 rows (split by area or paginate)",
+    "single-stage status (a list with chips does it)"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the readiness finding with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "columns": "array of ordered stage names, caps",
+    "rows": "array of {label, cells: [status enum per column]}",
+    "statuses": "complete | on_track | watch | critical | na"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 200,
+      "right": 928,
+      "top": 152
+    },
+    "row_height": 44,
+    "header_label": {
+      "size": 10,
+      "offset": 14
+    },
+    "row_label": {
+      "size": 12,
+      "offset": 16,
+      "gutter": 168
+    },
+    "status": {
+      "size": 10
+    }
+  },
+  "display": {
+    "complete": "COMPLETE",
+    "on_track": "ON TRACK",
+    "watch": "WATCH",
+    "critical": "CRITICAL",
+    "na": "-"
+  },
+  "scale": {
+    "note": "no scale; a matrix is a lookup, not a measurement"
+  },
+  "rules": [
+    "status is ALWAYS swatch + word, never color alone",
+    "stage columns in process order, never re-sorted",
+    "rows in the reader's natural order (system number, site), not by health",
+    "na cells show the nil hyphen with the hairline swatch",
+    "no zebra striping; hairline row rules only"
+  ],
+  "roles": {
+    "header": [
+      "body"
+    ],
+    "row_label": [
+      "ink"
+    ],
+    "status_word": [
+      "body"
+    ],
+    "status_complete": [
+      "positive"
+    ],
+    "status_on_track": [
+      "primary"
+    ],
+    "status_watch": [
+      "warning",
+      "muted"
+    ],
+    "status_critical": [
+      "negative"
+    ],
+    "status_na": [
+      "hairline"
+    ],
+    "rule": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "color-only status dots",
+    "zebra striping",
+    "sorting rows by health (readers lose their row)",
+    "traffic-light gradients between statuses",
+    "emoji as status markers"
+  ],
+  "qa": [
+    "every cell carries word + swatch",
+    "cells per row equal column count",
+    "rows <= 8, columns <= 6",
+    "title states the readiness finding with a number",
+    "source line present bottom-left"
+  ]
+}

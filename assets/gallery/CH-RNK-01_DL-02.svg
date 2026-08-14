@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Electrical holds 34 of 109 open items, the largest single backlog</text>
+<rect x="208" y="128" width="648" height="32" fill="#008080"/>
+<text x="192" y="144" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="end" dominant-baseline="middle">Electrical</text>
+<text x="864" y="144" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">34 items</text>
+<rect x="208" y="176" width="533.65" height="32" fill="#B7DCDC"/>
+<text x="192" y="192" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Mechanical</text>
+<text x="749.65" y="192" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">28</text>
+<rect x="208" y="224" width="400.24" height="32" fill="#B7DCDC"/>
+<text x="192" y="240" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Piping</text>
+<text x="616.24" y="240" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">21</text>
+<rect x="208" y="272" width="324" height="32" fill="#B7DCDC"/>
+<text x="192" y="288" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Instrumentation</text>
+<text x="540" y="288" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">17</text>
+<rect x="208" y="320" width="171.53" height="32" fill="#B7DCDC"/>
+<text x="192" y="336" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Civil</text>
+<text x="387.53" y="336" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">9</text>
+<line x1="208" y1="120" x2="208" y2="360" stroke="#E2E8E8" stroke-width="1"/>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

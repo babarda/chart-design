@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">System D pairs low progress with every other deficit</text>
+<line x1="150" y1="170" x2="150" y2="450" stroke="#E2E8E8" stroke-width="1"/>
+<text x="150" y="142" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">Progress</text>
+<text x="150" y="156" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0 to 100%</text>
+<line x1="360" y1="170" x2="360" y2="450" stroke="#E2E8E8" stroke-width="1"/>
+<text x="360" y="142" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">Punch</text>
+<text x="360" y="156" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0 to 80</text>
+<line x1="570" y1="170" x2="570" y2="450" stroke="#E2E8E8" stroke-width="1"/>
+<text x="570" y="142" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">Docs</text>
+<text x="570" y="156" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0 to 100%</text>
+<line x1="780" y1="170" x2="780" y2="450" stroke="#E2E8E8" stroke-width="1"/>
+<text x="780" y="142" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">Staff</text>
+<text x="780" y="156" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0 to 50</text>
+<polyline points="150,192.4 360,408 570,184 780,226" fill="none" stroke="#B7DCDC" stroke-width="1.5" stroke-opacity="0.55"/>
+<polyline points="150,203.6 360,387 570,198 780,237.2" fill="none" stroke="#B7DCDC" stroke-width="1.5" stroke-opacity="0.55"/>
+<polyline points="150,242.8 360,362.5 570,226 780,282" fill="none" stroke="#B7DCDC" stroke-width="1.5" stroke-opacity="0.55"/>
+<polyline points="150,265.2 360,341.5 570,240 780,293.2" fill="none" stroke="#B7DCDC" stroke-width="1.5" stroke-opacity="0.55"/>
+<polyline points="150,226 360,373 570,212 780,265.2" fill="none" stroke="#B7DCDC" stroke-width="1.5" stroke-opacity="0.55"/>
+<polyline points="150,254 360,352 570,231.6 780,304.4" fill="none" stroke="#B7DCDC" stroke-width="1.5" stroke-opacity="0.55"/>
+<polyline points="150,212 360,397.5 570,203.6 780,254" fill="none" stroke="#B7DCDC" stroke-width="1.5" stroke-opacity="0.55"/>
+<polyline points="150,335.2 360,229.5 570,296 780,198" fill="none" stroke="#008080" stroke-width="2.5"/>
+<text x="792" y="198" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#008080" font-weight="600" dominant-baseline="middle">D</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

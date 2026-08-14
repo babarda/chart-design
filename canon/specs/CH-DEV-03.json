@@ -1,0 +1,142 @@
+{
+  "code": "CH-DEV-03",
+  "name": "SPINE",
+  "ovp_version": "1.0",
+  "chart_type": "spine",
+  "meta": {
+    "intent": [
+      "part-to-whole",
+      "comparison"
+    ],
+    "form": "one bar per category split into two parts around a center axis",
+    "data_required": "categories with two complementary parts (done/remaining, yes/no)",
+    "relations": {
+      "family": "DEV",
+      "alternatives": [
+        "CH-PTW-02 (100% stacked for 3-4 parts)",
+        "CH-DEV-05 (agreement scales with 4 levels)"
+      ],
+      "see_instead": [
+        {
+          "when": "3 or more parts per category",
+          "use": "CH-PTW-02"
+        },
+        {
+          "when": "graded agreement levels",
+          "use": "CH-DEV-05"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "two-part splits compared across categories",
+    "reading which side of a balance each category falls on"
+  ],
+  "not_when": [
+    "more than two parts (CH-PTW-02)",
+    "parts that do not sum to a meaningful whole"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "appended to first-row values (%, usually)",
+    "series_labels": "[left_name, right_name], printed above the first row",
+    "categories": "array of {label, a, b}; a+b normalized per row"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 820,
+      "top": 170
+    },
+    "row_height": 26,
+    "row_gap": 16,
+    "bar_height": 20,
+    "series_label": {
+      "size": 10,
+      "offset": 8,
+      "gap": 10
+    },
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 8
+    }
+  },
+  "rules": [
+    "the split point sits on the center axis; bar width is constant",
+    "left part muted, right part primary",
+    "values printed at both outer ends",
+    "sides named above the first row, never a legend"
+  ],
+  "roles": {
+    "side_a": [
+      "muted"
+    ],
+    "side_b": [
+      "primary"
+    ],
+    "axis": [
+      "ink"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "three or more segments",
+    "legends",
+    "rows normalized to different totals without saying so"
+  ],
+  "qa": [
+    "two parts per row",
+    "center axis drawn",
+    "sides named once",
+    "unit once",
+    "source present"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "code": "CH-DST-04",
+  "name": "BOXPLOT",
+  "ovp_version": "1.0",
+  "chart_type": "boxplot",
+  "meta": {
+    "intent": [
+      "distribution",
+      "comparison"
+    ],
+    "form": "five-number summary per category: whiskers, quartile box, median tick",
+    "data_required": "categories with a declared five-number summary (min, q1, median, q3, max)",
+    "relations": {
+      "family": "DST",
+      "alternatives": [
+        "CH-DST-03 (few raw values)",
+        "CH-DST-08 (shape beyond quartiles, warn)"
+      ],
+      "see_instead": [
+        {
+          "when": "few enough values to show raw",
+          "use": "CH-DST-03"
+        },
+        {
+          "when": "the audience reads quartiles poorly",
+          "use": "CH-DST-03"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "comparing many distributions compactly",
+    "audiences trained on quartiles (analysts, engineers)"
+  ],
+  "not_when": [
+    "general audiences (boxplots are widely misread; CH-DST-03)",
+    "multimodal shapes (a box hides two humps; CH-DST-08 or CH-DST-09)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first median label",
+    "categories": "array of {label, min, q1, med, q3, max, highlight?}",
+    "note": "summaries are DECLARED inputs; OVP renders, it does not compute"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 790,
+      "top": 160
+    },
+    "row_height": 36,
+    "row_gap": 20,
+    "tick_label": {
+      "size": 11,
+      "offset": 18
+    },
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 11,
+      "offset": 12
+    }
+  },
+  "scale": {
+    "x_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "five-number summaries are supplied, never computed silently",
+    "median printed right of the max whisker, labeled on the first row",
+    "whisker convention (min/max, not 1.5 IQR) must hold for every row",
+    "shared zero-based scale"
+  ],
+  "roles": {
+    "box": [
+      "muted"
+    ],
+    "median": [
+      "primary"
+    ],
+    "whisker": [
+      "ink"
+    ],
+    "baseline": [
+      "ink"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "mixing whisker conventions across rows",
+    "boxplots for general audiences without a reading key",
+    "hiding sample sizes"
+  ],
+  "qa": [
+    "min <= q1 <= median <= q3 <= max per row",
+    "median labeled once",
+    "unit once",
+    "source present"
+  ]
+}

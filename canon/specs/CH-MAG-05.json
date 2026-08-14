@@ -1,0 +1,130 @@
+{
+  "code": "CH-MAG-05",
+  "name": "PROPORTIONAL SYMBOL",
+  "ovp_version": "1.0",
+  "chart_type": "prop_symbol",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "comparison"
+    ],
+    "form": "one circle per category, AREA proportional to value",
+    "data_required": "2-7 categories with positive values of very different magnitude",
+    "relations": {
+      "family": "MAG",
+      "alternatives": [
+        "CH-RNK-01 (precise comparison)",
+        "CH-MAG-01 (similar magnitudes)"
+      ],
+      "see_instead": [
+        {
+          "when": "values are within one order of magnitude",
+          "use": "CH-MAG-01"
+        },
+        {
+          "when": "precise reading matters",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "magnitudes spanning orders where bars would dwarf the small ones",
+    "impressionistic size comparison with exact values printed"
+  ],
+  "not_when": [
+    "precise comparison (areas are read poorly; values must be printed)",
+    "more than 7 symbols"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first value",
+    "categories": "[{label, value, highlight?}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 864
+    },
+    "cy": 300,
+    "r_max": 80,
+    "category_label": {
+      "size": 13,
+      "offset": 24
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "rules": [
+    "AREA encodes the value; radius = sqrt(value/max) x r_max, never linear radius",
+    "every value printed: the symbol impresses, the number informs",
+    "one highlight maximum"
+  ],
+  "roles": {
+    "symbol": [
+      "muted"
+    ],
+    "symbol_highlight": [
+      "primary"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "radius-proportional scaling (the classic double-count lie)",
+    "unprinted values",
+    "more than 7 symbols"
+  ],
+  "qa": [
+    "area-true scaling",
+    "values printed",
+    "highlight <= 1",
+    "unit once",
+    "source present"
+  ]
+}

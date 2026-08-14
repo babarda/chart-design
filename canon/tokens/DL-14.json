@@ -1,0 +1,106 @@
+{
+  "code": "DL-14",
+  "name": "EVIDENTIA",
+  "aka": "EXHIBIT",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "Ancient Rome",
+    "principle": "Proof",
+    "motto": "Proof over persuasion.",
+    "laws": [
+      "Every exhibit answers one question",
+      "Sources are mandatory",
+      "Footnotes are integral",
+      "Quantitative proof dominates",
+      "Conclusions follow evidence"
+    ],
+    "related": [
+      "Burhan",
+      "Tekmerion"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "evidence-first",
+    "density": "operational",
+    "annotation_policy": "guided",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "recommendation-with-owner",
+    "reading_time": "minute",
+    "charts_per_page": 1
+  },
+  "voice": {
+    "stance": "The exhibit voice. The consulting register done honestly: the title is the takeaway with the number inside it, every figure carries a footnote, every list divides cleanly. Prose is scaffolding for quantities, and a claim with no denominator is not a claim, it is a mood.",
+    "register": "quantified, footnoted",
+    "mood": "declarative takeaways",
+    "hedging": "confidence intervals, not adverbs",
+    "sentence_max_words": 20,
+    "title_max_words": 14,
+    "title_grammar": "Quantified takeaway: the so-what is the title, and it carries a number.",
+    "title_example": "Logistics drives 62% of the overrun; three orders carry half",
+    "do": [
+      {
+        "rule": "Put a number in every title.",
+        "why": "A takeaway with no quantity means the exhibit is not finished."
+      },
+      {
+        "rule": "Footnote the source of every figure.",
+        "why": "Integral footnotes are the law of this language, and the prose obeys it."
+      },
+      {
+        "rule": "Give every share its denominator.",
+        "why": "62% of an 8.4 MUSD overrun survives scrutiny. A bare 62% invites it."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No unquantified driver.",
+        "why": "\"A major factor\" begs the question: compared with what? The comparison is the analysis."
+      },
+      {
+        "rule": "No orphan exhibit.",
+        "why": "A chart with no one-line so-what is data, not evidence."
+      },
+      {
+        "rule": "No persuasion adverbs.",
+        "why": "\"Clearly\" and \"obviously\" admit the proof is short."
+      }
+    ],
+    "contrast": {
+      "generic": "The analysis reveals that logistics costs are a major driver of the overall budget overrun.",
+      "voiced": "Logistics is 62% of the 8.4 MUSD overrun; three orders account for 4.1 MUSD (note 1)."
+    }
+  },
+  "occasions": [
+    "evidence-led strategy decks",
+    "diagnostic readouts",
+    "cost and value driver analyses"
+  ],
+  "palette": {
+    "background": "#FFFFFF",
+    "ink": "#0B1F35",
+    "body": "#3C4A5A",
+    "hairline": "#C7D0D9",
+    "gridline": "#E3E8ED",
+    "primary": "#2251FF",
+    "muted": "#A9B4C0",
+    "benchmark": "#6E7E8E",
+    "positive": "#2E6E4E",
+    "negative": "#9E2B25"
+  },
+  "fonts": {
+    "display": {
+      "family": "Georgia,serif",
+      "weight": 700
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": true
+  }
+}

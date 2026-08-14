@@ -1,0 +1,240 @@
+{
+  "ovp_version": "0.1",
+  "vocabulary": {
+    "audience": [
+      "executive",
+      "operations",
+      "analyst",
+      "technical",
+      "legal",
+      "field",
+      "public"
+    ],
+    "purpose": [
+      "decide",
+      "monitor",
+      "explain",
+      "alert",
+      "document",
+      "brief",
+      "archive",
+      "navigate",
+      "prove",
+      "celebrate"
+    ],
+    "medium": [
+      "screen",
+      "print",
+      "projector",
+      "wall",
+      "phone"
+    ],
+    "intent": [
+      "ranking",
+      "comparison",
+      "magnitude",
+      "trend",
+      "change-over-time",
+      "schedule",
+      "progress",
+      "part-to-whole",
+      "composition",
+      "share",
+      "volume",
+      "deviation",
+      "variance",
+      "flow",
+      "bridge",
+      "variance-decomposition",
+      "correlation",
+      "outlier-detection",
+      "pattern",
+      "density",
+      "status",
+      "lookup",
+      "readiness",
+      "uncertainty",
+      "distribution"
+    ],
+    "narrative_style": [
+      "recommendation-first",
+      "evidence-first",
+      "question-first",
+      "story-first"
+    ],
+    "density": [
+      "executive",
+      "operational",
+      "scientific"
+    ],
+    "annotation_policy": [
+      "none",
+      "minimal",
+      "guided",
+      "full"
+    ],
+    "legend_policy": [
+      "direct-labels-only",
+      "level-key-allowed"
+    ],
+    "highlight_policy": [
+      "single",
+      "dual",
+      "none"
+    ],
+    "decision_style": [
+      "recommendation-with-owner",
+      "options",
+      "evidence-only"
+    ],
+    "reading_time": [
+      "glance",
+      "minute",
+      "session"
+    ]
+  },
+  "note": "Rules match top-down, first full match wins; every condition key must match. An agent resolves the DL here, then the chart via the pattern library (PATTERNS.md) or the chooser (CHOOSER.md).",
+  "rules": [
+    {
+      "if": {
+        "purpose": "decide",
+        "audience": "executive"
+      },
+      "then": "DL-01",
+      "why": "AGRAW: one governing message, authority through restraint"
+    },
+    {
+      "if": {
+        "purpose": "prove"
+      },
+      "then": "DL-14",
+      "why": "EVIDENTIA: numbered exhibits, proof over persuasion"
+    },
+    {
+      "if": {
+        "audience": "legal"
+      },
+      "then": "DL-06",
+      "why": "LEX: every statement referenced, looks like evidence"
+    },
+    {
+      "if": {
+        "purpose": "alert"
+      },
+      "then": "DL-12",
+      "why": "NOROSHI: verdict first, exceptions only, owner on every row"
+    },
+    {
+      "if": {
+        "purpose": "monitor",
+        "medium": "screen"
+      },
+      "then": "DL-08",
+      "why": "SENTINEL: dark panels, one amber watch metric"
+    },
+    {
+      "if": {
+        "audience": "field"
+      },
+      "then": "DL-05",
+      "why": "OBEYA: readable from 3 meters on a bad projector"
+    },
+    {
+      "if": {
+        "medium": "projector"
+      },
+      "then": "DL-05",
+      "why": "OBEYA: contrast survives washed-out rooms"
+    },
+    {
+      "if": {
+        "audience": "technical"
+      },
+      "then": "DL-04",
+      "why": "SHILPA: title blocks, monospace IDs, stamps"
+    },
+    {
+      "if": {
+        "purpose": "explain",
+        "audience": "analyst"
+      },
+      "then": "DL-03",
+      "why": "LOGOS: the chart is the page, annotation over legend"
+    },
+    {
+      "if": {
+        "purpose": "explain"
+      },
+      "then": "DL-03",
+      "why": "LOGOS: evidence before opinion"
+    },
+    {
+      "if": {
+        "purpose": "navigate"
+      },
+      "then": "DL-09",
+      "why": "ATLAS: geography drives layout"
+    },
+    {
+      "if": {
+        "purpose": "celebrate"
+      },
+      "then": "DL-10",
+      "why": "BASIRA: the photograph carries the page"
+    },
+    {
+      "if": {
+        "purpose": "brief",
+        "medium": "print"
+      },
+      "then": "DL-11",
+      "why": "SUTRA: two pages, recommendation last"
+    },
+    {
+      "if": {
+        "purpose": "brief"
+      },
+      "then": "DL-11",
+      "why": "SUTRA: complexity distilled"
+    },
+    {
+      "if": {
+        "purpose": "archive"
+      },
+      "then": "DL-07",
+      "why": "SAGA: every report becomes history"
+    },
+    {
+      "if": {
+        "purpose": "document"
+      },
+      "then": "DL-04",
+      "why": "SHILPA: precision before aesthetics"
+    },
+    {
+      "if": {
+        "purpose": "monitor"
+      },
+      "then": "DL-02",
+      "why": "KATA: the recurring status register, repeatable structures"
+    },
+    {
+      "if": {
+        "audience": "operations"
+      },
+      "then": "DL-02",
+      "why": "KATA: default for recurring operational reporting"
+    },
+    {
+      "if": {
+        "audience": "executive"
+      },
+      "then": "DL-16",
+      "why": "TELOS: answer first, action emphasized"
+    }
+  ],
+  "fallback": {
+    "then": "DL-02",
+    "why": "KATA is the workhorse default when nothing sharper matches"
+  }
+}

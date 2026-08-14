@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Road carries 70 of 130 loads; barge stays marginal</text>
+<path d="M 224,172 C 454.4,172 505.6,172 736,172" fill="none" stroke="#008080" stroke-width="84" stroke-opacity="0.35"/>
+<path d="M 224,244 C 454.4,244 505.6,342 736,342" fill="none" stroke="#008080" stroke-width="60" stroke-opacity="0.35"/>
+<path d="M 224,318 C 454.4,318 505.6,244 736,244" fill="none" stroke="#008080" stroke-width="60" stroke-opacity="0.35"/>
+<path d="M 224,366 C 454.4,366 505.6,440 736,440" fill="none" stroke="#008080" stroke-width="36" stroke-opacity="0.35"/>
+<path d="M 224,410 C 454.4,410 505.6,286 736,286" fill="none" stroke="#008080" stroke-width="24" stroke-opacity="0.35"/>
+<path d="M 224,440 C 454.4,440 505.6,390 736,390" fill="none" stroke="#008080" stroke-width="36" stroke-opacity="0.35"/>
+<path d="M 224,464 C 454.4,464 505.6,464 736,464" fill="none" stroke="#008080" stroke-width="12" stroke-opacity="0.35"/>
+<rect x="210" y="130" width="14" height="144" fill="#222222"/>
+<text x="202" y="202" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Supplier A  60 loads</text>
+<rect x="210" y="288" width="14" height="96" fill="#222222"/>
+<text x="202" y="336" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Supplier B  40</text>
+<rect x="210" y="398" width="14" height="72" fill="#222222"/>
+<text x="202" y="434" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Supplier C  30</text>
+<rect x="736" y="130" width="14" height="168" fill="#222222"/>
+<text x="758" y="214" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">Road  70</text>
+<rect x="736" y="312" width="14" height="96" fill="#222222"/>
+<text x="758" y="360" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">Rail  40</text>
+<rect x="736" y="422" width="14" height="48" fill="#222222"/>
+<text x="758" y="446" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">Barge  20</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

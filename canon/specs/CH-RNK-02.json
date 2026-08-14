@@ -1,0 +1,135 @@
+{
+  "code": "CH-RNK-02",
+  "name": "ORDERED COLUMN",
+  "ovp_version": "1.0",
+  "chart_type": "bar_v",
+  "meta": {
+    "intent": [
+      "ranking",
+      "comparison"
+    ],
+    "form": "vertical column, sorted descending",
+    "data_required": "one categorical dimension + one non-negative measure, short names",
+    "relations": {
+      "family": "RNK",
+      "alternatives": [
+        "CH-RNK-01 (long names)"
+      ],
+      "see_instead": [
+        {
+          "when": "natural order matters",
+          "use": "CH-MAG-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "ranking with short category names where vertical reads naturally",
+    "8 categories or fewer"
+  ],
+  "not_when": [
+    "long names (CH-RNK-01)",
+    "natural order (CH-MAG-01)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first value label",
+    "categories": "array of {label, value >= 0, highlight?}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 64,
+      "right": 896,
+      "top": 144,
+      "bottom": 432
+    },
+    "bar_width": 64,
+    "category_label": {
+      "size": 12,
+      "offset": 20
+    },
+    "value_label": {
+      "size": 13,
+      "offset": 8
+    }
+  },
+  "scale": {
+    "sort": "desc",
+    "note": "renderer sorts descending; ties break alphabetically"
+  },
+  "rules": [
+    "sorted descending, always",
+    "columns start at zero",
+    "direct labels, no axis",
+    "one highlight maximum",
+    "unit once"
+  ],
+  "roles": {
+    "bar": [
+      "muted"
+    ],
+    "bar_highlight": [
+      "primary"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "baseline": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "unsorted ranking",
+    "truncated baseline",
+    "rainbow columns"
+  ],
+  "qa": [
+    "descending order",
+    "baseline at zero",
+    "highlight <= 1",
+    "unit once",
+    "source present"
+  ]
+}

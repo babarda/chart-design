@@ -1,0 +1,111 @@
+{
+  "code": "DL-06",
+  "name": "LEX",
+  "aka": "TRIBUNAL",
+  "ovp_version": "1.1",
+  "status": "adopted",
+  "philosophy": {
+    "civilization": "Ancient Rome",
+    "principle": "Law and accountability",
+    "motto": "Everything must be traceable.",
+    "laws": [
+      "Every statement is referenced",
+      "Chronology matters",
+      "Evidence before opinion",
+      "Citations are mandatory",
+      "Ambiguity is minimized"
+    ],
+    "related": [
+      "Ma'at",
+      "Adl",
+      "Nomos"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "evidence-first",
+    "density": "scientific",
+    "annotation_policy": "full",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "none",
+    "decision_style": "evidence-only",
+    "reading_time": "session",
+    "charts_per_page": 2
+  },
+  "voice": {
+    "stance": "The witness voice. Every LEX sentence has to survive cross-examination: neutral, dated, referenced. The facts carry the argument and adjectives weaken it. This is the one language where the active-voice law relaxes, because the document, not the actor, is the evidence.",
+    "register": "legal-neutral",
+    "mood": "declarative, no contractions",
+    "hedging": "only as a legal qualification",
+    "sentence_max_words": 22,
+    "title_max_words": 14,
+    "title_grammar": "Neutral declarative carrying the date and the reference.",
+    "title_example": "Contractor notified of differing site conditions on 14 March 2025 (Letter C-1042)",
+    "do": [
+      {
+        "rule": "Use absolute dates, always.",
+        "why": "\"Recently\" is worth nothing to a tribunal reading the file two years later."
+      },
+      {
+        "rule": "Attribute every statement to a document reference.",
+        "why": "The law of this language is that citations are mandatory. Prose without a reference is opinion."
+      },
+      {
+        "rule": "Keep the capitalized defined terms of the contract.",
+        "why": "Contractual language holds one meaning per term, and the page inherits it."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No evaluative adjectives.",
+        "why": "\"Unreasonable\" and \"excessive\" ask for a conclusion. 47 days late argues better."
+      },
+      {
+        "rule": "No speculation about intent or motive.",
+        "why": "Acts and dates are evidence. States of mind are not."
+      },
+      {
+        "rule": "No rhetorical questions.",
+        "why": "A question you answer yourself reads as advocacy, and as weak advocacy."
+      }
+    ],
+    "contrast": {
+      "generic": "The contractor clearly failed to act in a timely manner, causing serious delays to the overall project.",
+      "voiced": "The Contractor submitted the revised schedule 47 days after the 10 April 2025 deadline (Ref C-1042). The slippage appears in the June progress report, section 3."
+    }
+  },
+  "occasions": [
+    "claims",
+    "mediation",
+    "arbitration decks",
+    "contractual correspondence"
+  ],
+  "palette": {
+    "background": "#FFFFFF",
+    "ink": "#1A1A1A",
+    "body": "#333333",
+    "hairline": "#B9B9B9",
+    "gridline": "#CCCCCC",
+    "primary": "#7A1F1F",
+    "muted": "#B9B9B9",
+    "positive": "#333333",
+    "negative": "#7A1F1F"
+  },
+  "fonts": {
+    "display": {
+      "family": "Georgia,serif",
+      "weight": 700
+    },
+    "body": {
+      "family": "Georgia,serif",
+      "weight": 400
+    },
+    "mono": {
+      "family": "Consolas,monospace",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

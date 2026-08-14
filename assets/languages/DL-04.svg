@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#FBFDFF"/>
+<text x="48" y="112" font-size="34" font-family="'Segoe UI',Arial,sans-serif" fill="#143D59" font-weight="600">Loop tests drive the path to RFSU on 30 November</text>
+<text x="48" y="146" font-size="15" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400">Craft every detail . SHILPA on technical packs</text>
+<svg x="48" y="240.43" width="832" height="298.13" viewBox="0 104 960 344">
+<rect width="960" height="540" fill="#FBFDFF"/>
+<line x1="208" y1="144" x2="208" y2="362" stroke="#E7EEF4" stroke-width="1"/>
+<line x1="322.67" y1="144" x2="322.67" y2="362" stroke="#E7EEF4" stroke-width="1"/>
+<line x1="437.33" y1="144" x2="437.33" y2="362" stroke="#E7EEF4" stroke-width="1"/>
+<line x1="552" y1="144" x2="552" y2="362" stroke="#E7EEF4" stroke-width="1"/>
+<line x1="666.67" y1="144" x2="666.67" y2="362" stroke="#E7EEF4" stroke-width="1"/>
+<line x1="781.33" y1="144" x2="781.33" y2="362" stroke="#E7EEF4" stroke-width="1"/>
+<line x1="896" y1="144" x2="896" y2="362" stroke="#E7EEF4" stroke-width="1"/>
+<text x="265.33" y="140" font-size="9" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Jul</text>
+<text x="380" y="140" font-size="9" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Aug</text>
+<text x="494.67" y="140" font-size="9" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Sep</text>
+<text x="609.33" y="140" font-size="9" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Oct</text>
+<text x="724" y="140" font-size="9" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Nov</text>
+<text x="838.67" y="140" font-size="9" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="middle">Dec</text>
+<text x="192" y="165" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" dominant-baseline="middle">Pre-commissioning</text>
+<rect x="208" y="152" width="401.33" height="26" fill="#C6D5E0"/>
+<rect x="208" y="152" width="252.27" height="26" fill="#1B6E8F"/>
+<text x="192" y="209" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" dominant-baseline="middle">Energization prep</text>
+<rect x="322.67" y="196" width="206.4" height="26" fill="#C6D5E0"/>
+<rect x="322.67" y="196" width="149.07" height="26" fill="#1B6E8F"/>
+<text x="192" y="253" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" dominant-baseline="middle">Loop tests</text>
+<rect x="437.33" y="240" width="298.13" height="26" fill="#C6D5E0"/>
+<rect x="437.33" y="240" width="45.87" height="26" fill="#1B6E8F"/>
+<text x="192" y="297" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" dominant-baseline="middle">Punch clearing</text>
+<rect x="574.93" y="284" width="229.33" height="26" fill="#C6D5E0"/>
+<text x="192" y="341" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400" text-anchor="end" dominant-baseline="middle">RFSU</text>
+<path d="M 781.33,332 L 790.33,341 L 781.33,350 L 772.33,341 Z" fill="#143D59"/>
+<line x1="483.2" y1="144" x2="483.2" y2="362" stroke="#9E2B25" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="483.2" y="378" font-size="8" font-family="'Segoe UI',Arial,sans-serif" fill="#9E2B25" font-weight="400" text-anchor="middle">today</text>
+</svg>
+<rect x="912" y="204" width="160" height="24" rx="4" fill="none" stroke="#1B6E8F" stroke-width="1.5"/>
+<circle cx="922" cy="216" r="3" fill="#1B6E8F"/>
+<text x="932" y="216" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#143D59" font-weight="600" dominant-baseline="middle" letter-spacing="1">SEQUENCE HOLDS</text>
+<rect x="912" y="244" width="320" height="72" fill="#EDF3F7" stroke="#C6D5E0" stroke-width="1"/>
+<rect x="912" y="244" width="4" height="72" fill="#1B6E8F"/>
+<text x="928" y="265" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#143D59" font-weight="600">Hold point: loop tests complete</text>
+<text x="928" y="283" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400">before energization.</text>
+<text x="928" y="301" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400">Float on the driver: 2 days.</text>
+<text x="48" y="688" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#33424E" font-weight="400">Source: sample dataset v1, 2026-07-12  .  Open Visualization Protocol, DL-04 SHILPA</text>
+</svg>

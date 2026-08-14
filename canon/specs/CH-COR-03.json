@@ -1,0 +1,147 @@
+{
+  "code": "CH-COR-03",
+  "name": "XY HEATMAP",
+  "ovp_version": "1.0",
+  "chart_type": "heatmap",
+  "meta": {
+    "intent": [
+      "correlation",
+      "pattern",
+      "density"
+    ],
+    "form": "two ordered dimensions x one measure, cells shaded and numbered",
+    "data_required": "grid of values over two ordered dimensions (weekday x week, hour x day)",
+    "relations": {
+      "family": "COR",
+      "alternatives": [
+        "CH-TAB-02 (heatmap table for entity rows)",
+        "CH-TIM-07 (calendar heatmap, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "rows are entities, not an ordered dimension",
+          "use": "CH-TAB-02"
+        },
+        {
+          "when": "few points",
+          "use": "CH-COR-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "patterns across two ordered dimensions: weekday x week, hour x day, section x month",
+    "dense grids where a scatter would be unreadable"
+  ],
+  "not_when": [
+    "entity rows with mixed-scale metrics (use CH-TAB-02, column-normalized)",
+    "exact value lookup as the primary job (a plain table wins)",
+    "diverging data around a midpoint (needs a diverging scale entry, planned)"
+  ],
+  "data_shape": {
+    "title": "string, action title naming the pattern",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "columns": "ordered dimension labels (x)",
+    "rows": "array of {label, values[] same length as columns}, ordered dimension (y)"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 140,
+      "right": 896,
+      "top": 168
+    },
+    "row_height": 56,
+    "header_label": {
+      "size": 10,
+      "offset": 14
+    },
+    "row_label": {
+      "size": 12,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 11
+    }
+  },
+  "scale": {
+    "normalize": "global",
+    "note": "cell = mix(cell_low, cell_high, value/global_max); values printed in every cell, so color is never alone"
+  },
+  "rules": [
+    "single-hue ramp from cell_low to cell_high (primary); never a rainbow",
+    "the value is printed in every cell; color alone never carries the number",
+    "cell text flips to the low color above 55% intensity, deterministically",
+    "both dimensions keep their natural order",
+    "global normalization: one scale for the whole grid"
+  ],
+  "roles": {
+    "cell_low": [
+      "panel",
+      "background"
+    ],
+    "cell_high": [
+      "primary"
+    ],
+    "header": [
+      "body"
+    ],
+    "row_label": [
+      "ink"
+    ],
+    "value": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "rainbow color scales",
+    "cells without printed values",
+    "sorting an ordered dimension by value",
+    "diverging data on a sequential ramp"
+  ],
+  "qa": [
+    "every cell prints its value",
+    "single-hue ramp",
+    "dimensions in natural order",
+    "title names the pattern",
+    "source line present bottom-left"
+  ]
+}

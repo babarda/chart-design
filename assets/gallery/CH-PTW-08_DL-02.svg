@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">74% of ordered items reached site; customs is the widest drop</text>
+<rect x="240" y="140" width="480" height="44" fill="#008080"/>
+<text x="228" y="162" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Ordered</text>
+<text x="732" y="162" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">1600 items</text>
+<rect x="266.85" y="208" width="426.3" height="44" fill="#B7DCDC"/>
+<text x="254.85" y="230" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Shipped</text>
+<text x="705.15" y="230" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">1421</text>
+<text x="480" y="196" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle" dominant-baseline="middle" font-style="italic">89%</text>
+<rect x="287.4" y="276" width="385.2" height="44" fill="#B7DCDC"/>
+<text x="275.4" y="298" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Cleared</text>
+<text x="684.6" y="298" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">1284</text>
+<text x="480" y="264" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle" dominant-baseline="middle" font-style="italic">90%</text>
+<rect x="303" y="344" width="354" height="44" fill="#B7DCDC"/>
+<text x="291" y="366" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Delivered</text>
+<text x="669" y="366" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">1180</text>
+<text x="480" y="332" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle" dominant-baseline="middle" font-style="italic">92%</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

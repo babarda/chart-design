@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Progress vs punch is the only strong pair</text>
+<rect x="140" y="140" width="217.33" height="104" fill="none" stroke="#E2E8E8"/>
+<text x="248.67" y="192" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle" dominant-baseline="middle">Progress</text>
+<text x="248.67" y="208" font-size="9" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0 to 100%</text>
+<rect x="371.33" y="140" width="217.33" height="104" fill="none" stroke="#E2E8E8"/>
+<circle cx="403.93" cy="148.32" r="2.5" fill="#B7DCDC"/>
+<circle cx="420.23" cy="152.48" r="2.5" fill="#B7DCDC"/>
+<circle cx="439.25" cy="167.04" r="2.5" fill="#B7DCDC"/>
+<circle cx="542.48" cy="201.36" r="3.5" fill="#008080"/>
+<circle cx="455.55" cy="175.36" r="2.5" fill="#B7DCDC"/>
+<circle cx="431.1" cy="160.8" r="2.5" fill="#B7DCDC"/>
+<circle cx="447.4" cy="171.2" r="2.5" fill="#B7DCDC"/>
+<circle cx="412.08" cy="155.6" r="2.5" fill="#B7DCDC"/>
+<rect x="602.67" y="140" width="217.33" height="104" fill="none" stroke="#E2E8E8"/>
+<circle cx="809.13" cy="148.32" r="2.5" fill="#B7DCDC"/>
+<circle cx="798.27" cy="152.48" r="2.5" fill="#B7DCDC"/>
+<circle cx="776.53" cy="167.04" r="2.5" fill="#B7DCDC"/>
+<circle cx="722.2" cy="201.36" r="3.5" fill="#008080"/>
+<circle cx="765.67" cy="175.36" r="2.5" fill="#B7DCDC"/>
+<circle cx="787.4" cy="160.8" r="2.5" fill="#B7DCDC"/>
+<circle cx="772.19" cy="171.2" r="2.5" fill="#B7DCDC"/>
+<circle cx="793.92" cy="155.6" r="2.5" fill="#B7DCDC"/>
+<rect x="140" y="258" width="217.33" height="104" fill="none" stroke="#E2E8E8"/>
+<circle cx="339.95" cy="346.4" r="2.5" fill="#B7DCDC"/>
+<circle cx="331.25" cy="338.6" r="2.5" fill="#B7DCDC"/>
+<circle cx="300.83" cy="329.5" r="2.5" fill="#B7DCDC"/>
+<circle cx="229.11" cy="280.1" r="3.5" fill="#008080"/>
+<circle cx="283.44" cy="321.7" r="2.5" fill="#B7DCDC"/>
+<circle cx="313.87" cy="333.4" r="2.5" fill="#B7DCDC"/>
+<circle cx="292.13" cy="325.6" r="2.5" fill="#B7DCDC"/>
+<circle cx="324.73" cy="342.5" r="2.5" fill="#B7DCDC"/>
+<rect x="371.33" y="258" width="217.33" height="104" fill="none" stroke="#E2E8E8"/>
+<text x="480" y="310" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle" dominant-baseline="middle">Punch</text>
+<text x="480" y="326" font-size="9" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0 to 80</text>
+<rect x="602.67" y="258" width="217.33" height="104" fill="none" stroke="#E2E8E8"/>
+<circle cx="809.13" cy="346.4" r="2.5" fill="#B7DCDC"/>
+<circle cx="798.27" cy="338.6" r="2.5" fill="#B7DCDC"/>
+<circle cx="776.53" cy="329.5" r="2.5" fill="#B7DCDC"/>
+<circle cx="722.2" cy="280.1" r="3.5" fill="#008080"/>
+<circle cx="765.67" cy="321.7" r="2.5" fill="#B7DCDC"/>
+<circle cx="787.4" cy="333.4" r="2.5" fill="#B7DCDC"/>
+<circle cx="772.19" cy="325.6" r="2.5" fill="#B7DCDC"/>
+<circle cx="793.92" cy="342.5" r="2.5" fill="#B7DCDC"/>
+<rect x="140" y="376" width="217.33" height="104" fill="none" stroke="#E2E8E8"/>
+<circle cx="339.95" cy="381.2" r="2.5" fill="#B7DCDC"/>
+<circle cx="331.25" cy="386.4" r="2.5" fill="#B7DCDC"/>
+<circle cx="300.83" cy="396.8" r="2.5" fill="#B7DCDC"/>
+<circle cx="229.11" cy="422.8" r="3.5" fill="#008080"/>
+<circle cx="283.44" cy="402" r="2.5" fill="#B7DCDC"/>
+<circle cx="313.87" cy="391.6" r="2.5" fill="#B7DCDC"/>
+<circle cx="292.13" cy="398.88" r="2.5" fill="#B7DCDC"/>
+<circle cx="324.73" cy="388.48" r="2.5" fill="#B7DCDC"/>
+<rect x="371.33" y="376" width="217.33" height="104" fill="none" stroke="#E2E8E8"/>
+<circle cx="403.93" cy="381.2" r="2.5" fill="#B7DCDC"/>
+<circle cx="420.23" cy="386.4" r="2.5" fill="#B7DCDC"/>
+<circle cx="439.25" cy="396.8" r="2.5" fill="#B7DCDC"/>
+<circle cx="542.48" cy="422.8" r="3.5" fill="#008080"/>
+<circle cx="455.55" cy="402" r="2.5" fill="#B7DCDC"/>
+<circle cx="431.1" cy="391.6" r="2.5" fill="#B7DCDC"/>
+<circle cx="447.4" cy="398.88" r="2.5" fill="#B7DCDC"/>
+<circle cx="412.08" cy="388.48" r="2.5" fill="#B7DCDC"/>
+<rect x="602.67" y="376" width="217.33" height="104" fill="none" stroke="#E2E8E8"/>
+<text x="711.33" y="428" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle" dominant-baseline="middle">Docs</text>
+<text x="711.33" y="444" font-size="9" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0 to 100%</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

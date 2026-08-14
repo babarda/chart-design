@@ -1,0 +1,140 @@
+{
+  "code": "CH-PTW-05",
+  "name": "TREEMAP",
+  "ovp_version": "1.0",
+  "chart_type": "treemap",
+  "meta": {
+    "intent": [
+      "part-to-whole",
+      "composition",
+      "magnitude"
+    ],
+    "form": "squarified treemap, one level",
+    "data_required": "4 to 12 additive categories of one total, one optional highlight",
+    "relations": {
+      "family": "PTW",
+      "alternatives": [
+        "CH-PTW-01 (stacked bar)",
+        "CH-RNK-01 (when order matters more than area)"
+      ],
+      "see_instead": [
+        {
+          "when": "under 4 categories",
+          "use": "CH-PTW-03"
+        },
+        {
+          "when": "precise comparison matters",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "a total split across 4 to 12 parts where the big picture beats precision",
+    "budget, scope, or inventory composition at a glance"
+  ],
+  "not_when": [
+    "precise comparisons (area is read badly; use CH-RNK-01)",
+    "hierarchies deeper than one level (out of scope for this entry)",
+    "more than 12 cells (aggregate the tail into Other)"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the concentration with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit": "string, appears once, on the largest cell's value",
+    "categories": "array of {label, value > 0, highlight?}, 4 to 12 items"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 64,
+      "right": 896,
+      "top": 128,
+      "bottom": 484
+    },
+    "label_min_w": 90,
+    "label_min_h": 44,
+    "name_label": {
+      "size": 12
+    },
+    "value_label": {
+      "size": 11
+    }
+  },
+  "scale": {
+    "note": "squarified layout (Bruls), input sorted descending; deterministic for fixed order"
+  },
+  "rules": [
+    "one level only; cells sorted descending before layout",
+    "2px background-colored gaps between cells",
+    "labels only in cells >= 90x44 px; small cells stay silent (their story is in the title)",
+    "one highlight maximum (role primary); all others role muted",
+    "unit once, on the largest cell"
+  ],
+  "roles": {
+    "cell": [
+      "muted"
+    ],
+    "cell_highlight": [
+      "primary"
+    ],
+    "name": [
+      "ink"
+    ],
+    "value": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "rainbow cells (one hue plus one highlight, always)",
+    "labels crammed into tiny cells",
+    "nested hierarchies in this entry",
+    "treemap for time series"
+  ],
+  "qa": [
+    "4 to 12 cells",
+    "highlight count <= 1",
+    "labels absent below the size threshold",
+    "unit exactly once",
+    "title states the concentration with a number",
+    "source line present bottom-left"
+  ]
+}

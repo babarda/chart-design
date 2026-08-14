@@ -1,0 +1,124 @@
+{
+  "code": "CH-SPA-02",
+  "name": "PROPORTIONAL SYMBOL MAP",
+  "ovp_version": "1.0",
+  "chart_type": "symbol_map",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "comparison"
+    ],
+    "form": "area-true circles at supplied coordinates over a base map",
+    "data_required": "base polygons + places [{name, at, value}]; absolute counts",
+    "relations": {
+      "family": "SPA",
+      "alternatives": [
+        "CH-SPA-01 (rates)",
+        "CH-MAG-05 (no geography)"
+      ],
+      "see_instead": [
+        {
+          "when": "rates or intensities",
+          "use": "CH-SPA-01"
+        },
+        {
+          "when": "geography adds nothing",
+          "use": "CH-MAG-05"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "absolute counts anchored to places (stock, headcount, backlog)",
+    "comparing site magnitudes in their geographic context"
+  ],
+  "not_when": [
+    "rates (symbol size reads as amount)",
+    "more than ~10 symbols"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first place",
+    "note": "coordinates are author-supplied unit-square (0-100) geometry; the renderer scales, the author owns projection and aspect",
+    "regions": "base polygons",
+    "places": "[{name, at, value, highlight?}]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 120,
+      "right": 840,
+      "top": 110,
+      "bottom": 490
+    },
+    "r_max": 42,
+    "label": {
+      "size": 11
+    }
+  },
+  "rules": [
+    "AREA encodes the value, never radius",
+    "every symbol labeled with name and value",
+    "base map stays a quiet single tint"
+  ],
+  "roles": {
+    "symbol": [
+      "muted"
+    ],
+    "symbol_highlight": [
+      "primary"
+    ],
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "radius scaling",
+    "colored base regions competing with symbols",
+    "unlabeled symbols"
+  ],
+  "qa": [
+    "area-true",
+    "labels on symbols",
+    "highlight <= 1",
+    "source present"
+  ]
+}

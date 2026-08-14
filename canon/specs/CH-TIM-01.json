@@ -1,0 +1,182 @@
+{
+  "code": "CH-TIM-01",
+  "name": "LINE",
+  "ovp_version": "1.0",
+  "chart_type": "line",
+  "meta": {
+    "intent": [
+      "trend",
+      "change-over-time"
+    ],
+    "form": "line",
+    "data_required": "ordered periods + 2 to 4 numeric series",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-03 (area, planned)",
+        "CH-TIM-05 (slope, planned)",
+        "CH-TIM-06 (sparkline, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "values are cumulative progress vs plan",
+          "use": "CH-TIM-02"
+        },
+        {
+          "when": "comparison across categories",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "trend over ordered periods",
+    "plan vs actual tracking",
+    "2 to 4 series maximum"
+  ],
+  "not_when": [
+    "categorical comparison (use CH-RNK-01 or CH-MAG-01)",
+    "cumulative progress vs plan (use CH-TIM-02 S-CURVE)",
+    "more than 4 series (use small multiples)",
+    "unordered categories"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the finding with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit": "string, appears once, on the top y tick label",
+    "x": "array of ordered period labels",
+    "series": "array of {name: string, values: number[] same length as x, role: 'key'|'context'}, exactly one key",
+    "annotation": "{text: string, series: name, index: int, tx: px, ty: px, anchor: 'start'|'end'}, points at a data point"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 756,
+      "top": 128,
+      "bottom": 452
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "series_label": {
+      "size": 13,
+      "offset": 10
+    },
+    "stroke": {
+      "key": 2.5,
+      "context": 2
+    },
+    "annotation": {
+      "size": 12,
+      "style": "italic"
+    }
+  },
+  "scale": {
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "raw = max/target_ticks; mag = 10^floor(log10(raw)); step = first nice_steps*mag >= raw; top = ceil(max/step)*step"
+  },
+  "rules": [
+    "y starts at zero; a non-zero baseline needs a written justification in the entry that uses it",
+    "series labeled at line ends, never a legend",
+    "exactly one key series; the rest are context",
+    "horizontal gridlines only",
+    "annotation points at the data, with a leader line"
+  ],
+  "roles": {
+    "key": [
+      "primary"
+    ],
+    "context": [
+      "benchmark",
+      "muted"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "key_label": [
+      "primary"
+    ],
+    "context_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ],
+    "annotation": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "legend boxes",
+    "more than one saturated series",
+    "dual y axes",
+    "markers on every point",
+    "smoothed or spline-interpolated lines"
+  ],
+  "qa": [
+    "no legend anywhere",
+    "series labels at line ends",
+    "gridlines horizontal only",
+    "y axis starts at zero or the justification is recorded",
+    "annotation present and anchored to a data point",
+    "title states a finding with a number",
+    "source line present bottom-left"
+  ]
+}

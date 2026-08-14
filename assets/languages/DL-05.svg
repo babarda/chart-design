@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="48" y="112" font-size="34" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="700">Two of five systems are handover-ready;</text>
+<text x="48" y="152" font-size="34" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="700">System D is critical in test</text>
+<text x="48" y="182" font-size="15" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400">See together. Decide together . OBEYA on stand-up boards</text>
+<svg x="48" y="268.17" width="832" height="242.67" viewBox="0 112 960 280">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="212" y="138" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="600" letter-spacing="1">INSTALL</text>
+<text x="394" y="138" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="600" letter-spacing="1">TEST</text>
+<text x="576" y="138" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="600" letter-spacing="1">PUNCH</text>
+<text x="758" y="138" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="600" letter-spacing="1">HANDOVER</text>
+<line x1="32" y1="152" x2="928" y2="152" stroke="#64748B" stroke-width="1"/>
+<text x="184" y="174" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600" text-anchor="end" dominant-baseline="middle">System A</text>
+<rect x="212" y="170" width="8" height="8" fill="#1F7A4D"/>
+<text x="226" y="174" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="394" y="170" width="8" height="8" fill="#1F7A4D"/>
+<text x="408" y="174" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="576" y="170" width="8" height="8" fill="#1F7A4D"/>
+<text x="590" y="174" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="758" y="170" width="8" height="8" fill="#1F7A4D"/>
+<text x="772" y="174" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<line x1="32" y1="196" x2="928" y2="196" stroke="#64748B" stroke-width="1"/>
+<text x="184" y="218" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600" text-anchor="end" dominant-baseline="middle">System B</text>
+<rect x="212" y="214" width="8" height="8" fill="#1F7A4D"/>
+<text x="226" y="218" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="394" y="214" width="8" height="8" fill="#1F7A4D"/>
+<text x="408" y="218" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="576" y="214" width="8" height="8" fill="#1F7A4D"/>
+<text x="590" y="218" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="758" y="214" width="8" height="8" fill="#1F7A4D"/>
+<text x="772" y="218" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<line x1="32" y1="240" x2="928" y2="240" stroke="#64748B" stroke-width="1"/>
+<text x="184" y="262" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600" text-anchor="end" dominant-baseline="middle">System C</text>
+<rect x="212" y="258" width="8" height="8" fill="#1F7A4D"/>
+<text x="226" y="262" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="394" y="258" width="8" height="8" fill="#C2410C"/>
+<text x="408" y="262" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">ON TRACK</text>
+<rect x="576" y="258" width="8" height="8" fill="#64748B"/>
+<text x="590" y="262" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">WATCH</text>
+<rect x="758" y="258" width="8" height="8" fill="#64748B"/>
+<text x="772" y="262" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">-</text>
+<line x1="32" y1="284" x2="928" y2="284" stroke="#64748B" stroke-width="1"/>
+<text x="184" y="306" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600" text-anchor="end" dominant-baseline="middle">System D</text>
+<rect x="212" y="302" width="8" height="8" fill="#1F7A4D"/>
+<text x="226" y="306" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">COMPLETE</text>
+<rect x="394" y="302" width="8" height="8" fill="#B91C1C"/>
+<text x="408" y="306" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">CRITICAL</text>
+<rect x="576" y="302" width="8" height="8" fill="#64748B"/>
+<text x="590" y="306" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">-</text>
+<rect x="758" y="302" width="8" height="8" fill="#64748B"/>
+<text x="772" y="306" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">-</text>
+<line x1="32" y1="328" x2="928" y2="328" stroke="#64748B" stroke-width="1"/>
+<text x="184" y="350" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600" text-anchor="end" dominant-baseline="middle">System E</text>
+<rect x="212" y="346" width="8" height="8" fill="#C2410C"/>
+<text x="226" y="350" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">ON TRACK</text>
+<rect x="394" y="346" width="8" height="8" fill="#64748B"/>
+<text x="408" y="350" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">WATCH</text>
+<rect x="576" y="346" width="8" height="8" fill="#64748B"/>
+<text x="590" y="350" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">-</text>
+<rect x="758" y="346" width="8" height="8" fill="#64748B"/>
+<text x="772" y="350" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400" dominant-baseline="middle">-</text>
+<line x1="32" y1="372" x2="928" y2="372" stroke="#64748B" stroke-width="1"/>
+</svg>
+<rect x="912" y="204" width="170" height="24" rx="4" fill="none" stroke="#B91C1C" stroke-width="1.5"/>
+<circle cx="922" cy="216" r="3" fill="#B91C1C"/>
+<text x="932" y="216" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600" dominant-baseline="middle" letter-spacing="1">SYSTEM D . TEST</text>
+<rect x="912" y="238" width="175" height="24" rx="4" fill="none" stroke="#C2410C" stroke-width="1.5"/>
+<circle cx="922" cy="250" r="3" fill="#C2410C"/>
+<text x="932" y="250" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600" dominant-baseline="middle" letter-spacing="1">A + B . HANDOVER</text>
+<rect x="912" y="278" width="320" height="54" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<rect x="912" y="278" width="4" height="54" fill="#C2410C"/>
+<text x="928" y="299" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600">Owners named in the morning round;</text>
+<text x="928" y="317" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400">blockers cleared on the wall.</text>
+<text x="48" y="688" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#334155" font-weight="400">Source: sample dataset v1, 2026-07-12  .  Open Visualization Protocol, DL-05 OBEYA</text>
+</svg>

@@ -1,0 +1,145 @@
+{
+  "code": "CH-DEV-01",
+  "name": "DIVERGING BAR",
+  "ovp_version": "1.0",
+  "chart_type": "bar_h_div",
+  "meta": {
+    "intent": [
+      "deviation",
+      "variance",
+      "comparison"
+    ],
+    "form": "horizontal diverging bar from a zero axis",
+    "data_required": "one categorical dimension + one signed measure (variance vs plan, budget, or zero)",
+    "relations": {
+      "family": "DEV",
+      "alternatives": [
+        "CH-DEV-02 (dumbbell, planned)",
+        "CH-DEV-03 (spine, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "deltas chain into a running total",
+          "use": "CH-FLO-01"
+        },
+        {
+          "when": "all values share one sign",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "signed variance per category: ahead/behind, over/under, surplus/deficit",
+    "the zero line is a meaningful reference (plan, budget, target)",
+    "fewer than 12 categories"
+  ],
+  "not_when": [
+    "sequential deltas that bridge two totals (use CH-FLO-01)",
+    "all values one sign (use CH-RNK-01; a one-sided diverging bar is a plain bar)",
+    "two-point before/after per category (CH-DEV-02 when built)"
+  ],
+  "data_shape": {
+    "title": "string, action title naming the worst or best deviation with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit": "string, appears once, on the first value label",
+    "categories": "array of {label, value signed number}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 856,
+      "top": 128
+    },
+    "bar_height": 32,
+    "bar_gap": 16,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 13,
+      "offset": 8
+    }
+  },
+  "scale": {
+    "note": "symmetric: both sides scale to max absolute value; zero line center"
+  },
+  "rules": [
+    "zero line vertical at plot center; positives grow right, negatives left",
+    "rows sorted descending by value (best on top, worst at bottom)",
+    "positive role for favorable, negative role for unfavorable; ALWAYS with signed labels",
+    "value labels outside the bar end, signed",
+    "unit once, on the first value label"
+  ],
+  "roles": {
+    "positive_bar": [
+      "positive"
+    ],
+    "negative_bar": [
+      "negative"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "color without signed labels (color-blind readers lose the sign)",
+    "asymmetric scales that exaggerate one side",
+    "sorting alphabetically",
+    "diverging bars for unsigned data"
+  ],
+  "qa": [
+    "zero line at center, both sides same scale",
+    "every label signed",
+    "rows descending by value",
+    "unit exactly once",
+    "title names the extreme deviation with a number",
+    "source line present bottom-left"
+  ]
+}

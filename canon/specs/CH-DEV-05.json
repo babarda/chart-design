@@ -1,0 +1,150 @@
+{
+  "code": "CH-DEV-05",
+  "name": "DIVERGING STACKED",
+  "ovp_version": "1.0",
+  "chart_type": "likert",
+  "meta": {
+    "intent": [
+      "deviation",
+      "composition"
+    ],
+    "form": "4-level agreement bars diverging from a center axis",
+    "data_required": "statements with counts or shares across 4 graded levels (2 negative, 2 positive)",
+    "relations": {
+      "family": "DEV",
+      "alternatives": [
+        "CH-PTW-02 (no natural center)",
+        "CH-DEV-03 (two parts only)"
+      ],
+      "see_instead": [
+        {
+          "when": "levels have no negative/positive split",
+          "use": "CH-PTW-02"
+        },
+        {
+          "when": "only two parts per row",
+          "use": "CH-DEV-03"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "survey scales: agreement, satisfaction, support",
+    "any graded scale with a natural middle to diverge from"
+  ],
+  "not_when": [
+    "scales with a neutral middle level (fold it out first and say so)",
+    "more than 4 levels (group to 4)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "appended to first-row totals (%, usually)",
+    "levels": "exactly 4 names, most negative first",
+    "categories": "array of {label, values: [4, level order]}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 250,
+      "right": 850,
+      "top": 170
+    },
+    "row_height": 26,
+    "row_gap": 14,
+    "bar_height": 20,
+    "legend": {
+      "y": 132,
+      "slot": 150,
+      "size": 11
+    },
+    "category_label": {
+      "size": 12,
+      "offset": 14
+    },
+    "value_label": {
+      "size": 11,
+      "offset": 8
+    }
+  },
+  "scale": {
+    "negative_levels": 2,
+    "note": "exactly 4 levels; both sides share one scale"
+  },
+  "rules": [
+    "strong levels use the negative/positive roles; mild levels are a",
+    "deterministic 45% ink-mix toward the background",
+    "side totals printed at the outer ends",
+    "the level key under the title is the one permitted key",
+    "rows sorted by the message, stated in the title"
+  ],
+  "roles": {
+    "strong_neg": [
+      "negative"
+    ],
+    "strong_pos": [
+      "positive"
+    ],
+    "axis": [
+      "ink"
+    ],
+    "legend_label": [
+      "body"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "rainbow level palettes",
+    "a neutral level hidden inside a side",
+    "per-level value labels squeezed into segments"
+  ],
+  "qa": [
+    "4 levels exactly",
+    "level key present once",
+    "side totals printed",
+    "unit once",
+    "source present"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "code": "CH-MAG-04",
+  "name": "BULLET",
+  "ovp_version": "1.0",
+  "chart_type": "bullet",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "variance",
+      "progress"
+    ],
+    "form": "measure bar vs target tick over qualitative bands",
+    "data_required": "KPIs with a value, a target, and up to 3 ascending qualitative bands",
+    "relations": {
+      "family": "MAG",
+      "alternatives": [
+        "CH-DEV-01 (signed variance only)"
+      ],
+      "see_instead": [
+        {
+          "when": "no meaningful target exists",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "KPI reporting: actual vs target vs poor/ok/good bands",
+    "dashboard rows that must survive print (the honest gauge)"
+  ],
+  "not_when": [
+    "no target (plain bar)",
+    "trend matters more than level (CH-TIM-06 when built)"
+  ],
+  "data_shape": {
+    "title": "action title naming the worst KPI gap",
+    "source": "bottom-left always",
+    "unit": "on first value label",
+    "categories": "array of {label, value, target, bands: [b1<b2<b3]}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 800,
+      "top": 150
+    },
+    "row_height": 30,
+    "row_gap": 26,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "scale": {
+    "note": "bands shaded by deterministic ink mix (7/14/21%); shared scale to band max"
+  },
+  "rules": [
+    "measure bar in ink, target as a negative-role tick, bands as computed shades",
+    "band shades derive from background+ink mix, never extra palette entries",
+    "unit once"
+  ],
+  "roles": {
+    "measure": [
+      "ink"
+    ],
+    "target": [
+      "negative"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "gauges (this IS the honest gauge)",
+    "rainbow bands",
+    "missing target"
+  ],
+  "qa": [
+    "every row has value, target, ascending bands",
+    "unit once",
+    "source present"
+  ]
+}

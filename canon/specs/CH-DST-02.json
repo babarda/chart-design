@@ -1,0 +1,132 @@
+{
+  "code": "CH-DST-02",
+  "name": "DOT PLOT",
+  "ovp_version": "1.0",
+  "chart_type": "dots_h",
+  "meta": {
+    "intent": [
+      "comparison",
+      "distribution"
+    ],
+    "form": "two dots per category (two measures) on one scale",
+    "data_required": "categories with two comparable measures (planned vs actual, min vs max)",
+    "relations": {
+      "family": "DST",
+      "alternatives": [
+        "CH-DEV-02 (change over time reading)"
+      ],
+      "see_instead": [
+        {
+          "when": "the two values are before/after",
+          "use": "CH-DEV-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "two measures per category on one scale: planned vs actual, this vs that",
+    "Cleveland dot plot use cases"
+  ],
+  "not_when": [
+    "before/after change (CH-DEV-02 reads direction)",
+    "one measure (CH-RNK-05)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first label",
+    "series_labels": "[name_a, name_b] labeled on the first row",
+    "categories": "array of {label, values: [a, b], highlight?}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 800,
+      "top": 150
+    },
+    "row_height": 30,
+    "row_gap": 22,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "scale": {
+    "note": "shared scale to max of all values"
+  },
+  "rules": [
+    "series identified by direct labels on the first row, never a legend",
+    "dot_a muted, dot_b primary, connector hairline",
+    "one highlight maximum"
+  ],
+  "roles": {
+    "dot_a": [
+      "muted"
+    ],
+    "dot_b": [
+      "primary"
+    ],
+    "connector": [
+      "hairline"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "legends",
+    "different scales per row",
+    "more than two dots per row"
+  ],
+  "qa": [
+    "series labeled on first row",
+    "highlight <= 1",
+    "unit once",
+    "source present"
+  ]
+}

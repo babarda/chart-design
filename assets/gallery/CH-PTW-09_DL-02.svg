@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Installation work holds 52% of remaining hours</text>
+<path d="M 430,210 A 110 110 0 1 1 416.21,429.13 L 423.11,374.57 A 55 55 0 1 0 430,265 Z" fill="#008080" stroke="#FFFFFF" stroke-width="2"/>
+<text x="512.34" y="325.18" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="600" text-anchor="middle" dominant-baseline="middle">Install</text>
+<path d="M 430,145 A 175 175 0 0 1 604.65,309.01 L 539.78,313.09 A 110 110 0 0 0 430,210 Z" fill="#61B0B0" stroke="#FFFFFF" stroke-width="2"/>
+<text x="556.64" y="185.14" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">Mechanical  24%</text>
+<path d="M 604.65,309.01 A 175 175 0 0 1 514.31,473.35 L 482.99,416.39 A 110 110 0 0 0 539.78,313.09 Z" fill="#8FC7C7" stroke="#FFFFFF" stroke-width="2"/>
+<text x="592.12" y="409.12" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">Electrical  18%</text>
+<path d="M 514.31,473.35 A 175 175 0 0 1 408.07,493.62 L 416.21,429.13 A 110 110 0 0 0 482.99,416.39 Z" fill="#61B0B0" stroke="#FFFFFF" stroke-width="2"/>
+<text x="464.67" y="501.72" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">Piping  10%</text>
+<path d="M 416.21,429.13 A 110 110 0 0 1 325.38,286.01 L 377.69,303 A 55 55 0 0 0 423.11,374.57 Z" fill="#53A9A9" stroke="#FFFFFF" stroke-width="2"/>
+<text x="360.34" y="364.21" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="600" text-anchor="middle" dominant-baseline="middle">Test</text>
+<path d="M 408.07,493.62 A 175 175 0 0 1 271.66,394.51 L 330.47,366.84 A 110 110 0 0 0 416.21,429.13 Z" fill="#94CACA" stroke="#FFFFFF" stroke-width="2"/>
+<text x="321.26" y="469.67" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Loops  16%</text>
+<path d="M 271.66,394.51 A 175 175 0 0 1 263.57,265.92 L 325.38,286.01 A 110 110 0 0 0 330.47,366.84 Z" fill="#B3D9D9" stroke="#FFFFFF" stroke-width="2"/>
+<text x="245.37" y="331.62" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Systems  12%</text>
+<path d="M 325.38,286.01 A 110 110 0 0 1 430,210 L 430,265 A 55 55 0 0 0 377.69,303 Z" fill="#A6D3D3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="381.51" y="253.26" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#FFFFFF" font-weight="600" text-anchor="middle" dominant-baseline="middle">Docs</text>
+<path d="M 263.57,265.92 A 175 175 0 0 1 345.69,166.65 L 377.01,223.61 A 110 110 0 0 0 325.38,286.01 Z" fill="#C8E4E4" stroke="#FFFFFF" stroke-width="2"/>
+<text x="287.46" y="202.08" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">As-built  12%</text>
+<path d="M 345.69,166.65 A 175 175 0 0 1 430,145 L 430,210 A 110 110 0 0 0 377.01,223.61 Z" fill="#D8ECEC" stroke="#FFFFFF" stroke-width="2"/>
+<text x="383.99" y="140.81" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Handover  8%</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

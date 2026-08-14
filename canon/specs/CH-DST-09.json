@@ -1,0 +1,171 @@
+{
+  "code": "CH-DST-09",
+  "name": "DENSITY CURVE",
+  "ovp_version": "1.0",
+  "chart_type": "area",
+  "meta": {
+    "intent": [
+      "distribution",
+      "density"
+    ],
+    "form": "one smooth declared density curve, filled to zero",
+    "data_required": "a DECLARED density curve: grid points + density shares, bandwidth stated",
+    "relations": {
+      "family": "DST",
+      "alternatives": [
+        "CH-DST-01 (honest bins, no smoothing)",
+        "CH-DST-08 (mirrored, per category)"
+      ],
+      "see_instead": [
+        {
+          "when": "bins are honest enough",
+          "use": "CH-DST-01"
+        },
+        {
+          "when": "comparing shapes across categories",
+          "use": "CH-DST-08"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "one distribution's shape for a reader who knows what a density is",
+    "the curve is already computed and declared, with its bandwidth"
+  ],
+  "not_when": [
+    "audiences who read areas as counts (CH-DST-01)",
+    "several overlapping curves (small multiples, not overlays)"
+  ],
+  "data_shape": {
+    "title": "action title naming the peak",
+    "source": "bottom-left always, must state the density bandwidth",
+    "unit": "%, on the top tick",
+    "x": "ascending grid points as labels",
+    "series": "exactly one role 'key': the density shares"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 756,
+      "top": 128,
+      "bottom": 452
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "series_label": {
+      "size": 13,
+      "offset": 10
+    },
+    "stroke": {
+      "key": 2.5,
+      "context": 2
+    },
+    "fill_opacity": 0.15,
+    "annotation": {
+      "size": 12,
+      "style": "italic"
+    }
+  },
+  "scale": {
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "the density is supplied, never computed silently; the source line",
+    "states the bandwidth",
+    "one curve only; comparisons go to CH-DST-08 or small multiples",
+    "y starts at zero"
+  ],
+  "roles": {
+    "key": [
+      "primary"
+    ],
+    "context": [
+      "benchmark",
+      "muted"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "key_label": [
+      "primary"
+    ],
+    "context_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ],
+    "annotation": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "overlapping filled densities",
+    "silent KDE with hidden bandwidth",
+    "reading the y axis as counts"
+  ],
+  "qa": [
+    "bandwidth stated in the source",
+    "one filled curve",
+    "y starts at zero",
+    "source present"
+  ]
+}

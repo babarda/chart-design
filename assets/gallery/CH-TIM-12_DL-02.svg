@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Line 4 spikes in weeks 30-33; nothing else moves</text>
+<polygon points="208,168.5 248.8,165.95 289.6,167.22 330.4,164.68 371.2,163.4 412,165.95 452.8,164.68 493.6,162.12 534.4,163.4 575.2,164.68 616,165.95 656.8,163.4 697.6,162.12 738.4,164.68 779.2,165.95 820,163.4 820,194 208,194" fill="#008080" fill-opacity="0.28"/>
+<line x1="208" y1="194" x2="820" y2="194" stroke="#E2E8E8" stroke-width="1"/>
+<text x="192" y="177" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Line 1</text>
+<polygon points="208,210 248.8,210 289.6,210 330.4,210 371.2,210 412,210 452.8,210 493.6,210 534.4,210 575.2,210 616,210 656.8,210 697.6,210 738.4,210 779.2,210 820,210 820,244 208,244" fill="#008080" fill-opacity="0.28"/>
+<polygon points="208,239.75 248.8,237.2 289.6,238.47 330.4,235.93 371.2,233.38 412,234.65 452.8,235.93 493.6,237.2 534.4,234.65 575.2,232.1 616,233.38 656.8,234.65 697.6,235.93 738.4,233.38 779.2,234.65 820,235.93 820,244 208,244" fill="#008080" fill-opacity="0.52"/>
+<line x1="208" y1="244" x2="820" y2="244" stroke="#E2E8E8" stroke-width="1"/>
+<text x="192" y="227" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Line 2</text>
+<polygon points="208,274.88 248.8,276.15 289.6,273.6 330.4,274.88 371.2,272.32 412,273.6 452.8,274.88 493.6,276.15 534.4,273.6 575.2,274.88 616,272.32 656.8,273.6 697.6,274.88 738.4,273.6 779.2,276.15 820,274.88 820,294 208,294" fill="#008080" fill-opacity="0.28"/>
+<line x1="208" y1="294" x2="820" y2="294" stroke="#E2E8E8" stroke-width="1"/>
+<text x="192" y="277" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Line 3</text>
+<polygon points="208,312.12 248.8,310.85 289.6,313.4 330.4,310 371.2,310.85 412,312.12 452.8,310 493.6,310.85 534.4,310 575.2,310 616,310 656.8,310 697.6,310 738.4,310 779.2,310 820,310 820,344 208,344" fill="#008080" fill-opacity="0.28"/>
+<polygon points="208,344 248.8,344 289.6,344 330.4,343.57 371.2,344 412,344 452.8,343.57 493.6,344 534.4,342.3 575.2,343.57 616,310 656.8,310 697.6,310 738.4,310 779.2,339.75 820,342.3 820,344 208,344" fill="#008080" fill-opacity="0.52"/>
+<polygon points="208,344 248.8,344 289.6,344 330.4,344 371.2,344 412,344 452.8,344 493.6,344 534.4,344 575.2,344 616,341.88 656.8,320.2 697.6,310 738.4,327.85 779.2,344 820,344 820,344 208,344" fill="#008080" fill-opacity="0.76"/>
+<line x1="208" y1="344" x2="820" y2="344" stroke="#E2E8E8" stroke-width="1"/>
+<text x="192" y="327" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Line 4</text>
+<polygon points="208,360 248.8,360 289.6,360 330.4,360 371.2,360 412,360 452.8,360 493.6,360 534.4,360 575.2,360 616,360 656.8,360 697.6,360 738.4,360 779.2,360 820,360 820,394 208,394" fill="#008080" fill-opacity="0.28"/>
+<polygon points="208,377 248.8,374.45 289.6,375.73 330.4,373.18 371.2,371.9 412,374.45 452.8,375.73 493.6,373.18 534.4,370.62 575.2,371.9 616,373.18 656.8,374.45 697.6,371.9 738.4,370.62 779.2,373.18 820,374.45 820,394 208,394" fill="#008080" fill-opacity="0.52"/>
+<line x1="208" y1="394" x2="820" y2="394" stroke="#E2E8E8" stroke-width="1"/>
+<text x="192" y="377" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Line 5</text>
+<polygon points="208,431.25 248.8,429.98 289.6,431.25 330.4,428.7 371.2,429.98 412,431.25 452.8,429.98 493.6,428.7 534.4,429.98 575.2,431.25 616,428.7 656.8,429.98 697.6,431.25 738.4,429.98 779.2,428.7 820,429.98 820,444 208,444" fill="#008080" fill-opacity="0.28"/>
+<line x1="208" y1="444" x2="820" y2="444" stroke="#E2E8E8" stroke-width="1"/>
+<text x="192" y="427" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Line 6</text>
+<text x="208" y="468" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">3 layers, each 26.67 units; darker = higher</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

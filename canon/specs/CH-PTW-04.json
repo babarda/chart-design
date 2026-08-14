@@ -1,0 +1,130 @@
+{
+  "code": "CH-PTW-04",
+  "name": "DONUT",
+  "ovp_version": "1.0",
+  "chart_type": "pie",
+  "meta": {
+    "intent": [
+      "part-to-whole",
+      "share"
+    ],
+    "form": "donut, 3 slices maximum",
+    "data_required": "2 or 3 additive slices of one real total",
+    "relations": {
+      "family": "PTW",
+      "alternatives": [
+        "CH-PTW-03 (pie)",
+        "CH-PTW-01 (stacked bar)"
+      ],
+      "see_instead": [
+        {
+          "when": "more than 3 parts",
+          "use": "CH-RNK-01"
+        },
+        {
+          "when": "the hole would stay empty",
+          "use": "CH-PTW-03"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "exactly the pie use case, when the surrounding design system already standardizes on donuts",
+    "3 slices maximum, one clearly dominant"
+  ],
+  "not_when": [
+    "more than 3 categories, always",
+    "when angle reading matters (the hole removes the angle cue pies rely on)",
+    "dashboards stacking many small donuts (use CH-TAB-01 or CH-PTW-02)"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the dominant share",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "slices": "array of {label, value > 0}, 3 maximum"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "cx": 420,
+    "cy": 310,
+    "r": 150,
+    "inner_r": 92,
+    "label_offset": 22,
+    "label_size": 13
+  },
+  "scale": {
+    "note": "same construction as CH-PTW-03 with an annular cut"
+  },
+  "rules": [
+    "every CH-PTW-03 rule applies unchanged",
+    "the ring must stay thick (inner radius <= 62% of outer); thin rings are unreadable",
+    "the hole stays empty; a number in the hole belongs in the title"
+  ],
+  "roles": {
+    "slices": [
+      [
+        "primary"
+      ],
+      [
+        "muted"
+      ],
+      [
+        "benchmark",
+        "hairline"
+      ]
+    ],
+    "label": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "more than 3 slices (the classic dashboard donut crime)",
+    "KPI number stuffed in the hole while the ring shows something else",
+    "thin progress rings pretending to be charts",
+    "legends"
+  ],
+  "qa": [
+    "slices <= 3",
+    "inner radius <= 62% of outer",
+    "hole empty",
+    "title states the dominant share with a number",
+    "source line present bottom-left"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "code": "DL-13",
+  "name": "MIZAN",
+  "aka": "MEDINA",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "Islamic tradition",
+    "principle": "Balance and harmony",
+    "motto": "Balance creates clarity.",
+    "laws": [
+      "Harmony before decoration",
+      "Warm restrained palette",
+      "Elegant proportion",
+      "Geometry with purpose",
+      "White space is active"
+    ],
+    "related": [
+      "Wa",
+      "Yin-Yang"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "story-first",
+    "density": "executive",
+    "annotation_policy": "minimal",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "evidence-only",
+    "reading_time": "minute",
+    "charts_per_page": 1
+  },
+  "voice": {
+    "stance": "The craftsman's voice. MIZAN is the one language where rhythm outranks compression: warm, unhurried, concrete. Beauty comes from precise sensory nouns, never from adjectives that admire on the reader's behalf. Cedar and brass persuade; a claim of quality does not.",
+    "register": "warm, literary-plain",
+    "mood": "second person welcome",
+    "hedging": "not applicable; there are no claims to hedge",
+    "sentence_max_words": 24,
+    "title_max_words": 12,
+    "title_grammar": "Concrete noun phrase built on the senses.",
+    "title_example": "Cedar, brass, and forty years of the same hands",
+    "do": [
+      {
+        "rule": "Use sensory concrete nouns: material, tool, gesture, place.",
+        "why": "A reader trusts what they can picture."
+      },
+      {
+        "rule": "Vary sentence length on purpose.",
+        "why": "A short sentence after two long ones is the only special effect this language has."
+      },
+      {
+        "rule": "Keep one image per paragraph.",
+        "why": "Harmony comes before decoration, and crowded images cancel each other."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No superlatives.",
+        "why": "\"Finest\" and \"world-class\" are the fastest way to sound like every other shop."
+      },
+      {
+        "rule": "No urgency mechanics.",
+        "why": "Scarcity theater breaks the unhurried register the palette promises."
+      },
+      {
+        "rule": "No feature list disguised as prose.",
+        "why": "A paragraph that is secretly a spec sheet reads as one."
+      }
+    ],
+    "contrast": {
+      "generic": "Our exceptional handcrafted products represent the finest tradition of artisanship, made with passion.",
+      "voiced": "Each tray leaves the workshop the way it entered, by hand. The hammer marks are the signature."
+    }
+  },
+  "occasions": [
+    "cultural projects",
+    "personal-brand material",
+    "book promotion",
+    "artisan commerce"
+  ],
+  "palette": {
+    "background": "#F7EFE3",
+    "panel": "#F1E5D3",
+    "ink": "#31261D",
+    "body": "#4E4237",
+    "hairline": "#DCCFB6",
+    "gridline": "#E5D9C2",
+    "primary": "#C4572E",
+    "muted": "#C9BBA4",
+    "positive": "#3D5A46",
+    "negative": "#7A3B1E",
+    "indigo": "#31486E"
+  },
+  "fonts": {
+    "display": {
+      "family": "'EB Garamond',Georgia,serif",
+      "weight": 600
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

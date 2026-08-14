@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">The port feeds the south corridor with 140 loads a week</text>
+<polygon points="192,128 516,117.2 552,200 372,225.2 177.6,210.8" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="2"/>
+<polygon points="177.6,210.8 372,225.2 336,326 156,318.8" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="2"/>
+<polygon points="372,225.2 552,200 609.6,290 336,326" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="2"/>
+<polygon points="552,200 782.4,182 804,308 609.6,290" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="2"/>
+<polygon points="336,326 609.6,290 804,308 768,434 300,426.8" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="2"/>
+<path d="M 696,218 Q 573.02,198.13 465.6,261.2" fill="none" stroke="#008080" stroke-width="11.5" stroke-opacity="0.65"/>
+<polygon points="465.6,261.2 476.26,244.79 485.12,259.89" fill="#008080"/>
+<text x="573.02" y="192.13" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">140 loads</text>
+<path d="M 465.6,261.2 Q 469.42,329.67 516,380" fill="none" stroke="#008080" stroke-width="7.93" stroke-opacity="0.65"/>
+<polygon points="516,380 501.43,374.51 511.65,365.05" fill="#008080"/>
+<path d="M 465.6,261.2 Q 359.26,229.02 256.8,272" fill="none" stroke="#008080" stroke-width="4.71" stroke-opacity="0.65"/>
+<polygon points="256.8,272 264.61,262.91 268.75,272.79" fill="#008080"/>
+<path d="M 465.6,261.2 Q 424.2,195.46 350.4,171.2" fill="none" stroke="#008080" stroke-width="3.64" stroke-opacity="0.65"/>
+<polygon points="350.4,171.2 361.07,169.63 358.05,178.79" fill="#008080"/>
+<path d="M 696,218 Q 576.84,266.6 516,380" fill="none" stroke="#008080" stroke-width="3.29" stroke-opacity="0.65"/>
+<polygon points="516,380 516.3,369.62 524.48,374.01" fill="#008080"/>
+<circle cx="696" cy="218" r="5" fill="#222222"/>
+<text x="696" y="208" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">Port</text>
+<circle cx="465.6" cy="261.2" r="5" fill="#222222"/>
+<text x="465.6" y="251.2" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">Hub</text>
+<circle cx="516" cy="380" r="5" fill="#222222"/>
+<text x="516" y="370" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">South site</text>
+<circle cx="256.8" cy="272" r="5" fill="#222222"/>
+<text x="256.8" y="262" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">West site</text>
+<circle cx="350.4" cy="171.2" r="5" fill="#222222"/>
+<text x="350.4" y="161.2" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle">North site</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

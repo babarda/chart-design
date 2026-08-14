@@ -1,0 +1,141 @@
+{
+  "code": "CH-TIM-11",
+  "name": "STREAMGRAPH",
+  "ovp_version": "1.0",
+  "chart_type": "streamgraph",
+  "meta": {
+    "intent": [
+      "trend",
+      "composition",
+      "volume"
+    ],
+    "form": "stacked bands around a centered silhouette baseline",
+    "data_required": "ordered periods + 3-4 non-negative components; shape over readability",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-04 (readable baselines)",
+        "CH-TIM-01 (exact levels)"
+      ],
+      "see_instead": [
+        {
+          "when": "any value must be read",
+          "use": "CH-TIM-04"
+        },
+        {
+          "when": "levels matter",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "WARN: editorial texture pieces where the organic silhouette IS the message",
+    "long series where only the total's swell matters"
+  ],
+  "not_when": [
+    "any reading task at all: every baseline wanders by construction",
+    "few periods (the silhouette needs length to mean anything)"
+  ],
+  "data_shape": {
+    "title": "action title about the silhouette",
+    "source": "bottom-left always",
+    "unit": "on the total label",
+    "x": "period labels",
+    "series": "3-4 components bottom-up"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 756,
+      "top": 150,
+      "bottom": 450
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "segment_label": {
+      "size": 12,
+      "offset": 10
+    }
+  },
+  "rules": [
+    "centered baseline: -total/2, deterministic",
+    "bands named at right ends, never a legend",
+    "no y axis: a wandering baseline forbids one honestly"
+  ],
+  "roles": {
+    "segments": [
+      [
+        "primary"
+      ],
+      [
+        "muted"
+      ],
+      [
+        "benchmark",
+        "hairline"
+      ],
+      [
+        "gridline"
+      ]
+    ],
+    "x_label": [
+      "body"
+    ],
+    "segment_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "WARN ENTRY: streamgraphs cannot be read, only admired; CH-TIM-04 for any real question",
+    "y axes on a wandering baseline",
+    "legends",
+    "more than 4 bands"
+  ],
+  "qa": [
+    "<= 4 bands",
+    "no y axis",
+    "names at band ends",
+    "source present"
+  ]
+}

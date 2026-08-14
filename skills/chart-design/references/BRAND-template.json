@@ -1,0 +1,59 @@
+{
+  "code": "BRAND",
+  "name": "REPLACE with the brand or company name",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "yours",
+    "principle": "The brand speaks with one voice in every chart.",
+    "motto": "REPLACE with the brand tagline or a one-line stance.",
+    "laws": [
+      "One accent, used once per chart",
+      "Ink for facts, accent for the point",
+      "Same identity in every deck"
+    ],
+    "related": []
+  },
+  "constitution": {
+    "narrative_style": "recommendation-first",
+    "density": "operational",
+    "annotation_policy": "minimal",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "recommendation-with-owner",
+    "reading_time": "minute",
+    "charts_per_page": 2
+  },
+  "occasions": [
+    "REPLACE: where these charts will live, e.g. weekly business review"
+  ],
+  "palette": {
+    "background": "REPLACE hex",
+    "panel": "REPLACE hex (background mixed 4% toward ink)",
+    "ink": "REPLACE hex",
+    "body": "REPLACE hex (ink lightened 25% toward background)",
+    "hairline": "REPLACE hex (background mixed 12% toward ink)",
+    "gridline": "REPLACE hex (background mixed 8% toward ink)",
+    "primary": "REPLACE hex (the brand color)",
+    "primaryDark": "REPLACE hex (primary darkened 25%)",
+    "muted": "REPLACE hex (primary mixed 70% toward background)",
+    "benchmark": "#AAAAAA",
+    "positive": "REPLACE hex (green family)",
+    "negative": "REPLACE hex (red family)",
+    "warning": "REPLACE hex (amber family)"
+  },
+  "fonts": {
+    "display": {
+      "family": "REPLACE, e.g. 'Brand Sans','Segoe UI',sans-serif",
+      "weight": 600
+    },
+    "body": {
+      "family": "REPLACE, e.g. 'Brand Text','Segoe UI',sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

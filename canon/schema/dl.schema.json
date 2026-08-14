@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vizcatalogue.dev/schema/dl.schema.json",
+  "title": "Design Language token file",
+  "type": "object",
+  "required": ["code", "name", "aka", "ovp_version", "status", "philosophy", "constitution", "voice", "occasions", "palette", "fonts", "chrome"],
+  "properties": {
+    "code": {"type": "string", "pattern": "^DL-[0-9]{2}$"},
+    "name": {"type": "string", "minLength": 2},
+    "ovp_version": {"type": "string", "pattern": "^[01]\\.[0-9]+$"},
+    "status": {"type": "string", "enum": ["adopted", "candidate", "retired"]},
+    "aka": {"type": "string", "minLength": 2},
+    "philosophy": {
+      "type": "object",
+      "required": ["civilization", "principle", "motto", "laws"],
+      "properties": {
+        "civilization": {"type": "string", "minLength": 3},
+        "principle": {"type": "string", "minLength": 3},
+        "motto": {"type": "string", "minLength": 5},
+        "laws": {"type": "array", "items": {"type": "string"}, "minItems": 3},
+        "related": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "constitution": {
+      "type": "object",
+      "required": ["narrative_style", "density", "annotation_policy", "legend_policy", "highlight_policy", "decision_style", "reading_time", "charts_per_page"],
+      "properties": {
+        "narrative_style": {"type": "string", "enum": ["recommendation-first", "evidence-first", "question-first", "story-first"]},
+        "density": {"type": "string", "enum": ["executive", "operational", "scientific"]},
+        "annotation_policy": {"type": "string", "enum": ["none", "minimal", "guided", "full"]},
+        "legend_policy": {"type": "string", "enum": ["direct-labels-only", "level-key-allowed"]},
+        "highlight_policy": {"type": "string", "enum": ["single", "dual", "none"]},
+        "decision_style": {"type": "string", "enum": ["recommendation-with-owner", "options", "evidence-only"]},
+        "reading_time": {"type": "string", "enum": ["glance", "minute", "session"]},
+        "charts_per_page": {"type": "integer", "minimum": 1, "maximum": 6}
+      }
+    },
+    "voice": {
+      "type": "object",
+      "description": "The prose contract of the language: how a page written in it reads. Inherits the universal laws in decision/voice.json (FN-07).",
+      "required": ["stance", "register", "mood", "hedging", "sentence_max_words", "title_max_words", "title_grammar", "title_example", "do", "dont", "contrast"],
+      "properties": {
+        "stance": {"type": "string", "minLength": 60},
+        "register": {"type": "string", "minLength": 3},
+        "mood": {"type": "string", "minLength": 3},
+        "hedging": {"type": "string", "minLength": 3},
+        "sentence_max_words": {"type": "integer", "minimum": 8, "maximum": 25},
+        "title_max_words": {"type": "integer", "minimum": 6, "maximum": 16},
+        "title_grammar": {"type": "string", "minLength": 10},
+        "title_example": {"type": "string", "minLength": 10},
+        "do": {"type": "array", "minItems": 3, "items": {"$ref": "#/$defs/precept"}},
+        "dont": {"type": "array", "minItems": 3, "items": {"$ref": "#/$defs/precept"}},
+        "contrast": {
+          "type": "object",
+          "required": ["generic", "voiced"],
+          "properties": {
+            "generic": {"type": "string", "minLength": 20},
+            "voiced": {"type": "string", "minLength": 20}
+          }
+        }
+      }
+    },
+    "occasions": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "palette": {
+      "type": "object",
+      "required": ["background", "ink", "body", "primary", "muted", "gridline", "hairline", "positive", "negative"],
+      "additionalProperties": {"type": "string", "pattern": "^#[0-9A-F]{6}$"}
+    },
+    "fonts": {
+      "type": "object",
+      "required": ["display", "body"],
+      "properties": {
+        "display": {"$ref": "#/$defs/font"},
+        "body": {"$ref": "#/$defs/font"}
+      }
+    },
+    "chrome": {
+      "type": "object",
+      "required": ["kicker", "eyebrow"],
+      "properties": {
+        "kicker": {"type": "boolean"},
+        "eyebrow": {"type": "boolean"}
+      }
+    }
+  },
+  "$defs": {
+    "precept": {
+      "type": "object",
+      "required": ["rule", "why"],
+      "properties": {
+        "rule": {"type": "string", "minLength": 10},
+        "why": {"type": "string", "minLength": 20}
+      }
+    },
+    "font": {
+      "type": "object",
+      "required": ["family", "weight"],
+      "properties": {
+        "family": {"type": "string", "minLength": 3},
+        "weight": {"type": "integer", "minimum": 100, "maximum": 900}
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "code": "CH-MAG-09",
+  "name": "GAUGE",
+  "ovp_version": "1.0",
+  "chart_type": "gauge",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "status"
+    ],
+    "form": "semicircle dial: banded scale, needle at value, target tick",
+    "data_required": "ONE value against a min-max scale with declared bands and a target",
+    "relations": {
+      "family": "MAG",
+      "alternatives": [
+        "CH-MAG-04 (several metrics, honest bands)",
+        "CH-PTW-06 (share of 100)"
+      ],
+      "see_instead": [
+        {
+          "when": "more than one metric",
+          "use": "CH-MAG-04"
+        },
+        {
+          "when": "no dial expectation exists",
+          "use": "CH-MAG-04"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "WARN: only when a dashboard convention demands a dial for ONE number",
+    "single watched value with declared bands and target"
+  ],
+  "not_when": [
+    "any multi-metric view (a gauge burns a page on one number)",
+    "audiences without the dial convention (bullet reads faster)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "of the value",
+    "min": "scale start",
+    "max": "scale end",
+    "bands": "ascending thresholds",
+    "target": "tick",
+    "value": "needle"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "cx": 420,
+    "cy": 380,
+    "r": 180,
+    "thickness": 34,
+    "big": {
+      "size": 36,
+      "dy": 56
+    }
+  },
+  "rules": [
+    "bands are the deterministic ink-mix ramp, same as CH-MAG-04",
+    "the value is printed large: the needle decorates, the number informs",
+    "target drawn as a tick crossing the band"
+  ],
+  "roles": {
+    "needle": [
+      "ink"
+    ],
+    "target": [
+      "negative"
+    ],
+    "value": [
+      "ink"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "WARN ENTRY: a gauge spends maximal ink on one number; CH-MAG-04 shows five in the same space",
+    "unlabeled bands",
+    "3D dials",
+    "needles without printed values"
+  ],
+  "qa": [
+    "value printed large",
+    "bands ascending and declared",
+    "min <= target, value <= max",
+    "source present"
+  ]
+}

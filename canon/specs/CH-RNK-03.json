@@ -1,0 +1,135 @@
+{
+  "code": "CH-RNK-03",
+  "name": "LOLLIPOP",
+  "ovp_version": "1.0",
+  "chart_type": "lollipop",
+  "meta": {
+    "intent": [
+      "ranking",
+      "comparison"
+    ],
+    "form": "stick + dot, sorted descending",
+    "data_required": "one categorical dimension + one non-negative measure; lighter ink than bars",
+    "relations": {
+      "family": "RNK",
+      "alternatives": [
+        "CH-RNK-01 (denser data)"
+      ],
+      "see_instead": [
+        {
+          "when": "many close values",
+          "use": "CH-RNK-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "ranking where bars would overwhelm the page (many rows, light values)",
+    "editorial pages that want less ink"
+  ],
+  "not_when": [
+    "values very close together (dots overlap visually less than bars separate)",
+    "natural order (CH-MAG-01)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first value label",
+    "categories": "array of {label, value >= 0, highlight?}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 820,
+      "top": 140
+    },
+    "row_height": 28,
+    "row_gap": 22,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "scale": {
+    "note": "sticks scale to max value; direct labels"
+  },
+  "rules": [
+    "sorted descending",
+    "stick from zero to value, dot at value",
+    "one highlight maximum",
+    "unit once"
+  ],
+  "roles": {
+    "stick": [
+      "hairline"
+    ],
+    "dot": [
+      "muted"
+    ],
+    "dot_highlight": [
+      "primary"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "baseline": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "dots without sticks (loses the zero anchor)",
+    "truncated baseline"
+  ],
+  "qa": [
+    "descending order",
+    "sticks start at zero",
+    "highlight <= 1",
+    "unit once",
+    "source present"
+  ]
+}

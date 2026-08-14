@@ -1,0 +1,107 @@
+{
+  "code": "DL-10",
+  "name": "BASIRA",
+  "aka": "GALLERY",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "Arabic-Islamic intellectual tradition",
+    "principle": "Insight",
+    "motto": "Look deeper than sight.",
+    "laws": [
+      "Images are evidence",
+      "Minimal overlays",
+      "Captions provide context",
+      "Annotation is precise",
+      "Authenticity first"
+    ],
+    "related": [
+      "Veritas",
+      "Imago"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "story-first",
+    "density": "executive",
+    "annotation_policy": "minimal",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "evidence-only",
+    "reading_time": "glance",
+    "charts_per_page": 2
+  },
+  "voice": {
+    "stance": "The caption voice. In BASIRA the image is the evidence and the words are a whisper beside it. A caption never describes what the eye already sees. It adds the one thing the eye cannot know: the date, the place, the significance. Silence is a valid caption.",
+    "register": "spare, documentary",
+    "mood": "declarative fragments allowed",
+    "hedging": "banned",
+    "sentence_max_words": 20,
+    "title_max_words": 14,
+    "title_grammar": "Place, date, then the fact the image cannot carry.",
+    "title_example": "Station 7, 28 July. First permanent power, eleven weeks early.",
+    "do": [
+      {
+        "rule": "State only what the image cannot show.",
+        "why": "Date, place, what changed, what it means. That is the whole job of a caption."
+      },
+      {
+        "rule": "Anchor a before-and-after pair with identical framing words.",
+        "why": "Same words, different date: the delta becomes the story."
+      },
+      {
+        "rule": "Allow no caption at all.",
+        "why": "Authenticity comes first, and a strong image with a weak caption is a weaker page."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "Never narrate the visible.",
+        "why": "The reader has eyes, and the caption insults them."
+      },
+      {
+        "rule": "No gloss adjectives.",
+        "why": "Marketing words destroy documentary credibility faster than a bad photograph."
+      },
+      {
+        "rule": "No paragraph captions.",
+        "why": "Past twenty words the reader is reading, not seeing."
+      }
+    ],
+    "contrast": {
+      "generic": "This stunning image shows workers carefully installing the new pipeline section as progress continues.",
+      "voiced": "KP 640, dawn pour. The last river weight before the rains."
+    }
+  },
+  "occasions": [
+    "photo progress reports",
+    "drone updates",
+    "milestone records",
+    "before and after"
+  ],
+  "palette": {
+    "background": "#0B0B0B",
+    "panel": "#1C1F22",
+    "ink": "#FFFFFF",
+    "body": "#D9D9D9",
+    "hairline": "#3A3F44",
+    "gridline": "#3A3F44",
+    "primary": "#F0B429",
+    "muted": "#8A9096",
+    "positive": "#3FB68B",
+    "negative": "#E5534B"
+  },
+  "fonts": {
+    "display": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 300
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

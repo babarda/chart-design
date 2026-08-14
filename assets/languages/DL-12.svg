@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="48" y="112" font-size="34" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="700">Docs on time misses target by 14</text>
+<text x="48" y="152" font-size="34" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="700">points; deliveries close the gap</text>
+<text x="48" y="182" font-size="15" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400">Signal only what matters . NOROSHI on escalations</text>
+<svg x="48" y="306.3" width="832" height="166.4" viewBox="0 124 960 192">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<rect x="208" y="155" width="355.2" height="20" fill="#EEEFF0"/>
+<rect x="563.2" y="155" width="148" height="20" fill="#DDDFE1"/>
+<rect x="711.2" y="155" width="88.8" height="20" fill="#CDCED2"/>
+<rect x="208" y="161" width="515.04" height="8" fill="#0F172A"/>
+<line x1="770.4" y1="155" x2="770.4" y2="175" stroke="#D63A2F" stroke-width="2.5"/>
+<text x="192" y="165" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="end" dominant-baseline="middle">Delivery OTD</text>
+<text x="812" y="165" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="400" dominant-baseline="middle">87 %</text>
+<rect x="208" y="211" width="414.4" height="20" fill="#EEEFF0"/>
+<rect x="622.4" y="211" width="118.4" height="20" fill="#DDDFE1"/>
+<rect x="740.8" y="211" width="59.2" height="20" fill="#CDCED2"/>
+<rect x="208" y="217" width="544.64" height="8" fill="#0F172A"/>
+<line x1="740.8" y1="211" x2="740.8" y2="231" stroke="#D63A2F" stroke-width="2.5"/>
+<text x="192" y="221" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="end" dominant-baseline="middle">Test pass rate</text>
+<text x="812" y="221" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="400" dominant-baseline="middle">92</text>
+<rect x="208" y="267" width="296" height="20" fill="#EEEFF0"/>
+<rect x="504" y="267" width="177.6" height="20" fill="#DDDFE1"/>
+<rect x="681.6" y="267" width="118.4" height="20" fill="#CDCED2"/>
+<rect x="208" y="273" width="420.32" height="8" fill="#0F172A"/>
+<line x1="711.2" y1="267" x2="711.2" y2="287" stroke="#D63A2F" stroke-width="2.5"/>
+<text x="192" y="277" font-size="14" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400" text-anchor="end" dominant-baseline="middle">Docs on time</text>
+<text x="812" y="277" font-size="13" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="400" dominant-baseline="middle">71</text>
+</svg>
+<rect x="912" y="204" width="180" height="24" rx="4" fill="none" stroke="#D63A2F" stroke-width="1.5"/>
+<circle cx="922" cy="216" r="3" fill="#D63A2F"/>
+<text x="932" y="216" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600" dominant-baseline="middle" letter-spacing="1">DOCS ON TIME . -14</text>
+<rect x="912" y="238" width="175" height="24" rx="4" fill="none" stroke="#B45309" stroke-width="1.5"/>
+<circle cx="922" cy="250" r="3" fill="#B45309"/>
+<text x="932" y="250" font-size="10" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600" dominant-baseline="middle" letter-spacing="1">DELIVERY OTD . -8</text>
+<rect x="912" y="278" width="320" height="36" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="912" y="278" width="4" height="36" fill="#D63A2F"/>
+<text x="928" y="299" font-size="12" font-family="'Segoe UI',Arial,sans-serif" fill="#0F172A" font-weight="600">Escalated 07:00, response due 12:00.</text>
+<text x="48" y="688" font-size="11" font-family="'Segoe UI',Arial,sans-serif" fill="#475569" font-weight="400">Source: sample dataset v1, 2026-07-12  .  Open Visualization Protocol, DL-12 NOROSHI</text>
+</svg>

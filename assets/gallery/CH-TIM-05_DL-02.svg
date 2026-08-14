@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Electrical jumped 23 points year on year, the fastest improver</text>
+<line x1="300" y1="132" x2="300" y2="468" stroke="#E2E8E8" stroke-width="1"/>
+<text x="300" y="124" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle" letter-spacing="1">2025</text>
+<line x1="660" y1="132" x2="660" y2="468" stroke="#E2E8E8" stroke-width="1"/>
+<text x="660" y="124" font-size="10" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="middle" letter-spacing="1">2026</text>
+<line x1="300" y1="264.8" x2="660" y2="191.2" stroke="#008080" stroke-width="2.5"/>
+<text x="288" y="264.8" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" text-anchor="end" dominant-baseline="middle">Electrical  61</text>
+<text x="672" y="191.2" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">84</text>
+<line x1="300" y1="229.6" x2="660" y2="207.2" stroke="#B7DCDC" stroke-width="2"/>
+<text x="288" y="229.6" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Piping  72</text>
+<text x="672" y="207.2" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">79</text>
+<line x1="300" y1="178.4" x2="660" y2="168.8" stroke="#B7DCDC" stroke-width="2"/>
+<text x="288" y="178.4" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Civil  88</text>
+<text x="672" y="168.8" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">91</text>
+<line x1="300" y1="236" x2="660" y2="242.4" stroke="#B7DCDC" stroke-width="2"/>
+<text x="288" y="236" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Mechanical  70</text>
+<text x="672" y="242.4" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" dominant-baseline="middle">68</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

@@ -1,0 +1,177 @@
+{
+  "code": "CH-TIM-02",
+  "name": "S-CURVE",
+  "ovp_version": "1.0",
+  "chart_type": "line",
+  "meta": {
+    "intent": [
+      "schedule",
+      "progress",
+      "change-over-time"
+    ],
+    "form": "line (cumulative S-curve)",
+    "data_required": "ordered periods + cumulative non-decreasing series (Actual key; Plan/Forecast context)",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-08 (fan with uncertainty, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "values are per-period, not cumulative",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "cumulative progress vs plan over the project timeline",
+    "schedule status reporting (the classic planning S-curve)",
+    "any cumulative measure where the gap to plan IS the message"
+  ],
+  "not_when": [
+    "non-cumulative period values (use CH-TIM-01 LINE)",
+    "categorical comparison (use CH-RNK-01 or CH-MAG-01)",
+    "more than 4 curves (plan, actual, forecast is the usual max)"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the gap with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit": "string, usually %, appears once, on the top y tick label",
+    "x": "array of ordered period labels",
+    "series": "array of {name, values cumulative non-decreasing, role: 'key'|'context'}, exactly one key (Actual); Plan and Forecast are context",
+    "annotation": "{text, series, index, tx, ty, anchor}, names the gap or the inflection"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 756,
+      "top": 128,
+      "bottom": 452
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "series_label": {
+      "size": 13,
+      "offset": 10
+    },
+    "stroke": {
+      "key": 2.5,
+      "context": 2
+    },
+    "annotation": {
+      "size": 12,
+      "style": "italic"
+    }
+  },
+  "scale": {
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "raw = max/target_ticks; mag = 10^floor(log10(raw)); step = first nice_steps*mag >= raw; top = ceil(max/step)*step"
+  },
+  "rules": [
+    "values are cumulative and non-decreasing; a dip means wrong data, not a style choice",
+    "y starts at zero, always (an S-curve with a cut baseline lies about progress)",
+    "Actual is the key series; Plan and Forecast are context",
+    "series labeled at line ends, never a legend",
+    "horizontal gridlines only",
+    "the annotation names the gap or the inflection, anchored at the data"
+  ],
+  "roles": {
+    "key": [
+      "primary"
+    ],
+    "context": [
+      "benchmark",
+      "muted"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "key_label": [
+      "primary"
+    ],
+    "context_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ],
+    "annotation": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "legend boxes",
+    "truncated y axis to flatter progress",
+    "plotting period values and calling it an S-curve",
+    "markers on every point",
+    "smoothed splines (the curve shape IS the information)"
+  ],
+  "qa": [
+    "every series non-decreasing",
+    "y axis starts at zero",
+    "no legend anywhere",
+    "series labels at line ends",
+    "annotation present and anchored to a data point",
+    "title states the gap with a number",
+    "source line present bottom-left"
+  ]
+}

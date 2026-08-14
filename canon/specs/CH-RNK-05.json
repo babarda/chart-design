@@ -1,0 +1,130 @@
+{
+  "code": "CH-RNK-05",
+  "name": "DOT STRIP",
+  "ovp_version": "1.0",
+  "chart_type": "dots_h",
+  "meta": {
+    "intent": [
+      "ranking",
+      "comparison"
+    ],
+    "form": "one dot per category on a shared scale",
+    "data_required": "one categorical dimension + one measure; minimal ink",
+    "relations": {
+      "family": "RNK",
+      "alternatives": [
+        "CH-RNK-03 (adds the zero anchor)"
+      ],
+      "see_instead": [
+        {
+          "when": "the zero anchor matters",
+          "use": "CH-RNK-03"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "compact ranking with minimal ink",
+    "scores and ratings on a known scale"
+  ],
+  "not_when": [
+    "readers need the zero anchor (CH-RNK-03)",
+    "two measures (CH-DST-02)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first value label",
+    "categories": "array of {label, values: [v], highlight?}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 800,
+      "top": 150
+    },
+    "row_height": 30,
+    "row_gap": 22,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "scale": {
+    "note": "dots scale to max value"
+  },
+  "rules": [
+    "ordered by value descending in the data",
+    "one highlight maximum",
+    "unit once"
+  ],
+  "roles": {
+    "dot_a": [
+      "muted"
+    ],
+    "dot_b": [
+      "primary"
+    ],
+    "connector": [
+      "hairline"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "dot strips for unbounded scales without stating the scale",
+    "gridline clutter"
+  ],
+  "qa": [
+    "highlight <= 1",
+    "unit once",
+    "scale stated in title or source",
+    "source present"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "code": "CH-RNK-01",
+  "name": "BAR-H",
+  "ovp_version": "1.0",
+  "chart_type": "bar_h",
+  "meta": {
+    "intent": [
+      "ranking",
+      "comparison"
+    ],
+    "form": "horizontal bar",
+    "data_required": "one categorical dimension + one non-negative measure",
+    "relations": {
+      "family": "RNK",
+      "alternatives": [
+        "CH-RNK-03 (lollipop, planned)",
+        "CH-RNK-06 (table with bars, planned)"
+      ],
+      "see_instead": [
+        {
+          "when": "natural category order matters",
+          "use": "CH-MAG-01"
+        },
+        {
+          "when": "the data is a time series",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "ranking categories by a single measure",
+    "fewer than 12 categories",
+    "category names too long for vertical bars"
+  ],
+  "not_when": [
+    "time series (use CH-TIM-01 LINE)",
+    "magnitude in natural category order (use CH-MAG-01 COLUMN)",
+    "part-to-whole shares (use CH-PTW-01 when built)",
+    "more than 12 categories (aggregate the tail into Other)"
+  ],
+  "data_shape": {
+    "title": "string, action title stating the finding with a number",
+    "eyebrow": "string caps, rendered only when the DL chrome asks for it",
+    "source": "string, rendered bottom-left, always",
+    "unit": "string, appears once, on the first value label",
+    "categories": "array of {label: string, value: number >= 0, highlight?: bool}, at most one highlight"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 856,
+      "top": 128
+    },
+    "bar_height": 32,
+    "bar_gap": 16,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 13,
+      "offset": 8
+    }
+  },
+  "scale": {
+    "note": "bars scale to the max value; no axis, no ticks, direct labels carry the numbers"
+  },
+  "rules": [
+    "bars start at zero, always",
+    "rows sorted descending by value; the renderer enforces this",
+    "direct value labels; no value axis, no gridlines",
+    "at most one highlighted bar (role primary); all others role muted",
+    "unit appears once, on the first value label only"
+  ],
+  "roles": {
+    "bar": [
+      "muted"
+    ],
+    "bar_highlight": [
+      "primary"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "baseline": [
+      "hairline"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "value axis plus direct labels (pick direct labels)",
+    "one color per bar (rainbow bars)",
+    "3D depth or shadows on bars",
+    "truncated baseline to dramatize differences",
+    "alphabetical sorting when the message is rank"
+  ],
+  "qa": [
+    "baseline at zero",
+    "rows descending by value",
+    "exactly one unit mention",
+    "highlight count <= 1",
+    "title states a finding with a number",
+    "source line present bottom-left"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "code": "CH-DST-01",
+  "name": "HISTOGRAM",
+  "ovp_version": "1.0",
+  "chart_type": "histogram",
+  "meta": {
+    "intent": [
+      "distribution"
+    ],
+    "form": "contiguous columns counting values per equal bin",
+    "data_required": "one numeric measure binned into equal intervals with counts",
+    "relations": {
+      "family": "DST",
+      "alternatives": [
+        "CH-DST-06 (service-level reading)",
+        "CH-DST-09 (smooth shape)"
+      ],
+      "see_instead": [
+        {
+          "when": "the question is what share clears a threshold",
+          "use": "CH-DST-06"
+        },
+        {
+          "when": "comparing shapes across groups",
+          "use": "CH-DST-09"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "showing the shape of one distribution: skew, mode, outliers",
+    "first look at any new numeric measure"
+  ],
+  "not_when": [
+    "comparing several distributions (CH-DST-04 or CH-DST-09)",
+    "categorical counts (CH-RNK-01; bins must be numeric intervals)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on the top count tick",
+    "edges": "n+1 ascending bin edges, labeled under the boundaries",
+    "counts": "n non-negative counts"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 110,
+      "right": 820,
+      "top": 140,
+      "bottom": 430
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 22
+    }
+  },
+  "scale": {
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "bars touch: 1px seam only, the variable is continuous",
+    "equal bin widths, edges labeled at the boundaries, not centers",
+    "counts on the y axis start at zero"
+  ],
+  "roles": {
+    "bar": [
+      "primary"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "gaps between bars",
+    "unequal bins without width-proportional areas",
+    "labeling bin centers",
+    "more than 20 bins"
+  ],
+  "qa": [
+    "bars contiguous",
+    "edges ascending and labeled",
+    "y starts at zero",
+    "unit once",
+    "source present"
+  ]
+}

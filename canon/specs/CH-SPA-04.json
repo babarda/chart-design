@@ -1,0 +1,120 @@
+{
+  "code": "CH-SPA-04",
+  "name": "DOT DENSITY",
+  "ovp_version": "1.0",
+  "chart_type": "dot_density",
+  "meta": {
+    "intent": [
+      "density",
+      "distribution",
+      "pattern"
+    ],
+    "form": "one dot per declared count at supplied coordinates",
+    "data_required": "base polygons + dot coordinates; each dot a declared unit",
+    "relations": {
+      "family": "SPA",
+      "alternatives": [
+        "CH-SPA-01 (rates by region)",
+        "CH-COR-05 (abstract xy density)"
+      ],
+      "see_instead": [
+        {
+          "when": "region-level rates suffice",
+          "use": "CH-SPA-01"
+        },
+        {
+          "when": "no geography",
+          "use": "CH-COR-05"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "spatial concentration where the cluster shape matters",
+    "showing crowding that region averages would hide"
+  ],
+  "not_when": [
+    "few items (plot them as labeled symbols)",
+    "precise counts (dots are for pattern, the key gives scale)"
+  ],
+  "data_shape": {
+    "title": "action title naming the cluster",
+    "source": "bottom-left always",
+    "unit": "thing counted",
+    "unit_value": "count per dot, declared",
+    "note": "coordinates are author-supplied unit-square (0-100) geometry; the renderer scales, the author owns projection and aspect",
+    "regions": "base polygons",
+    "dots": "[[x,y]..]"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 120,
+      "right": 840,
+      "top": 110,
+      "bottom": 470
+    },
+    "label": {
+      "size": 12
+    }
+  },
+  "rules": [
+    "the dot key (one dot = N) is printed; dots are pattern, not lookup",
+    "dot placement is supplied data, never renderer randomness"
+  ],
+  "roles": {
+    "dot": [
+      "primary"
+    ],
+    "label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "renderer-side random scatter (breaks determinism)",
+    "reading individual dots as items",
+    "undeclared dot value"
+  ],
+  "qa": [
+    "dot key printed",
+    "supplied coordinates only",
+    "source present"
+  ]
+}

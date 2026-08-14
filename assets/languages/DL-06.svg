@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="48" y="112" font-size="34" font-family="Georgia,serif" fill="#1A1A1A" font-weight="700">RFSU holds on 30 November; grid</text>
+<text x="48" y="152" font-size="34" font-family="Georgia,serif" fill="#1A1A1A" font-weight="700">energization is the critical driver</text>
+<text x="48" y="182" font-size="15" font-family="Georgia,serif" fill="#333333" font-weight="400">Everything must be traceable . LEX on claims</text>
+<svg x="48" y="298.5" width="832" height="182" viewBox="0 210 960 210">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<line x1="96" y1="312" x2="864" y2="312" stroke="#B9B9B9" stroke-width="2"/>
+<text x="96" y="336" font-size="9" font-family="Georgia,serif" fill="#333333" font-weight="400">JAN 2026</text>
+<text x="864" y="336" font-size="9" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="end">NOV 2026</text>
+<circle cx="126.72" cy="312" r="6" fill="#B9B9B9"/>
+<line x1="126.72" y1="302" x2="126.72" y2="272" stroke="#B9B9B9" stroke-width="1"/>
+<text x="126.72" y="254" font-size="11" font-family="Georgia,serif" fill="#1A1A1A" font-weight="600">Kickoff</text>
+<text x="126.72" y="269" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400">12 Jan</text>
+<path d="M 480,304 L 488,312 L 480,320 L 472,312 Z" fill="#7A1F1F"/>
+<line x1="480" y1="322" x2="480" y2="352" stroke="#B9B9B9" stroke-width="1"/>
+<text x="480" y="376" font-size="11" font-family="Georgia,serif" fill="#1A1A1A" font-weight="600" text-anchor="middle">Mechanical completion S3</text>
+<text x="480" y="391" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="middle">15 Jun</text>
+<path d="M 633.6,304 L 641.6,312 L 633.6,320 L 625.6,312 Z" fill="#7A1F1F"/>
+<line x1="633.6" y1="302" x2="633.6" y2="272" stroke="#B9B9B9" stroke-width="1"/>
+<text x="633.6" y="254" font-size="11" font-family="Georgia,serif" fill="#1A1A1A" font-weight="600" text-anchor="middle">Grid energization</text>
+<text x="633.6" y="269" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="middle">22 Aug</text>
+<path d="M 725.76,304 L 733.76,312 L 725.76,320 L 717.76,312 Z" fill="#7A1F1F"/>
+<line x1="725.76" y1="322" x2="725.76" y2="352" stroke="#B9B9B9" stroke-width="1"/>
+<text x="725.76" y="376" font-size="11" font-family="Georgia,serif" fill="#1A1A1A" font-weight="600" text-anchor="middle">Loop tests complete</text>
+<text x="725.76" y="391" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="middle">30 Sep</text>
+<path d="M 864,304 L 872,312 L 864,320 L 856,312 Z" fill="#7A1F1F"/>
+<line x1="864" y1="302" x2="864" y2="272" stroke="#B9B9B9" stroke-width="1"/>
+<text x="864" y="254" font-size="11" font-family="Georgia,serif" fill="#1A1A1A" font-weight="600" text-anchor="end">RFSU</text>
+<text x="864" y="269" font-size="10" font-family="Georgia,serif" fill="#333333" font-weight="400" text-anchor="end">30 Nov</text>
+</svg>
+<rect x="912" y="210" width="320" height="72" fill="#FFFFFF" stroke="#B9B9B9" stroke-width="1"/>
+<rect x="912" y="210" width="4" height="72" fill="#7A1F1F"/>
+<text x="928" y="231" font-size="12" font-family="Georgia,serif" fill="#1A1A1A" font-weight="600">Every event carries its reference.</text>
+<text x="928" y="249" font-size="12" font-family="Georgia,serif" fill="#333333" font-weight="400">The chronology is the argument;</text>
+<text x="928" y="267" font-size="12" font-family="Georgia,serif" fill="#333333" font-weight="400">the record decides, not the memory.</text>
+<text x="48" y="688" font-size="11" font-family="Georgia,serif" fill="#333333" font-weight="400">Source: sample dataset v1, 2026-07-12  .  Open Visualization Protocol, DL-06 LEX</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Clearance times peak near 20 days</text>
+<line x1="96" y1="452" x2="756" y2="452" stroke="#E2E8E8" stroke-width="1"/>
+<text x="84" y="452" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="96" y1="387.2" x2="756" y2="387.2" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="387.2" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">5</text>
+<line x1="96" y1="322.4" x2="756" y2="322.4" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="322.4" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">10</text>
+<line x1="96" y1="257.6" x2="756" y2="257.6" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="257.6" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">15</text>
+<line x1="96" y1="192.8" x2="756" y2="192.8" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="192.8" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">20</text>
+<line x1="96" y1="128" x2="756" y2="128" stroke="#EAEAEA" stroke-width="1"/>
+<text x="84" y="128" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">25%</text>
+<text x="96" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0</text>
+<text x="178.5" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">5</text>
+<text x="261" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">10</text>
+<text x="343.5" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">15</text>
+<text x="426" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">20</text>
+<text x="508.5" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">25</text>
+<text x="591" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">30</text>
+<text x="673.5" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">35</text>
+<text x="756" y="472" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">40</text>
+<polygon points="96,452 96,439.04 178.5,387.2 261,309.44 343.5,205.76 426,140.96 508.5,218.72 591,296.48 673.5,361.28 756,413.12 756,452" fill="#008080" fill-opacity="0.15"/>
+<polyline points="96,439.04 178.5,387.2 261,309.44 343.5,205.76 426,140.96 508.5,218.72 591,296.48 673.5,361.28 756,413.12" fill="none" stroke="#008080" stroke-width="2.5"/>
+<text x="766" y="413.12" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#008080" font-weight="600" dominant-baseline="middle">All lots</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: customs log, H1; KDE bandwidth 2.5 days</text>
+</svg>

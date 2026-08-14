@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Team North clusters under 12 days</text>
+<circle cx="306.67" cy="178" r="5" fill="#008080"/>
+<circle cx="326.4" cy="178" r="5" fill="#008080"/>
+<circle cx="346.13" cy="178" r="5" fill="#008080"/>
+<circle cx="365.87" cy="178" r="5" fill="#008080"/>
+<circle cx="365.87" cy="178" r="5" fill="#008080"/>
+<circle cx="385.6" cy="178" r="5" fill="#008080"/>
+<circle cx="405.33" cy="178" r="5" fill="#008080"/>
+<circle cx="425.07" cy="178" r="5" fill="#008080"/>
+<circle cx="444.8" cy="178" r="5" fill="#008080"/>
+<text x="192" y="178" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="end" dominant-baseline="middle">North</text>
+<circle cx="346.13" cy="236" r="5" fill="#008080"/>
+<circle cx="385.6" cy="236" r="5" fill="#008080"/>
+<circle cx="425.07" cy="236" r="5" fill="#008080"/>
+<circle cx="464.53" cy="236" r="5" fill="#008080"/>
+<circle cx="504" cy="236" r="5" fill="#008080"/>
+<circle cx="543.47" cy="236" r="5" fill="#008080"/>
+<circle cx="582.93" cy="236" r="5" fill="#008080"/>
+<circle cx="642.13" cy="236" r="5" fill="#008080"/>
+<circle cx="721.07" cy="236" r="5" fill="#008080"/>
+<text x="192" y="236" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">South</text>
+<circle cx="326.4" cy="294" r="5" fill="#008080"/>
+<circle cx="365.87" cy="294" r="5" fill="#008080"/>
+<circle cx="385.6" cy="294" r="5" fill="#008080"/>
+<circle cx="444.8" cy="294" r="5" fill="#008080"/>
+<circle cx="484.27" cy="294" r="5" fill="#008080"/>
+<circle cx="504" cy="294" r="5" fill="#008080"/>
+<circle cx="563.2" cy="294" r="5" fill="#008080"/>
+<circle cx="622.4" cy="294" r="5" fill="#008080"/>
+<circle cx="681.6" cy="294" r="5" fill="#008080"/>
+<text x="192" y="294" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">East</text>
+<circle cx="365.87" cy="352" r="5" fill="#008080"/>
+<circle cx="405.33" cy="352" r="5" fill="#008080"/>
+<circle cx="444.8" cy="352" r="5" fill="#008080"/>
+<circle cx="484.27" cy="352" r="5" fill="#008080"/>
+<circle cx="523.73" cy="352" r="5" fill="#008080"/>
+<circle cx="563.2" cy="352" r="5" fill="#008080"/>
+<circle cx="602.67" cy="352" r="5" fill="#008080"/>
+<circle cx="661.87" cy="352" r="5" fill="#008080"/>
+<circle cx="760.53" cy="352" r="5" fill="#008080"/>
+<text x="192" y="352" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">West</text>
+<line x1="208" y1="382" x2="800" y2="382" stroke="#222222" stroke-width="1"/>
+<line x1="208" y1="382" x2="208" y2="386" stroke="#222222" stroke-width="1"/>
+<text x="208" y="400" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0</text>
+<line x1="405.33" y1="382" x2="405.33" y2="386" stroke="#222222" stroke-width="1"/>
+<text x="405.33" y="400" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">10</text>
+<line x1="602.67" y1="382" x2="602.67" y2="386" stroke="#222222" stroke-width="1"/>
+<text x="602.67" y="400" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">20</text>
+<line x1="800" y1="382" x2="800" y2="386" stroke="#222222" stroke-width="1"/>
+<text x="800" y="400" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">30days</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: workflow tracker, June</text>
+</svg>

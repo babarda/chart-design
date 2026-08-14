@@ -1,0 +1,168 @@
+{
+  "code": "CH-TIM-13",
+  "name": "STEP",
+  "ovp_version": "1.0",
+  "chart_type": "step",
+  "meta": {
+    "intent": [
+      "change-over-time",
+      "trend"
+    ],
+    "form": "step line (values hold between changes)",
+    "data_required": "ordered periods + series whose value HOLDS until it changes (rates, stock, policy)",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-01 (continuous change)"
+      ],
+      "see_instead": [
+        {
+          "when": "values change continuously",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "levels that hold between discrete changes: stock, rates, headcount, policies",
+    "the timing of the change is the message"
+  ],
+  "not_when": [
+    "continuously varying measures (use CH-TIM-01)",
+    "cumulative progress (CH-TIM-02)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "eyebrow": "caps, DL chrome only",
+    "source": "bottom-left always",
+    "unit": "on top tick",
+    "x": "ordered periods",
+    "series": "one key + optional context, values hold between points",
+    "annotation": "optional, anchored at a data point"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 96,
+      "right": 756,
+      "top": 128,
+      "bottom": 452
+    },
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 20
+    },
+    "series_label": {
+      "size": 13,
+      "offset": 10
+    },
+    "stroke": {
+      "key": 2.5,
+      "context": 2
+    },
+    "annotation": {
+      "size": 12,
+      "style": "italic"
+    }
+  },
+  "scale": {
+    "step": true,
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ]
+  },
+  "rules": [
+    "horizontal-then-vertical interpolation; the renderer draws the hold explicitly",
+    "y starts at zero",
+    "series labeled at line ends, never a legend",
+    "annotation marks the change that matters"
+  ],
+  "roles": {
+    "key": [
+      "primary"
+    ],
+    "context": [
+      "benchmark",
+      "muted"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "key_label": [
+      "primary"
+    ],
+    "context_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ],
+    "annotation": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "smooth or diagonal interpolation of held values (invents data)",
+    "markers on every step",
+    "legends"
+  ],
+  "qa": [
+    "step interpolation verified",
+    "y at zero",
+    "no legend",
+    "title states the level change with a number",
+    "source present"
+  ]
+}

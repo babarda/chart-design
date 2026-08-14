@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="48" y="112" font-size="34" font-family="Cambria,Georgia,serif" fill="#1F3864" font-weight="700">Piping holds 84 of 213 open items</text>
+<text x="48" y="146" font-size="15" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400">Complexity distilled . SUTRA on briefing notes</text>
+<svg x="48" y="281.17" width="832" height="216.67" viewBox="0 120 960 250">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="250" y="136" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="600" letter-spacing="1">OPEN ITEMS</text>
+<text x="820" y="136" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="600" text-anchor="end" letter-spacing="1">VS LAST WEEK</text>
+<line x1="32" y1="150" x2="820" y2="150" stroke="#8EAADB" stroke-width="1"/>
+<text x="234" y="167" font-size="14" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="600" text-anchor="end" dominant-baseline="middle">Piping</text>
+<rect x="250" y="159" width="390" height="16" fill="#1F3864"/>
+<text x="650" y="167" font-size="13" font-family="Cambria,Georgia,serif" fill="#1F3864" font-weight="600" dominant-baseline="middle">84 items</text>
+<text x="820" y="167" font-size="13" font-family="Cambria,Georgia,serif" fill="#9E2B25" font-weight="600" text-anchor="end" dominant-baseline="middle">-6</text>
+<line x1="32" y1="184" x2="820" y2="184" stroke="#8EAADB" stroke-width="1"/>
+<text x="234" y="201" font-size="14" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" dominant-baseline="middle">Electrical</text>
+<rect x="250" y="193" width="213.57" height="16" fill="#A9BBD9"/>
+<text x="473.57" y="201" font-size="13" font-family="Cambria,Georgia,serif" fill="#1F3864" font-weight="400" dominant-baseline="middle">46</text>
+<text x="820" y="201" font-size="13" font-family="Cambria,Georgia,serif" fill="#2E6E4E" font-weight="600" text-anchor="end" dominant-baseline="middle">+4</text>
+<line x1="32" y1="218" x2="820" y2="218" stroke="#8EAADB" stroke-width="1"/>
+<text x="234" y="235" font-size="14" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" dominant-baseline="middle">Instrumentation</text>
+<rect x="250" y="227" width="153.21" height="16" fill="#A9BBD9"/>
+<text x="413.21" y="235" font-size="13" font-family="Cambria,Georgia,serif" fill="#1F3864" font-weight="400" dominant-baseline="middle">33</text>
+<text x="820" y="235" font-size="13" font-family="Cambria,Georgia,serif" fill="#9E2B25" font-weight="600" text-anchor="end" dominant-baseline="middle">-2</text>
+<line x1="32" y1="252" x2="820" y2="252" stroke="#8EAADB" stroke-width="1"/>
+<text x="234" y="269" font-size="14" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" dominant-baseline="middle">Civil</text>
+<rect x="250" y="261" width="102.14" height="16" fill="#A9BBD9"/>
+<text x="362.14" y="269" font-size="13" font-family="Cambria,Georgia,serif" fill="#1F3864" font-weight="400" dominant-baseline="middle">22</text>
+<text x="820" y="269" font-size="13" font-family="Cambria,Georgia,serif" fill="#2E6E4E" font-weight="600" text-anchor="end" dominant-baseline="middle">0</text>
+<line x1="32" y1="286" x2="820" y2="286" stroke="#8EAADB" stroke-width="1"/>
+<text x="234" y="303" font-size="14" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" dominant-baseline="middle">Mechanical</text>
+<rect x="250" y="295" width="83.57" height="16" fill="#A9BBD9"/>
+<text x="343.57" y="303" font-size="13" font-family="Cambria,Georgia,serif" fill="#1F3864" font-weight="400" dominant-baseline="middle">18</text>
+<text x="820" y="303" font-size="13" font-family="Cambria,Georgia,serif" fill="#2E6E4E" font-weight="600" text-anchor="end" dominant-baseline="middle">+3</text>
+<line x1="32" y1="320" x2="820" y2="320" stroke="#8EAADB" stroke-width="1"/>
+<text x="234" y="337" font-size="14" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400" text-anchor="end" dominant-baseline="middle">HVAC</text>
+<rect x="250" y="329" width="46.43" height="16" fill="#A9BBD9"/>
+<text x="306.43" y="337" font-size="13" font-family="Cambria,Georgia,serif" fill="#1F3864" font-weight="400" dominant-baseline="middle">10</text>
+<text x="820" y="337" font-size="13" font-family="Cambria,Georgia,serif" fill="#9E2B25" font-weight="600" text-anchor="end" dominant-baseline="middle">-1</text>
+<line x1="32" y1="354" x2="820" y2="354" stroke="#8EAADB" stroke-width="1"/>
+</svg>
+<rect x="912" y="210" width="320" height="72" fill="#FFFFFF" stroke="#8EAADB" stroke-width="1"/>
+<rect x="912" y="210" width="4" height="72" fill="#1F3864"/>
+<text x="928" y="231" font-size="12" font-family="Cambria,Georgia,serif" fill="#1F3864" font-weight="600">One page, exact values,</text>
+<text x="928" y="249" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400">nothing left to interpret.</text>
+<text x="928" y="267" font-size="12" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400">Piping first: 84 of 213.</text>
+<text x="48" y="688" font-size="11" font-family="Cambria,Georgia,serif" fill="#262626" font-weight="400">Source: weekly punch list, wk 28  .  Open Visualization Protocol, DL-11 SUTRA</text>
+</svg>

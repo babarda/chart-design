@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Pipeline and stations hold 55% of the budget</text>
+<rect x="65" y="129" width="280.88" height="354" fill="#008080"/>
+<text x="74" y="150" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600">Pipeline</text>
+<text x="74" y="168" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">34 M$</text>
+<rect x="347.88" y="129" width="172.72" height="354" fill="#B7DCDC"/>
+<text x="356.88" y="150" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400">Stations</text>
+<text x="356.88" y="168" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">21</text>
+<rect x="522.6" y="129" width="181.04" height="208.36" fill="#B7DCDC"/>
+<text x="531.6" y="150" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400">Power</text>
+<text x="531.6" y="168" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">13</text>
+<rect x="522.6" y="339.36" width="181.04" height="143.64" fill="#B7DCDC"/>
+<text x="531.6" y="360.36" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400">Buildings</text>
+<text x="531.6" y="378.36" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">9</text>
+<rect x="705.64" y="129" width="189.36" height="106.35" fill="#B7DCDC"/>
+<text x="714.64" y="150" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400">Roads</text>
+<text x="714.64" y="168" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">7</text>
+<rect x="705.64" y="237.35" width="102.38" height="168.26" fill="#B7DCDC"/>
+<text x="714.64" y="258.35" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400">Telecom</text>
+<text x="714.64" y="276.35" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">6</text>
+<rect x="810.02" y="237.35" width="84.98" height="168.26" fill="#B7DCDC"/>
+<rect x="705.64" y="407.61" width="189.36" height="75.39" fill="#B7DCDC"/>
+<text x="714.64" y="428.61" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400">Other</text>
+<text x="714.64" y="446.61" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">5</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

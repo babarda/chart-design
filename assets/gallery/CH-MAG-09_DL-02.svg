@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Delivery on-time sits at 87%, 8 points under target</text>
+<path d="M 240,380 A 180 180 0 1 1 475.62,208.81 L 465.12,241.15 A 146 146 0 1 0 274,380 Z" fill="#EDEDED"/>
+<path d="M 475.62,208.81 A 180 180 0 0 1 580.38,298.28 L 550.09,313.72 A 146 146 0 0 0 465.12,241.15 Z" fill="#DCDCDC"/>
+<path d="M 580.38,298.28 A 180 180 0 0 1 600,380 L 566,380 A 146 146 0 0 0 550.09,313.72 Z" fill="#CACACA"/>
+<line x1="603.71" y1="350.9" x2="558.28" y2="358.1" stroke="#D63A2F" stroke-width="2.5"/>
+<line x1="420" y1="380" x2="569.59" y2="315.26" stroke="#222222" stroke-width="3"/>
+<circle cx="420" cy="380" r="7" fill="#222222"/>
+<text x="222" y="384" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">0</text>
+<text x="618" y="384" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">100</text>
+<text x="420" y="436" font-size="36" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" text-anchor="middle">87%</text>
+<text x="420" y="460" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="middle">target 95%</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1, 2026-07-12</text>
+</svg>

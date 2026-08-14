@@ -1,0 +1,108 @@
+{
+  "code": "DL-01",
+  "name": "AGRAW",
+  "aka": "BOARDROOM",
+  "ovp_version": "1.1",
+  "status": "adopted",
+  "philosophy": {
+    "civilization": "Amazigh (Berber)",
+    "principle": "Leadership and collective governance",
+    "motto": "Lead with wisdom.",
+    "laws": [
+      "One governing message per page",
+      "Authority through restraint",
+      "One focal metric or chart",
+      "Evidence supports every conclusion",
+      "Minimal decoration"
+    ],
+    "related": [
+      "Shura",
+      "Auctoritas",
+      "Ubuntu"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "recommendation-first",
+    "density": "executive",
+    "annotation_policy": "minimal",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "recommendation-with-owner",
+    "reading_time": "minute",
+    "charts_per_page": 1
+  },
+  "voice": {
+    "stance": "The counselor's voice. AGRAW writes the way a trusted advisor speaks to a council: few words, weighed before spoken, verdict first. The reader is senior, short on time, and about to decide. Prose that narrates the work instead of delivering the counsel wastes the one minute it gets.",
+    "register": "measured, formal-plain",
+    "mood": "declarative",
+    "hedging": "one qualifier at most, and it carries a number",
+    "sentence_max_words": 18,
+    "title_max_words": 12,
+    "title_grammar": "Full-sentence verdict, present tense.",
+    "title_example": "Capex holds at plan; the schedule does not.",
+    "do": [
+      {
+        "rule": "Open every page with the verdict.",
+        "why": "The council reads the first line and the chart. Everything after that is optional."
+      },
+      {
+        "rule": "Round numbers to the grain of the decision.",
+        "why": "A council decides on 4%, not on 4.23%. Precision past the decision is noise."
+      },
+      {
+        "rule": "Attach an owner and a date to every recommendation.",
+        "why": "A recommendation with no owner is an observation."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "Never narrate the work.",
+        "why": "\"We analyzed\" and \"after reviewing\" spend the reader's minute on the journey, not the conclusion."
+      },
+      {
+        "rule": "No stacked hedges.",
+        "why": "\"Could potentially\" says less than either word alone. Quantify the uncertainty or drop it."
+      },
+      {
+        "rule": "No unexplained acronyms.",
+        "why": "Council membership rotates, so the page has to stand alone."
+      }
+    ],
+    "contrast": {
+      "generic": "It's worth noting that the project has been experiencing some delays which could potentially impact the overall timeline going forward.",
+      "voiced": "The programme is six weeks late. Recovery needs a decision on night shifts by 12 September."
+    }
+  },
+  "occasions": [
+    "board packs",
+    "steering committees",
+    "shareholder reviews",
+    "exec monthlies"
+  ],
+  "palette": {
+    "background": "#FFFFFF",
+    "panel": "#FAFAF7",
+    "ink": "#1A1A1A",
+    "body": "#3D3D3D",
+    "hairline": "#D8D5CE",
+    "gridline": "#EFEDE8",
+    "primary": "#008080",
+    "muted": "#C9C6BF",
+    "positive": "#2E6E4E",
+    "negative": "#8B1E1E"
+  },
+  "fonts": {
+    "display": {
+      "family": "'EB Garamond',Georgia,serif",
+      "weight": 600
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

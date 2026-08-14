@@ -1,0 +1,147 @@
+{
+  "code": "CH-COR-05",
+  "name": "HEXBIN",
+  "ovp_version": "1.0",
+  "chart_type": "hexbin",
+  "meta": {
+    "intent": [
+      "correlation",
+      "density"
+    ],
+    "form": "hexagonal bins colored by point count",
+    "data_required": "50+ x,y points, too many for honest individual dots",
+    "relations": {
+      "family": "COR",
+      "alternatives": [
+        "CH-COR-01 (few enough points to draw raw)",
+        "CH-COR-03 (categorical axes)"
+      ],
+      "see_instead": [
+        {
+          "when": "under ~50 points",
+          "use": "CH-COR-01"
+        },
+        {
+          "when": "axes are categories, not measures",
+          "use": "CH-COR-03"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "hundreds of points where overplotting hides the density",
+    "finding regimes and clusters in a relationship"
+  ],
+  "not_when": [
+    "few points (bins hide what dots would show)",
+    "reading individual items (bins have no identity)"
+  ],
+  "data_shape": {
+    "title": "action title naming the cluster",
+    "source": "bottom-left always",
+    "unit_x": "x axis unit",
+    "unit_y": "y axis unit",
+    "points": "[{x, y}], 50+, all >= 0"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 110,
+      "right": 810,
+      "top": 150,
+      "bottom": 440
+    },
+    "hex_r": 16,
+    "tick_label": {
+      "size": 11,
+      "offset": 12
+    },
+    "x_label": {
+      "size": 11,
+      "offset": 22
+    }
+  },
+  "scale": {
+    "x_zero": true,
+    "y_zero": true,
+    "target_ticks": 5,
+    "nice_steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "algorithm": "FN-05 nice scale"
+  },
+  "rules": [
+    "binning is the published deterministic algorithm: axial rounding on pointy-top hexes",
+    "color ramp is the deterministic background-to-high mix",
+    "the count key (min, mid, max) is the one permitted key",
+    "both axes zero-based"
+  ],
+  "roles": {
+    "cell_high": [
+      "primary"
+    ],
+    "gridline": [
+      "gridline"
+    ],
+    "zero_line": [
+      "hairline"
+    ],
+    "tick_label": [
+      "body"
+    ],
+    "x_label": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "rainbow density ramps",
+    "smoothed density contours sold as data",
+    "hexbins for tiny datasets"
+  ],
+  "qa": [
+    ">= 50 points",
+    "count key present",
+    "deterministic binning",
+    "source present"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "code": "DL-08",
+  "name": "SENTINEL",
+  "aka": "TERMINAL",
+  "ovp_version": "1.1",
+  "status": "candidate",
+  "philosophy": {
+    "civilization": "Latin tradition",
+    "principle": "Vigilance",
+    "motto": "Watch without distraction.",
+    "laws": [
+      "Constant visibility",
+      "One highlighted watch metric",
+      "Dark environments",
+      "Fast scanning",
+      "Low cognitive load"
+    ],
+    "related": [
+      "Pharos",
+      "Vegvisir"
+    ]
+  },
+  "constitution": {
+    "narrative_style": "question-first",
+    "density": "operational",
+    "annotation_policy": "minimal",
+    "legend_policy": "direct-labels-only",
+    "highlight_policy": "single",
+    "decision_style": "evidence-only",
+    "reading_time": "glance",
+    "charts_per_page": 4
+  },
+  "voice": {
+    "stance": "The instrument voice. SENTINEL barely writes. Words on a monitoring wall are instrumentation: label, value, state, timestamp. A full sentence on a SENTINEL screen means something has already gone wrong, and even then it gets one line.",
+    "register": "label vocabulary, closed set",
+    "mood": "stateful, uppercase labels",
+    "hedging": "impossible by construction",
+    "sentence_max_words": 10,
+    "title_max_words": 10,
+    "title_grammar": "LABEL: STATE, from a closed set of three states.",
+    "title_example": "STATION 4 PRESSURE: WATCH. TRENDING +2%/H SINCE 06:00.",
+    "do": [
+      {
+        "rule": "Fix the label vocabulary once per screen family.",
+        "why": "Operators scan by position and word shape, and drift breaks the scan."
+      },
+      {
+        "rule": "Timestamp every state.",
+        "why": "A state with no as-of time is a guess on a live wall."
+      },
+      {
+        "rule": "Keep the state set closed at three levels.",
+        "why": "Fast scanning needs categories, not shades of concern."
+      }
+    ],
+    "dont": [
+      {
+        "rule": "No sentences except the alert line.",
+        "why": "Low cognitive load is the law of this language, and prose is load."
+      },
+      {
+        "rule": "No synonyms for a state, ever.",
+        "why": "\"STABLE\" next to \"NOMINAL\" forces a mental join at a glance."
+      },
+      {
+        "rule": "No reassurance copy.",
+        "why": "The absence of alerts is the reassurance."
+      }
+    ],
+    "contrast": {
+      "generic": "Everything appears to be running smoothly at the moment with no major issues detected across systems.",
+      "voiced": "ALL SYSTEMS NOMINAL, 09:42. LAST INCIDENT 14H AGO. WATCH: STATION 4 PRESSURE, +2%/H."
+    }
+  },
+  "occasions": [
+    "live dashboards",
+    "control-room screens",
+    "dark BI pages",
+    "monitoring walls"
+  ],
+  "palette": {
+    "background": "#101418",
+    "panel": "#1A2026",
+    "ink": "#E6EDF3",
+    "body": "#9FB0BE",
+    "hairline": "#2A323A",
+    "gridline": "#2A323A",
+    "primary": "#F0B429",
+    "muted": "#5C6B78",
+    "benchmark": "#9FB0BE",
+    "positive": "#3FB68B",
+    "negative": "#E5534B",
+    "info": "#58A6FF"
+  },
+  "fonts": {
+    "display": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 600
+    },
+    "body": {
+      "family": "'Segoe UI',Arial,sans-serif",
+      "weight": 400
+    },
+    "mono": {
+      "family": "Consolas,monospace",
+      "weight": 400
+    }
+  },
+  "chrome": {
+    "kicker": false,
+    "eyebrow": false
+  }
+}

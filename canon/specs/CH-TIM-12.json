@@ -1,0 +1,127 @@
+{
+  "code": "CH-TIM-12",
+  "name": "HORIZON",
+  "ovp_version": "1.0",
+  "chart_type": "horizon",
+  "meta": {
+    "intent": [
+      "trend",
+      "pattern"
+    ],
+    "form": "folded value bands per row: darker = higher, in tight strips",
+    "data_required": "6-12 series over many periods, scanned for anomalies, not read",
+    "relations": {
+      "family": "TIM",
+      "alternatives": [
+        "CH-TIM-06 (fewer rows, simpler)",
+        "CH-TIM-01 (few series, exact)"
+      ],
+      "see_instead": [
+        {
+          "when": "under ~6 series",
+          "use": "CH-TIM-06"
+        },
+        {
+          "when": "values must be read",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "WARN: dense monitoring walls scanned for where and when, never how much",
+    "many series in little vertical space"
+  ],
+  "not_when": [
+    "reading values (folding destroys them by design)",
+    "audiences who have never seen a horizon chart"
+  ],
+  "data_shape": {
+    "title": "action title naming the anomaly",
+    "source": "bottom-left always",
+    "unit": "of the folded layers",
+    "rows": "[{label, values}], >= 8 points"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 820,
+      "top": 160
+    },
+    "row_height": 34,
+    "row_gap": 16,
+    "layers": 3,
+    "category_label": {
+      "size": 12,
+      "offset": 16
+    }
+  },
+  "rules": [
+    "3 folded layers, shared across rows; opacity encodes the layer",
+    "the layer key (each layer = N units) printed under the strips",
+    "rows share one scale: darkness IS comparable across rows"
+  ],
+  "roles": {
+    "band": [
+      "primary"
+    ],
+    "baseline": [
+      "hairline"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "key": [
+      "body"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "WARN ENTRY: horizons are for trained monitoring eyes; anyone else needs CH-TIM-06",
+    "per-row scales sold as comparable",
+    "reading values off folds"
+  ],
+  "qa": [
+    "shared scale",
+    "layer key printed",
+    ">= 8 points per row",
+    "source present"
+  ]
+}

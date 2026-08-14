@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#FFFFFF"/>
+<text x="32" y="56" font-size="24" font-family="'Rethink Sans','Segoe UI',sans-serif" fill="#222222" font-weight="600">Site E trails the audit ranking at 61 of 100</text>
+<circle cx="800" cy="165" r="6" fill="#B7DCDC"/>
+<text x="812" y="165" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">92 pts</text>
+<text x="192" y="165" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Site A</text>
+<circle cx="774.26" cy="217" r="6" fill="#B7DCDC"/>
+<text x="786.26" y="217" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">88</text>
+<text x="192" y="217" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Site B</text>
+<circle cx="729.22" cy="269" r="6" fill="#B7DCDC"/>
+<text x="741.22" y="269" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">81</text>
+<text x="192" y="269" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Site C</text>
+<circle cx="684.17" cy="321" r="6" fill="#B7DCDC"/>
+<text x="696.17" y="321" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="400" dominant-baseline="middle">74</text>
+<text x="192" y="321" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400" text-anchor="end" dominant-baseline="middle">Site D</text>
+<circle cx="600.52" cy="373" r="6" fill="#008080"/>
+<text x="612.52" y="373" font-size="12" font-family="'Poppins','Segoe UI',sans-serif" fill="#222222" font-weight="600" dominant-baseline="middle">61</text>
+<text x="192" y="373" font-size="13" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="600" text-anchor="end" dominant-baseline="middle">Site E</text>
+<text x="32" y="516" font-size="11" font-family="'Poppins','Segoe UI',sans-serif" fill="#555555" font-weight="400">Source: sample dataset v1 (scale 0-100), 2026-07-12</text>
+</svg>

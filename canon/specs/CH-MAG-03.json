@@ -1,0 +1,138 @@
+{
+  "code": "CH-MAG-03",
+  "name": "PAIRED BAR",
+  "ovp_version": "1.0",
+  "chart_type": "bar_paired_h",
+  "meta": {
+    "intent": [
+      "magnitude",
+      "comparison"
+    ],
+    "form": "two horizontal bars per category on one shared scale",
+    "data_required": "categories in a natural order with two comparable measures each",
+    "relations": {
+      "family": "MAG",
+      "alternatives": [
+        "CH-MAG-02 (vertical pairs for short labels)",
+        "CH-DST-02 (dots when the gap is the story)"
+      ],
+      "see_instead": [
+        {
+          "when": "the gap between the two measures is the story",
+          "use": "CH-DST-02"
+        },
+        {
+          "when": "labels are short and periods few",
+          "use": "CH-MAG-02"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "two measures per category with long labels (plan vs actual, A vs B)",
+    "natural category order that must be kept (process steps, stages)"
+  ],
+  "not_when": [
+    "ranking is the message (sort and use CH-RNK-01)",
+    "before/after change (CH-DEV-02)",
+    "more than 7 categories (pairs blur)"
+  ],
+  "data_shape": {
+    "title": "action title with a number",
+    "source": "bottom-left always",
+    "unit": "on first bar label",
+    "series_labels": "[name_a, name_b], printed on the first row",
+    "categories": "array of {label, values: [a, b]}, input order kept"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 720,
+      "top": 150
+    },
+    "row_height": 34,
+    "row_gap": 18,
+    "bar_height": 13,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 11,
+      "offset": 8
+    }
+  },
+  "rules": [
+    "input order kept: magnitude, not ranking",
+    "series named on the first row labels, never a legend",
+    "series_a muted, series_b primary",
+    "shared zero-based scale for both measures"
+  ],
+  "roles": {
+    "series_a": [
+      "muted"
+    ],
+    "series_b": [
+      "primary"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "baseline": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "legends",
+    "two different scales",
+    "sorting away a natural order",
+    "more than two bars per category"
+  ],
+  "qa": [
+    "exactly two bars per row",
+    "series named on first row",
+    "unit once",
+    "source present"
+  ]
+}

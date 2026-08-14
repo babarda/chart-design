@@ -1,0 +1,133 @@
+{
+  "code": "CH-DEV-02",
+  "name": "DUMBBELL",
+  "ovp_version": "1.0",
+  "chart_type": "dots_h",
+  "meta": {
+    "intent": [
+      "deviation",
+      "change-over-time",
+      "comparison"
+    ],
+    "form": "two dots + connector per category: before and after",
+    "data_required": "categories with a value at two moments; the movement is the message",
+    "relations": {
+      "family": "DEV",
+      "alternatives": [
+        "CH-TIM-05 (few categories, slope reads better)"
+      ],
+      "see_instead": [
+        {
+          "when": "more than 2 time points",
+          "use": "CH-TIM-01"
+        }
+      ],
+      "implemented_by": [
+        "svg",
+        "pptx"
+      ]
+    }
+  },
+  "use_when": [
+    "before/after per category: backlog W24 vs W28, score last year vs now",
+    "spotting the row that moved against the trend"
+  ],
+  "not_when": [
+    "more than two moments (CH-TIM-01)",
+    "two unrelated measures (CH-DST-02)"
+  ],
+  "data_shape": {
+    "title": "action title naming the mover with numbers",
+    "source": "bottom-left always",
+    "unit": "on first label",
+    "series_labels": "[before_name, after_name]",
+    "categories": "array of {label, values: [before, after], highlight?}"
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "layout": {
+    "title": {
+      "x": 32,
+      "y": 56,
+      "y_with_eyebrow": 88,
+      "size": 24
+    },
+    "kicker": {
+      "x": 32,
+      "y": 28,
+      "w": 24,
+      "h": 4
+    },
+    "eyebrow": {
+      "x": 32,
+      "y": 52,
+      "size": 11,
+      "letter_spacing": 2
+    },
+    "source": {
+      "x": 32,
+      "y": 516,
+      "size": 11
+    },
+    "plot": {
+      "left": 208,
+      "right": 800,
+      "top": 150
+    },
+    "row_height": 30,
+    "row_gap": 22,
+    "category_label": {
+      "size": 13,
+      "offset": 16
+    },
+    "value_label": {
+      "size": 12,
+      "offset": 12
+    }
+  },
+  "scale": {
+    "note": "shared scale; connector shows the travel"
+  },
+  "rules": [
+    "before = dot_a muted, after = dot_b primary; the connector is the story",
+    "labels state both values: '52 > 63'",
+    "highlight the row moving against the trend"
+  ],
+  "roles": {
+    "dot_a": [
+      "muted"
+    ],
+    "dot_b": [
+      "primary"
+    ],
+    "connector": [
+      "hairline"
+    ],
+    "category_label": [
+      "body"
+    ],
+    "value_label": [
+      "ink"
+    ],
+    "title": [
+      "ink"
+    ],
+    "source": [
+      "body"
+    ]
+  },
+  "overrides": {},
+  "anti_patterns": [
+    "arrows instead of connectors (double-encodes direction)",
+    "legends",
+    "sorting that hides the counter-mover"
+  ],
+  "qa": [
+    "both values labeled per row",
+    "series labeled on first row",
+    "highlight <= 1",
+    "source present"
+  ]
+}
