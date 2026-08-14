@@ -12,7 +12,9 @@ Vendored byte-for-byte from the Open Visualization Protocol v1.1
 The gallery files under `assets/` are the protocol's own golden
 renders and generated site assets, copied unmodified: byte-identical
 re-rendering of every golden is enforced by the protocol's gate
-(3,276 checks) in the upstream repo.
+(3,276 checks) in the upstream repo. One exception: `showcase.svg` is
+rebuilt here from the vendored heroes with the upstream carousel
+function, light-background identities only (DL-01, 02, 14, 12, 13).
 
 Do not edit anything in this folder by hand. To move to a newer
 protocol version: re-copy, update the version stamp in `build.py`,
